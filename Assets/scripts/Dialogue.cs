@@ -19,6 +19,12 @@ public class Dialogue
     public List<DialogueChoice> choices;
 }
 
+[System.Serializable]
+public class Pronouns
+{
+    public string subject;
+    public string obj;
+}
 
 
 

@@ -8,7 +8,7 @@ public class DialogueManager : MonoBehaviour
 {
     
     public TMP_Text dialogue;
-    public TMP_Text heartpointsText;
+    //public TMP_Text heartpointsText;
     
 
     public Image portrait;
@@ -22,7 +22,7 @@ public class DialogueManager : MonoBehaviour
     public TimerScript timer;
 
     
-    public bool endTimer;
+    //public bool endTimer;
 
     
     private Queue<Dialogue> lines = new Queue<Dialogue>();
@@ -66,6 +66,7 @@ public class DialogueManager : MonoBehaviour
                 {
                     choiceContainer.gameObject.SetActive(false);
                     timer.timerlinear.gameObject.SetActive(false);
+                    //bool timertextoff
                     
                     
                     PlayerData.playerHeartPoints += choice.heartpoints;
@@ -73,7 +74,7 @@ public class DialogueManager : MonoBehaviour
 
                     BeginDialogue(choice.nextLine);
 
-                    UpdatePointsUI();
+                    //UpdatePointsUI();
                 });
             }
         }
@@ -97,11 +98,11 @@ public class DialogueManager : MonoBehaviour
         book.SetActive(false);
     }
 
-    void UpdatePointsUI()
+   /* void UpdatePointsUI()
     {
         heartpointsText.text = "Your heart points: " + PlayerData.playerHeartPoints;
     }
-
+   */
     void EndDialogue()
     {   
         //hides the dialogue box and choice container

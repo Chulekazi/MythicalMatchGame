@@ -1,12 +1,13 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class TimerScript : MonoBehaviour
 {
     public DialogueManager dialogue_Manager;
-
+    
     public GameObject timesup;
     public GameObject continue_btn;
 
@@ -59,5 +60,10 @@ public class TimerScript : MonoBehaviour
         isFrozen = true;
         yield return new WaitForSeconds(5f);
         isFrozen = false;
+    }
+
+    public void NextDialogueScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
 }

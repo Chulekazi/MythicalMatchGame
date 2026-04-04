@@ -9,7 +9,7 @@ public class PlayerSetupScript : MonoBehaviour
     {
         string playerName = player.text;
         PlayerData.playerName = playerName;
-        UnityEngine.SceneManagement.SceneManager.LoadScene("game");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("pronouns");
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
