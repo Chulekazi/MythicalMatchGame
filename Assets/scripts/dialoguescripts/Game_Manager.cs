@@ -25,7 +25,7 @@ public class Game_Manager : MonoBehaviour
     void Start()
     {
         Display_Line();
-        continue_button.onClick.AddListener(Next_Line);
+        //continue_button.onClick.AddListener(Next_Line);
         next_scene.gameObject.SetActive(false);
 
         foreach (Button btn in optionButtons)
@@ -115,6 +115,7 @@ public class Game_Manager : MonoBehaviour
 
         foreach (Button btn in optionButtons)
         {
+            //remove all options from scene
             btn.gameObject.SetActive(false); 
         }
 

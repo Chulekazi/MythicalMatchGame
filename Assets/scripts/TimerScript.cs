@@ -58,6 +58,7 @@ public class TimerScript : MonoBehaviour
         {
             rewindUsed = true;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            //continue btn
         }
         else
         {

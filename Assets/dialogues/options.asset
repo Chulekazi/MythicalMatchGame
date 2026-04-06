@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: options
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   dialoguestring:
-  - You can do that?
-  - No. I'm terrified. Who are you and why are you in my house?
-  - Uhh okay.
+  - 1. You can do that?
+  - 2. Uhh okay.
+  - 3. No. I'm terrified. Who are you and why are you in my house?
