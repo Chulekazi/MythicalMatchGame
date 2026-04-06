@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class Game_Manager : MonoBehaviour
 {
+    public DialogueData dialogue_options;
+    public Button[] optionButtons;
+
     public TMP_Text dialogue_text;
     public TMP_Text character_text;
     public List<Game> dialogue;
@@ -17,20 +20,39 @@ public class Game_Manager : MonoBehaviour
     public Button pause_screen;
 
     public GameObject journal;
+    
 
     void Start()
     {
         Display_Line();
         continue_button.onClick.AddListener(Next_Line);
         next_scene.gameObject.SetActive(false);
+
+        foreach (Button btn in optionButtons)
+        {
+            btn.gameObject.SetActive(false);
+        }
     }
 
     public void Display_Line()
     {
-        if (line_index < dialogue.Count)
+        if(line_index<dialogue.Count)
         {
-            character_text.text = dialogue[line_index].char_name;
-            dialogue_text.text = dialogue[line_index].dialogue_text;
+            string charName = dialogue[line_index].char_name;
+
+            if(charName == "characterText")
+            {
+                charName = PlayerData.playerName;
+            }
+
+            character_text.text = charName;
+            dialogue_text.text = dialogue[line_index].dialogue_text.Replace("{playerName}", PlayerData.playerName);
+
+            if(line_index == 7 )
+            {
+                ShowDialogueOption();
+                continue_button.gameObject.SetActive(false);
+            }
         }
         else
         {
@@ -40,8 +62,48 @@ public class Game_Manager : MonoBehaviour
 
     public void Next_Line()
     {
+
         line_index++;
         Display_Line();
+    }
+
+    public void ShowDialogueOption()
+    {
+        for (int i = 0; i < optionButtons.Length; i++) 
+        {
+            if (i < dialogue_options.dialoguestring.Length)
+            {
+                //display dialogue option
+                optionButtons[i].gameObject.SetActive(true);
+                TextMeshProUGUI textComponent = optionButtons[i].GetComponentInChildren<TextMeshProUGUI>();
+                textComponent.text = dialogue_options.dialoguestring[i];
+
+                int index = i;
+                optionButtons[i].onClick.RemoveAllListeners();
+                optionButtons[i].onClick.AddListener(() => SelectOption(index));
+            }
+            else
+            {
+                optionButtons[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
+    public void SelectOption(int optionIndex)
+    {
+        if(optionIndex >= 0 && optionIndex < dialogue_options.dialoguestring.Length)
+        {
+            Debug.Log("Player chose: " + dialogue_options.dialoguestring [optionIndex]);
+
+            foreach (Button btn in optionButtons)
+            {
+                btn.gameObject.SetActive(false);
+            }
+
+            line_index++;
+            Display_Line();
+            continue_button.gameObject.SetActive(true);
+        }
     }
 
     void End_Dialogue()
@@ -50,6 +112,11 @@ public class Game_Manager : MonoBehaviour
         character_text.text = "";
         continue_button.gameObject.SetActive(false);
         next_scene.gameObject.SetActive(true);
+
+        foreach (Button btn in optionButtons)
+        {
+            btn.gameObject.SetActive(false); 
+        }
 
     }
 

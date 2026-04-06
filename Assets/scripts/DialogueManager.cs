@@ -69,8 +69,8 @@ public class DialogueManager : MonoBehaviour
                     //bool timertextoff
                     
                     
-                    PlayerData.playerHeartPoints += choice.heartpoints;
-                    Debug.Log("heart points: " + PlayerData.playerHeartPoints);
+                   // PlayerData.playerHeartPoints += choice.heartpoints;
+                    //Debug.Log("heart points: " + PlayerData.playerHeartPoints);
 
                     BeginDialogue(choice.nextLine);
 

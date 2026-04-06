@@ -502,8 +502,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 248, y: -74}
-  m_SizeDelta: {x: -756.1748, y: -340.09106}
+  m_AnchoredPosition: {x: 248, y: 26.555176}
+  m_SizeDelta: {x: -756.1748, y: -541.2015}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &177950341
 MonoBehaviour:
@@ -1529,6 +1529,7 @@ MonoBehaviour:
   dialogue_Manager: {fileID: 961914984}
   timesup: {fileID: 1051177692}
   continue_btn: {fileID: 2069963868}
+  rewind_btn: {fileID: 818649706}
   timerlinear: {fileID: 955410931}
   maxtime: 10
 --- !u!4 &527761366
@@ -2159,7 +2160,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 527761365}
         m_TargetAssemblyTypeName: TimerScript, Assembly-CSharp
-        m_MethodName: Freeze_Time
+        m_MethodName: RewindTime
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2614,14 +2615,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
   dialogue: {fileID: 2054896926}
-  heartpointsText: {fileID: 31973105}
   portrait: {fileID: 441730276}
   choiceContainer: {fileID: 177950340}
   choiceButtonPrefab: {fileID: 7748690250080199172, guid: 1edc2ba09510f804c9c7e6b691126739, type: 3}
   dialogueBox: {fileID: 1804756643}
   book: {fileID: 225665907}
   timer: {fileID: 527761365}
-  endTimer: 0
 --- !u!1 &964817112
 GameObject:
   m_ObjectHideFlags: 0
@@ -3916,7 +3915,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: FREEZE TIME
+  m_text: REWIND TIME
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}
   m_sharedMaterial: {fileID: 591848939199570642, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}
@@ -4216,9 +4215,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 961914984}
+      - m_Target: {fileID: 961914981}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: DisplayDialogueLine
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
