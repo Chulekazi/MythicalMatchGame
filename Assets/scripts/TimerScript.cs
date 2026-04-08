@@ -10,13 +10,16 @@ public class TimerScript : MonoBehaviour
     public DialogueManager dialogue_Manager;
     public GameObject timesup;
     public GameObject continue_btn;
-    public GameObject rewind_btn;
+    public Button rewind_btn;
     public Image timerlinear;
     public TMP_Text dialogue_text;
+    public GameObject message;
+    
 
     float timeremain;
     public float maxtime = 5.0f;
     public static bool rewindUsed = false;
+
 
     //private float time_remain;
     
@@ -27,6 +30,8 @@ public class TimerScript : MonoBehaviour
     {
         timeremain = maxtime;
         timesup.SetActive(false);
+
+       
 
         StartCoroutine(RunTimer());
         
@@ -62,9 +67,13 @@ public class TimerScript : MonoBehaviour
         }
         else
         {
-            rewind_btn.SetActive(false);
+            rewind_btn.interactable = false; //rewind button is not interactable
+            dialogue_text.gameObject.SetActive(false); // dialogue text is inactive
+
             continue_btn.SetActive(true);
-            dialogue_text.gameObject.SetActive(false);
+            //player presses continue button to next scene gah lee
+            message.SetActive(true); //text message
+        
             //audio sfx 
         }
        

@@ -53,8 +53,10 @@ public class QuizQuestions : MonoBehaviour
                         {
                             characterName = PlayerData.playerName,
                             dialogueText = "How did you know? Remember that you can rewind time to try for a different answer if you got the question wrong.",
+                            
                             image = image
                         }
+                        
                     }
                 },
                 new DialogueChoice
