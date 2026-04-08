@@ -1530,6 +1530,7 @@ MonoBehaviour:
   continue_btn: {fileID: 2069963868}
   rewind_btn: {fileID: 818649706}
   timerlinear: {fileID: 955410931}
+  dialogue_text: {fileID: 2054896926}
   maxtime: 10
 --- !u!4 &527761366
 Transform:

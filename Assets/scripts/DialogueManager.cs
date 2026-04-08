@@ -74,6 +74,7 @@ public class DialogueManager : MonoBehaviour
 
                     BeginDialogue(choice.nextLine);
 
+
                     //UpdatePointsUI();
                 });
             }

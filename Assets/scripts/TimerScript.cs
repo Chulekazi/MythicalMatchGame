@@ -12,7 +12,7 @@ public class TimerScript : MonoBehaviour
     public GameObject continue_btn;
     public GameObject rewind_btn;
     public Image timerlinear;
-    
+    public TMP_Text dialogue_text;
 
     float timeremain;
     public float maxtime = 5.0f;
@@ -64,6 +64,7 @@ public class TimerScript : MonoBehaviour
         {
             rewind_btn.SetActive(false);
             continue_btn.SetActive(true);
+            dialogue_text.gameObject.SetActive(false);
             //audio sfx 
         }
        
