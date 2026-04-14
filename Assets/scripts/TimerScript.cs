@@ -8,14 +8,17 @@ using UnityEngine.UI;
 public class TimerScript : MonoBehaviour
 {
     public DialogueManager dialogue_Manager;
-    public GameObject timesup;
-    public GameObject continue_btn;
-    public Button rewind_btn;
-    public Image timerlinear;
-    public TMP_Text dialogue_text;
-    public GameObject message;
-    
 
+    public GameObject timesup; //when the timer runs out, the text spawns on the screen
+    public GameObject continue_btn; //button to display next dialogue line
+    public GameObject message; //"player can't rewind time" text
+
+    public Button rewind_btn; //rewind time button
+
+    public Image timerlinear; //slider
+
+    public TMP_Text dialogue_text; //dialogue text, mainly for the quiz questions
+    
     float timeremain;
     public float maxtime = 5.0f;
     public static bool rewindUsed = false;
@@ -28,41 +31,41 @@ public class TimerScript : MonoBehaviour
 
     void Start()
     {
-        timeremain = maxtime;
-        timesup.SetActive(false);
+        timeremain = maxtime; //initializes timeremain (tracks how much time remaining) to the value of maxtime (max duration for the countdown)
+        timesup.SetActive(false); //disable Time's Up text
 
-       
-
-        StartCoroutine(RunTimer());
+       //coroutine allows you to run code over time without freezing the game
+       //this decreases timeremain until it reaches zero. activates time's up thereafter
+        StartCoroutine(RunTimer()); 
         
     }
 
     private IEnumerator RunTimer()
     {
-        while (timeremain > 0)
+        while (timeremain > 0) //loops until the timer reaches zero
         {
-            timeremain -= Time.deltaTime;
-            timerlinear.fillAmount = timeremain / maxtime;
-            yield return null;
+            timeremain -= Time.deltaTime; //decreases the remaining time by the amount of time passed 
+            timerlinear.fillAmount = timeremain / maxtime; //updates the slider (linear bar)
+            yield return null; 
         }
             
-        dialogue_Manager.choiceContainer.gameObject.SetActive(false);
+        dialogue_Manager.choiceContainer.gameObject.SetActive(false); //disables the choice container
                 
     }
 
 
     public void TimesUpText()
     {
-         timesup.SetActive(true);
+         timesup.SetActive(true); 
     }
     
 
     public void RewindTime()
     {
-        if(!rewindUsed)
+        if(!rewindUsed) // if player hasn't used rewind yet:
         {
-            rewindUsed = true;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            rewindUsed = true; //mark as true
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name); //reload the scene, starts the timer again
             //continue btn
         }
         else
@@ -82,6 +85,7 @@ public class TimerScript : MonoBehaviour
     
     public void NextDialogueScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        //next scene after pressing button
+        SceneManager.LoadScene(sceneName); 
     }
 }
