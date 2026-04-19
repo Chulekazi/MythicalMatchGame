@@ -28,6 +28,7 @@ public class DialogueOptions
     public int next_line;
 }
 
+
 public class Dialogue_ : MonoBehaviour
 {
     public List<Game> lines;

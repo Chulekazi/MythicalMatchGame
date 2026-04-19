@@ -9,7 +9,6 @@ public class TimerScript : MonoBehaviour
 {
     public DialogueManager dialogue_Manager;
 
-    public GameObject timesup; //when the timer runs out, the text spawns on the screen
     public GameObject continue_btn; //button to display next dialogue line
     public GameObject message; //"player can't rewind time" text
 
@@ -18,7 +17,7 @@ public class TimerScript : MonoBehaviour
     public Image timerlinear; //slider
 
     public TMP_Text dialogue_text; //dialogue text, mainly for the quiz questions
-    
+    public TMP_Text game_message;
     float timeremain;
     public float maxtime = 5.0f;
     public static bool rewindUsed = false;
@@ -32,7 +31,6 @@ public class TimerScript : MonoBehaviour
     void Start()
     {
         timeremain = maxtime; //initializes timeremain (tracks how much time remaining) to the value of maxtime (max duration for the countdown)
-        timesup.SetActive(false); //disable Time's Up text
 
        //coroutine allows you to run code over time without freezing the game
        //this decreases timeremain until it reaches zero. activates time's up thereafter
@@ -50,15 +48,8 @@ public class TimerScript : MonoBehaviour
         }
             
         dialogue_Manager.choiceContainer.gameObject.SetActive(false); //disables the choice container
-                
+        game_message.gameObject.SetActive(true);
     }
-
-
-    public void TimesUpText()
-    {
-         timesup.SetActive(true); 
-    }
-    
 
     public void RewindTime()
     {
@@ -76,7 +67,7 @@ public class TimerScript : MonoBehaviour
             continue_btn.SetActive(true);
             //player presses continue button to next scene gah lee
             message.SetActive(true); //text message
-        
+            game_message.gameObject.SetActive(false);
             //audio sfx 
         }
        

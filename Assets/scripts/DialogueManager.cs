@@ -3,6 +3,9 @@ using TMPro;
 using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using Unity.VectorGraphics;
+using UnityEngine.SceneManagement;
+using System.IO;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -21,11 +24,11 @@ public class DialogueManager : MonoBehaviour
 
     public TimerScript timer;
 
-    
     //public bool endTimer;
 
-    
+   
     private Queue<Dialogue> lines = new Queue<Dialogue>();
+
 
     public void BeginDialogue(List<Dialogue> dialoguelines)
     {
@@ -47,7 +50,6 @@ public class DialogueManager : MonoBehaviour
             return;
         }
         Dialogue line = lines.Dequeue();
-        
         string processedText = line.dialogueText.Replace("player's name", PlayerData.playerName);
         dialogue.text = processedText;
         dialogue.text = line.dialogueText;
@@ -81,6 +83,9 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+   
+
+    
     void ClearChoices()
     {
         foreach(Transform child in choiceContainer)
