@@ -9,7 +9,7 @@ using UnityEngine.UI;
 
 public class Game_Manager : MonoBehaviour
 {
-    public DialogueData dialogue_options;
+    public string[] dialogue_options;
     public Button[] optionButtons;
 
     public TMP_Text dialogue_text;
@@ -26,6 +26,7 @@ public class Game_Manager : MonoBehaviour
 
     void Start() 
     {
+        dialogue_options = new string[] { "You can do tha-", "No. I'm terrified. Who are you and why are you in my ho-", "Uhh okay."};
         Display_Line(); //calls display line function
         //continue_button.onClick.AddListener(Next_Line);
 
@@ -60,7 +61,7 @@ public class Game_Manager : MonoBehaviour
             //show dialogue line of placeholder name with player name
             dialogue_text.text = dialogue[line_index].dialogue_text.Replace("{playerName}", PlayerData.playerName);
             
-            //if dialogue line reaches line 7 it must trigger showdialogueoption function (honestly i want to make this any number but the code is working lol)
+            //if dialogue line reaches line  it must trigger showdialogueoption function (honestly i want to make this any number but the code is working lol)
             if(line_index == 10 )
             {
                 ShowDialogueOption();
@@ -82,14 +83,13 @@ public class Game_Manager : MonoBehaviour
 
     public void ShowDialogueOption()
     {
-        for (int i = 0; i < optionButtons.Length; i++) 
+        for (int i = 0; i < optionButtons.Length; i++)
         {
-            if (i < dialogue_options.dialoguestring.Length)
+            if (i < dialogue_options.Length)
             {
-                //display dialogue option
                 optionButtons[i].gameObject.SetActive(true);
                 TextMeshProUGUI textComponent = optionButtons[i].GetComponentInChildren<TextMeshProUGUI>();
-                textComponent.text = dialogue_options.dialoguestring[i];
+                textComponent.text = dialogue_options[i];
 
                 int index = i;
                 optionButtons[i].onClick.RemoveAllListeners();
@@ -117,11 +117,11 @@ public class Game_Manager : MonoBehaviour
         yield return new WaitForSeconds(delay);
         for(int i = 0; i < optionButtons.Length; i++)
         {
-            if(i < dialogue_options.dialoguestring.Length)
+            if(i < dialogue_options.Length)
             {
                 optionButtons[i].gameObject.SetActive(true);
                 TextMeshProUGUI textcomponent = optionButtons[i].GetComponentInChildren<TextMeshProUGUI>();
-                textcomponent.text = dialogue_options.dialoguestring[i];
+                textcomponent.text = dialogue_options[i];
 
                 int index = i;
                 optionButtons[i].onClick.RemoveAllListeners();
@@ -132,9 +132,9 @@ public class Game_Manager : MonoBehaviour
 
     public void SelectOption(int optionIndex)
     {
-        if(optionIndex >= 0 && optionIndex < dialogue_options.dialoguestring.Length)
+        if(optionIndex >= 0 && optionIndex < dialogue_options.Length)
         {
-            Debug.Log("Player chose: " + dialogue_options.dialoguestring [optionIndex]);
+            Debug.Log("Player chose: " + dialogue_options[optionIndex]);
 
             foreach (Button btn in optionButtons)
             {

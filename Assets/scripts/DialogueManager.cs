@@ -21,6 +21,8 @@ public class DialogueManager : MonoBehaviour
     public GameObject choiceButtonPrefab;
     public GameObject dialogueBox;
     public GameObject book;
+    public GameObject pause_screen;
+    public GameObject journal_screen;
 
     public TimerScript timer;
 
@@ -83,9 +85,26 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-   
+    public void Pause_Button()
+    {
+        pause_screen.gameObject.SetActive(true);
+    }
 
-    
+    public void Play_Button()
+    {
+        pause_screen.gameObject.SetActive(false);
+    }
+
+    public void Open_Journal()
+    {
+        journal_screen.gameObject.SetActive(true);
+    }
+
+    public void Close_Journal()
+    {
+        journal_screen.gameObject.SetActive(false);
+    }
+
     void ClearChoices()
     {
         foreach(Transform child in choiceContainer)

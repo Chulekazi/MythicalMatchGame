@@ -33,6 +33,18 @@ EditorBuildSettings:
     path: Assets/Scenes/dialogue4.unity
     guid: b241ec1039d8c5d45a7cd6e7745ee2df
   - enabled: 1
+    path: Assets/Scenes/dialogue5.unity
+    guid: 897bab74f4684ae4398a057c8fb2e59a
+  - enabled: 1
+    path: Assets/Scenes/dialogue6.unity
+    guid: 9089a63b5fc90b54ab34ddd6d5942ec0
+  - enabled: 1
+    path: Assets/Scenes/dialogue7.unity
+    guid: a295f46c1669409458efae1380e9c769
+  - enabled: 1
+    path: Assets/Scenes/dialogue8.unity
+    guid: f25b097685e66b84596452f6bb67dbbb
+  - enabled: 0
     path: Assets/Scenes/options.unity
     guid: cfc192a3b4a0e4244ba95817d53b65a3
   m_configObjects:

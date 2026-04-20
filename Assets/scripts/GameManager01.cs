@@ -24,6 +24,7 @@ public class GameManager01 : MonoBehaviour
     public GameObject pause_screen01;
     public GameObject journal01;
 
+
     void Start()
     {
         Display_Line01(); //calls display line function
@@ -76,6 +77,7 @@ public class GameManager01 : MonoBehaviour
         character_text01.text = "";
         continue_button01.gameObject.SetActive(false);
         next_scene01.gameObject.SetActive(true);
+
     }
 
     public void ShowJournal01()
