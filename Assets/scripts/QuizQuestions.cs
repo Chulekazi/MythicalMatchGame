@@ -14,7 +14,7 @@ public class QuizQuestions : MonoBehaviour
         new Dialogue
         {
             characterName = "Time",
-            dialogueText = "<color=#FF0000>What's my favourite color?</color>",
+            dialogueText = "<color=#DC143C>What's my favourite color?</color>",
             image = image,
             choices = new List<DialogueChoice>
             {

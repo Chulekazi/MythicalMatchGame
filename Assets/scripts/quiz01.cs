@@ -8,6 +8,7 @@ public class quiz01 : MonoBehaviour
     public Sprite v_normal;
     public Sprite v_intrigued;
     public Sprite v_disappointed;
+    public Sprite heart_point;
 
     void Start()
     {
@@ -62,18 +63,21 @@ public class quiz01 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "Chai",
+                        heartpoints = heart_point,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
                             {
                                 characterName = "Vikram",
                                 dialogueText = "You have fantastic taste. Let me get two cups for us then.",
-                                image = v_intrigued
+                                image = v_intrigued,
+                                
                             }
                         }
                     }
                 }
             }
         }; //last bracket
+        manager01.BeginDialogue(quiz1);
     }
 }
