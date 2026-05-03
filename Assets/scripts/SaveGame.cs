@@ -2,24 +2,23 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SaveGame : MonoBehaviour
+[System.Serializable]
+public class SaveGame
 {
-    
-    
+    public string scene_name;
+    public int Heartpoints;
 
-    /*public void Save_Game()
+    public static class Save
     {
-        //call from game script and create new variable
-        SaveData data = new SaveData();
-        data.scene = SceneManager.GetActiveScene().name;
-        data.dialogueProgress = game_manager.line_index;
-        data.playerName = PlayerData.playerName;
+        public static string savePath = Application.persistentDataPath + "/save.json";
+    }
 
-        string json = JsonUtility.ToJson(data);
-        File.WriteAllText(Application.persistentDataPath + "save.json", json);
-        Debug.Log("Game Saved: " +  json);
-    }*/
-
-
-    
+    public static void Save_Game(string current_scene, int heartpoints)
+    {
+        SaveData data = new SaveData
+        {
+            scene = current_scene,
+            playerHeartPoints = heartpoints
+        };
+    }
 }

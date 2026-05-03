@@ -10,14 +10,14 @@ public class TimerScript : MonoBehaviour
     public DialogueManager dialogue_Manager;
 
     public GameObject continue_btn; //button to display next dialogue line
-    public GameObject message; //"player can't rewind time" text
+    
 
     public Button rewind_btn; //rewind time button
 
     public Image timerlinear; //slider
 
     public TMP_Text dialogue_text; //dialogue text, mainly for the quiz questions
-    public TMP_Text game_message;
+    
     float timeremain;
     public float maxtime = 5.0f;
     public static bool rewindUsed = false;
@@ -48,7 +48,7 @@ public class TimerScript : MonoBehaviour
         }
             
         dialogue_Manager.choiceContainer.gameObject.SetActive(false); //disables the choice container
-        game_message.gameObject.SetActive(true);
+        
     }
 
     public void RewindTime()
@@ -66,8 +66,8 @@ public class TimerScript : MonoBehaviour
 
             continue_btn.SetActive(true);
             //player presses continue button to next scene gah lee
-            message.SetActive(true); //text message
-            game_message.gameObject.SetActive(false);
+            
+            
             //audio sfx 
         }
        

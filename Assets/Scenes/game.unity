@@ -1526,11 +1526,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TimerScript
   dialogue_Manager: {fileID: 961914984}
   continue_btn: {fileID: 2069963868}
-  message: {fileID: 1790754697}
   rewind_btn: {fileID: 818649708}
   timerlinear: {fileID: 955410931}
   dialogue_text: {fileID: 2054896926}
-  game_message: {fileID: 1840253744}
   maxtime: 10
 --- !u!4 &527761366
 Transform:

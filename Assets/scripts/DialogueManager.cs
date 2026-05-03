@@ -71,7 +71,7 @@ public class DialogueManager : MonoBehaviour
                     choiceContainer.gameObject.SetActive(false);
                     timer.timerlinear.gameObject.SetActive(false);
                     //bool timertextoff
-                    
+                   
                     
                    // PlayerData.playerHeartPoints += choice.heartpoints;
                     //Debug.Log("heart points: " + PlayerData.playerHeartPoints);

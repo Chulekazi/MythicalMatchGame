@@ -44,6 +44,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/dialogue8.unity
     guid: f25b097685e66b84596452f6bb67dbbb
+  - enabled: 1
+    path: Assets/Scenes/dialogue9.unity
+    guid: e846594cd6d746d4f8465302d39ebf3b
   - enabled: 0
     path: Assets/Scenes/options.unity
     guid: cfc192a3b4a0e4244ba95817d53b65a3

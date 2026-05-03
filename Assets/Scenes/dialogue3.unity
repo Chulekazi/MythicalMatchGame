@@ -769,13 +769,14 @@ GameObject:
   - component: {fileID: 358005739}
   - component: {fileID: 358005741}
   - component: {fileID: 358005740}
+  - component: {fileID: 358005742}
   m_Layer: 5
-  m_Name: Image
+  m_Name: character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &358005739
 RectTransform:
   m_ObjectHideFlags: 0
@@ -792,8 +793,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -62.805}
-  m_SizeDelta: {x: 528.1124, y: 1205.6099}
+  m_AnchoredPosition: {x: 0, y: 113.80071}
+  m_SizeDelta: {x: 352.5351, y: 852.3984}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &358005740
 MonoBehaviour:
@@ -833,6 +834,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 358005738}
   m_CullTransparentMesh: 1
+--- !u!114 &358005742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358005738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1df0a7894a6b8f342afa59bd41fef46c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Image_Enabler
+  image_: {fileID: 358005740}
+  activate: 7
+  deactivate: -1
 --- !u!1 &426677491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1493,6 +1509,7 @@ MonoBehaviour:
   next_scene01: {fileID: 1380038546}
   pause_screen01: {fileID: 1915659975}
   journal01: {fileID: 1117027609}
+  image_enabler: {fileID: 358005742}
 --- !u!1 &894934750
 GameObject:
   m_ObjectHideFlags: 0

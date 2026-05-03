@@ -24,6 +24,8 @@ public class GameManager01 : MonoBehaviour
     public GameObject pause_screen01;
     public GameObject journal01;
 
+    public Image_Enabler image_enabler;
+
 
     void Start()
     {
@@ -69,6 +71,7 @@ public class GameManager01 : MonoBehaviour
     {
         line_index01++;
         Display_Line01();
+        image_enabler.CheckLineIndex(line_index01);
     }
 
     void End_Dialogue01()
