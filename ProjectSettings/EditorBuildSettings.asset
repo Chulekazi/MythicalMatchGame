@@ -47,6 +47,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/dialogue9.unity
     guid: e846594cd6d746d4f8465302d39ebf3b
+  - enabled: 1
+    path: Assets/Scenes/dialogue10_1.unity
+    guid: c59fd4aa80e45df458a4c2b2682182ce
+  - enabled: 1
+    path: Assets/Scenes/dialogue10_2.unity
+    guid: ce7647d05fce9cd4fb42ebcb9309aaee
   - enabled: 0
     path: Assets/Scenes/options.unity
     guid: cfc192a3b4a0e4244ba95817d53b65a3

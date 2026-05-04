@@ -7,12 +7,12 @@ using Unity.VectorGraphics;
 using UnityEngine.SceneManagement;
 using System.IO;
 
-public class DialogueManager : MonoBehaviour
+public class separateManager : MonoBehaviour
 {
-    
+
     public TMP_Text dialogue;
     //public TMP_Text heartpointsText;
-    
+
 
     public Image portrait;
 
@@ -20,15 +20,17 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject choiceButtonPrefab;
     public GameObject dialogueBox;
-    public GameObject book;
     public GameObject pause_screen;
     public GameObject journal_screen;
+    public Button continue_3;
+    public Button continue_1;
+    public Button continue_2;
+    public Button continue_4;
+    public Timer3 timer;
 
-    public TimerScript timer;
+    
 
-    //public bool endTimer;
 
-   
     private Queue<Dialogue> lines = new Queue<Dialogue>();
 
 
@@ -48,7 +50,7 @@ public class DialogueManager : MonoBehaviour
 
         if (lines.Count == 0)
         {
-            //continue btn
+            //btn
             EndDialogue();
             return;
         }
@@ -58,8 +60,11 @@ public class DialogueManager : MonoBehaviour
         dialogue.text = line.dialogueText;
         portrait.sprite = line.image;
 
+        DisplayContinue_button(line);
+
         if (line.choices != null && line.choices.Count > 0)
-        {   choiceContainer.gameObject.SetActive(true);
+        {
+            choiceContainer.gameObject.SetActive(true);
 
             foreach (var choice in line.choices) //foreach variable choice in line choices we want to instantiate the choice button prefab
             {
@@ -72,9 +77,9 @@ public class DialogueManager : MonoBehaviour
                     choiceContainer.gameObject.SetActive(false);
                     timer.timerlinear.gameObject.SetActive(false);
                     //bool timertextoff
-                   
-                    
-                   // PlayerData.playerHeartPoints += choice.heartpoints;
+
+
+                    // PlayerData.playerHeartPoints += choice.heartpoints;
                     //Debug.Log("heart points: " + PlayerData.playerHeartPoints);
 
                     BeginDialogue(choice.nextLine);
@@ -83,6 +88,30 @@ public class DialogueManager : MonoBehaviour
                     //UpdatePointsUI();
                 });
             }
+        }
+    }
+
+    public void DisplayContinue_button(Dialogue dialogue)
+    {
+        continue_1.gameObject.SetActive(false);
+        continue_2.gameObject.SetActive(false);
+        continue_3.gameObject.SetActive(false);
+        continue_4.gameObject.SetActive(false);
+        if(dialogue.dialogueText == "Okay, so, I have sooo many siblings, but we all have the same mom and dad! I’m the youngest out of all of us so I get to just run around and do whatever I like all day.")
+        {
+            continue_1.gameObject.SetActive(true);
+        }
+        else if (dialogue.dialogueText == "I mean, there’s so much to do down here! I like to go up to the surface and watch the humans though. I have a little box of trinkets somewhere in here.")
+        {
+            continue_2.gameObject.SetActive(true);
+        }
+        else if ( dialogue.dialogueText == "You’re in my room in my family’s palace.")
+        {
+            continue_3.gameObject.SetActive(true);
+        }
+        else if (dialogue.dialogueText == "Oh yay! I love choosing!")
+        {
+            continue_4.gameObject.SetActive(true);
         }
     }
 
@@ -108,33 +137,25 @@ public class DialogueManager : MonoBehaviour
 
     void ClearChoices()
     {
-        foreach(Transform child in choiceContainer)
+        foreach (Transform child in choiceContainer)
         {
             Destroy(child.gameObject);
         }
     }
 
-    public void OpenJournal()
-    {
-        book.SetActive(true);
-    }
+    
 
-    public void CloseJournal()
-    {
-        book.SetActive(false);
-    }
-
-   /* void UpdatePointsUI()
-    {
-        heartpointsText.text = "Your heart points: " + PlayerData.playerHeartPoints;
-    }
-   */
+    /* void UpdatePointsUI()
+     {
+         heartpointsText.text = "Your heart points: " + PlayerData.playerHeartPoints;
+     }
+    */
     void EndDialogue()
-    {   
+    {
         //hides the dialogue box and choice container
         dialogueBox.SetActive(false);
         choiceContainer.gameObject.SetActive(false);
-        
+
         Debug.Log("Dialogue ended.");
     }
 }

@@ -1626,7 +1626,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 966539705}
-  - component: {fileID: 966539704}
   m_Layer: 0
   m_Name: save_controller
   m_TagString: Untagged
@@ -1634,18 +1633,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &966539704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966539703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7c3c808cbe97334581802ee8b4bc839, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Save_Controller
 --- !u!4 &966539705
 Transform:
   m_ObjectHideFlags: 0

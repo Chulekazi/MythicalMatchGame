@@ -1,14 +1,16 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class quiz03 : MonoBehaviour
 {
-    public DialogueManager manager01;
+    public separateManager manager01;
     public Sprite c_normal;
     public Sprite c_intrigued;
     public Sprite c_disappointed;
     public Sprite c_surprised;
     public Sprite heart_point;
+    
 
     void Start()
     {
@@ -30,7 +32,8 @@ public class quiz03 : MonoBehaviour
                             {
                                 characterName = "Chryseis",
                                 dialogueText = "Okay, so, I have sooo many siblings, but we all have the same mom and dad! I’m the youngest out of all of us so I get to just run around and do whatever I like all day.",
-                                image= c_intrigued
+                                image= c_intrigued,
+                                
                             }
                         }
                     },
