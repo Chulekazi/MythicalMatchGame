@@ -24,6 +24,7 @@ public class quiz01 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "Water",
+                        heartpoints = 0,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
@@ -37,6 +38,7 @@ public class quiz01 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "Wine",
+                        heartpoints=0,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
@@ -50,6 +52,7 @@ public class quiz01 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "Fruit juice",
+                        heartpoints = 0,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
@@ -63,7 +66,7 @@ public class quiz01 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "Chai",
-                        heartpoints = heart_point,
+                        heartpoints = 1,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue

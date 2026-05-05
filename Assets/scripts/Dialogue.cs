@@ -8,7 +8,7 @@ public class DialogueChoice
 {
     public string quizAnswer;
     public List<Dialogue> nextLine;
-    public Sprite heartpoints;
+    public int heartpoints;
 }
 
 [System.Serializable]
@@ -18,6 +18,7 @@ public class Dialogue
     public string dialogueText;
     public Sprite image;
     public List<DialogueChoice> choices;
+    public string dialogueID;
 }
 
 [System.Serializable]
