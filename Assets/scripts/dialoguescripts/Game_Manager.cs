@@ -23,6 +23,8 @@ public class Game_Manager : MonoBehaviour
     public GameObject pause_screen;
 
     public GameObject journal;
+    public GameObject settings;
+    public Image_Enabler image_enabler_;
 
     void Start() 
     {
@@ -79,6 +81,7 @@ public class Game_Manager : MonoBehaviour
 
         line_index++;
         Display_Line();
+        image_enabler_.CheckLineIndex(line_index);
     }
 
     public void ShowDialogueOption()
@@ -147,6 +150,16 @@ public class Game_Manager : MonoBehaviour
         }
     }
 
+
+    public void ShowSettingsPanel()
+    {
+        settings.gameObject.SetActive(true);
+    }
+    public void HideSettingsPanel()
+    {
+        settings.gameObject.SetActive(false);
+    }
+
     void End_Dialogue()
     {
         dialogue_text.text = "";
@@ -163,40 +176,23 @@ public class Game_Manager : MonoBehaviour
         
     }
 
-   /* public void Save_Game()
+   public void SaveGameProgress()
     {
-        SaveData data = new SaveData();
-        data.scene = SceneManager.GetActiveScene().name;
-        data.dialogueProgress = line_index;
-        data.playerName = PlayerData.playerName;
-
-        string json = JsonUtility.ToJson(data);
-        File.WriteAllText(Application.persistentDataPath + "/save.json", json);
-        Debug.Log("Game Saved: " + json);
+        int currIndex = SceneManager.GetActiveScene().buildIndex;
+        PlayerPrefs.SetInt("SavedScene", currIndex);
+        PlayerPrefs.Save();
     }
 
-
-    public void Load_Game()
+    public void LoadGameProgress()
     {
-        string path = Application.persistentDataPath + "save.json";
-        if (File.Exists(path))
+        if(PlayerPrefs.HasKey("SavedScene"))
         {
-            string json = File.ReadAllText(path);
-            SaveData data = JsonUtility.FromJson<SaveData>(json);
-
-            line_index = data.dialogueProgress;
-            PlayerData.playerName = data.playerName;
-
-            if(SceneManager.GetActiveScene().name != data.scene)
-            {
-                SceneManager.LoadScene(data.scene);
-            }
-            else
-            {
-                Display_Line();
-            }
+            int savedIndex = PlayerPrefs.GetInt("SavedScene");
+            SceneManager.LoadScene(savedIndex);
         }
-    }*/
+        
+    }
+
 
     public void ShowJournal()
     {

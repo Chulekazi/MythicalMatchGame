@@ -614,7 +614,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Settings
+  m_text: Save
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}
   m_sharedMaterial: {fileID: 591848939199570642, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}
@@ -1102,8 +1102,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1471,10 +1471,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1348677536}
-        m_TargetAssemblyTypeName: MainMenuScript, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+      - m_Target: {fileID: 2005503127}
+        m_TargetAssemblyTypeName: GameManager01, Assembly-CSharp
+        m_MethodName: SaveGameProgress
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2476,7 +2476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2943,17 +2943,18 @@ MonoBehaviour:
     dialogue_text: YOU'RE HEREEEEEE!
     options: []
   - char_name: characterText
-    dialogue_text: Please don't shout, I'm still dizzy...
+    dialogue_text: 'Please don''t shout, I''m still dizzy . . . '
     options: []
   - char_name: ???
     dialogue_text: "Sorry! I just got really excited when dad said that he\u2019s
       found me a new friend!"
     options: []
   - char_name: characterText
-    dialogue_text: "(Friend? The last one seemed more like a date than a playdate\u2026)"
+    dialogue_text: (Friend? The last one seemed more like a date than a playdate
+      . . .)
     options: []
   - char_name: characterText
-    dialogue_text: 'Right, uh, I''m "{playerName}", what''s your name? '
+    dialogue_text: 'Right, uh, I''m {playerName}, what''s your name? '
     options: []
   - char_name: Chryseis
     dialogue_text: "Chryseis! I can\u2019t WAIT to show you around, there\u2019s
@@ -2967,7 +2968,7 @@ MonoBehaviour:
     dialogue_text: "(Also because my head\u2019s still spinning)"
     options: []
   - char_name: characterText
-    dialogue_text: ...
+    dialogue_text: '. . . '
     options: []
   - char_name: characterText
     dialogue_text: Wait.
@@ -2985,13 +2986,13 @@ MonoBehaviour:
     dialogue_text: I put a bubble over your head, you should be fine.
     options: []
   - char_name: characterText
-    dialogue_text: "Should?? \u2026oh god you have a fish tail."
+    dialogue_text: Should?? . . . oh god you have a fish tail.
     options: []
   - char_name: Chryseis
     dialogue_text: "Well yeah, I\u2019m a Siren? How else am I supposed to swim?"
     options: []
   - char_name: characterText
-    dialogue_text: "\u2026I am realising the reality of my situation."
+    dialogue_text: . . . I am realising the reality of my situation.
     options: []
   - char_name: Chryseis
     dialogue_text: Huh?

@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Settings
+  m_text: Save
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}
   m_sharedMaterial: {fileID: 591848939199570642, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}
@@ -816,7 +816,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7238525348623615091, guid: 2873b93bf8f8c8b41827b46fb203eb13, type: 3}
+  m_Sprite: {fileID: 6097023460853420066, guid: 466d3c1d3943d8a45a794d4a217015af, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1338,11 +1338,23 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 787407115}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 826187731}
+        m_TargetAssemblyTypeName: GameManager01, Assembly-CSharp
+        m_MethodName: SaveGameProgress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &787407115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1448,7 +1460,7 @@ MonoBehaviour:
     dialogue_text: Wait, I STILL DON'T KNOW WHAT'S GOING ON-
     options: []
   - char_name: ???
-    dialogue_text: Oh, I see the Gods have outdone themselves~
+    dialogue_text: Oh, I see the Gods have outdone themselves ~
     options: []
   - char_name: 
     dialogue_text: 
@@ -1470,10 +1482,10 @@ MonoBehaviour:
       Vikram. I don't mean to brag, but I am quite popular around here.
     options: []
   - char_name: characterText
-    dialogue_text: ...
+    dialogue_text: . . .
     options: []
   - char_name: Vikram
-    dialogue_text: Cat got your tongue? I can't blame you~
+    dialogue_text: Cat got your tongue? I can't blame you ~
     options: []
   - char_name: characterText
     dialogue_text: Sorry, uh, could I ask how you knew to meet me?
@@ -1490,19 +1502,20 @@ MonoBehaviour:
     options: []
   - char_name: Vikram
     dialogue_text: "Hm? I\u2019m not sure I believe you\u2026I don\u2019t think a
-      journalist would\u2019ve written \r\nthe things you wrote to me~ "
+      journalist would\u2019ve written \r\nthe things you wrote to me ~ "
     options: []
   - char_name: characterText
     dialogue_text: (What did Time write in that letter??)
     options: []
   - char_name: characterText
-    dialogue_text: Oh...uh...
+    dialogue_text: Oh. . . uh . . .
     options: []
   - char_name: Vikram
-    dialogue_text: "Haha, you\u2019re adorable. Before I get carried away though\u2026 "
+    dialogue_text: "Haha, you\u2019re adorable. Before I get carried away though.
+      . . "
     options: []
   - char_name: 
-    dialogue_text: ...
+    dialogue_text: . . .
     options: []
   line_index01: 0
   continue_button01: {fileID: 941863655}

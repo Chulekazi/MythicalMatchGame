@@ -937,7 +937,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 512056749}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1624286992}
+        m_TargetAssemblyTypeName: GameManager01, Assembly-CSharp
+        m_MethodName: SaveGameProgress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &512056749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1489,7 +1501,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: dialogue
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1080618995
@@ -2276,21 +2288,22 @@ MonoBehaviour:
     dialogue_text: So, what do you do with your time?
     options: []
   - char_name: characterText
-    dialogue_text: "Oh, uh, I research mythical creatures actually\u2026like yourself\u2026"
+    dialogue_text: Oh, uh, I research mythical creatures actually . . . like yourself
+      . . .
     options: []
   - char_name: Chryseis
     dialogue_text: "That\u2019s cool! What can you tell me about Sirens then!"
     options: []
   - char_name: characterText
-    dialogue_text: "Uhm, humans describe you as having humans as part of your diet,
-      and you guys lure them in by singing\u2026and uh\u2026"
+    dialogue_text: Uhm, humans describe you as having humans as part of your diet,
+      and you guys lure them in by singing . . . and uh . . .
     options: []
   - char_name: characterText
     dialogue_text: (Actually, now that I think about it, should I be scared to be
       so close to a Siren?)
     options: []
   - char_name: characterText
-    dialogue_text: "\u2026you\u2019re not gonna eat me, are you?"
+    dialogue_text: ". . . you\u2019re not gonna eat me, are you?"
     options: []
   - char_name: Chryseis
     dialogue_text: "Hahaha! You\u2019re funny!"
@@ -2304,7 +2317,7 @@ MonoBehaviour:
       too!"
     options: []
   - char_name: characterText
-    dialogue_text: "Do your siblings\u2026encourage you to eat humans?"
+    dialogue_text: Do your siblings . . . encourage you to eat humans?
     options: []
   - char_name: Chryseis
     dialogue_text: "A couple of them, but they\u2019ve realised by now that I\u2019m
@@ -2314,14 +2327,14 @@ MonoBehaviour:
     dialogue_text: "(I\u2019m still scared)"
     options: []
   - char_name: characterText
-    dialogue_text: "Oh, uhm, right\u2026"
+    dialogue_text: Oh, uhm, right . . .
     options: []
   - char_name: Chryseis
     dialogue_text: "Here, how about I hold your hand, and if I don\u2019t react to
       it at all, you should be able to trust that I won\u2019t eat you. Right?"
     options: []
   - char_name: characterText
-    dialogue_text: "I mean not quite\u2026you could be playing the long game here-"
+    dialogue_text: I mean not quite . . . you could be playing the long game here-
     options: []
   line_index01: 0
   continue_button01: {fileID: 1893240458}
@@ -2730,7 +2743,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Settings
+  m_text: Save
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}
   m_sharedMaterial: {fileID: 591848939199570642, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}

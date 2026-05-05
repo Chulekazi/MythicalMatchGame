@@ -9,7 +9,7 @@ public class quiz03 : MonoBehaviour
     public Sprite c_intrigued;
     public Sprite c_disappointed;
     public Sprite c_surprised;
-    public Sprite heart_point;
+    
     
 
     void Start()
@@ -26,6 +26,7 @@ public class quiz03 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "Your family",
+                        heartpoints = 0,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
@@ -33,13 +34,14 @@ public class quiz03 : MonoBehaviour
                                 characterName = "Chryseis",
                                 dialogueText = "Okay, so, I have sooo many siblings, but we all have the same mom and dad! I’m the youngest out of all of us so I get to just run around and do whatever I like all day.",
                                 image= c_intrigued,
-                                
+
                             }
                         }
                     },
                     new DialogueChoice
                     {
                         quizAnswer = "Your hobbies",
+                        heartpoints=0,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
@@ -53,6 +55,7 @@ public class quiz03 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "Where am I?",
+                        heartpoints =0,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
@@ -66,13 +69,15 @@ public class quiz03 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "No you choose",
+                        heartpoints = 1,
+                        journal_entry = "Chryseis liked that. You gained a heart point!",
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
                             {
                                 characterName = "Chryseis",
                                 dialogueText = "Oh yay! I love choosing!",
-                                image = c_surprised
+                                image = c_intrigued
                             }
                         }
                     }

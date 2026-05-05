@@ -9,6 +9,7 @@ public class DialogueChoice
     public string quizAnswer;
     public List<Dialogue> nextLine;
     public int heartpoints;
+    public string journal_entry;
 }
 
 [System.Serializable]

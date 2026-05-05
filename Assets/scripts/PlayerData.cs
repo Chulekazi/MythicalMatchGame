@@ -9,5 +9,6 @@ public static class PlayerData
 
     public static int PlayerHeartPoints { get => playerHeartPoints; set => playerHeartPoints = value; }
     public static HashSet<string> clicked_ = new HashSet<string> ();
+    public static List<string> JournalEntries = new List<string> ();
 }
 

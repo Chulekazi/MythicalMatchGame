@@ -104,4 +104,21 @@ public class GameManager01 : MonoBehaviour
     {
         pause_screen01.gameObject.SetActive(false);
     }
+
+    public void SaveGameProgress()
+    {
+        int currIndex = SceneManager.GetActiveScene().buildIndex;
+        PlayerPrefs.SetInt("SavedScene", currIndex);
+        PlayerPrefs.Save();
+    }
+
+    public void LoadGameProgress()
+    {
+        if (PlayerPrefs.HasKey("SavedScene"))
+        {
+            int savedIndex = PlayerPrefs.GetInt("SavedScene");
+            SceneManager.LoadScene(savedIndex);
+        }
+
+    }
 }

@@ -11,7 +11,7 @@ public class separateManager : MonoBehaviour
 {
 
     public TMP_Text dialogue;
-    //public TMP_Text heartpointsText;
+   
 
 
     public Image portrait;
@@ -27,12 +27,71 @@ public class separateManager : MonoBehaviour
     public Button continue_2;
     public Button continue_4;
     public Timer3 timer;
+    public TMP_Text points_text;
+    public TMP_Text journaltext_;
 
-    
 
 
     private Queue<Dialogue> lines = new Queue<Dialogue>();
 
+    void Awake()
+    {
+        Load_PlayerData();
+    }
+
+    void OnApplicationQuit()
+    {
+        Save_PlayerData();
+    }
+
+    public void Next_Scene()
+    {
+        Save_PlayerData();
+        int curr_index = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(curr_index + 1);
+    }
+
+    public void DisplayTextJournal(string entry_)
+    {
+
+        if (!journaltext_.text.Contains(entry_))
+        {
+            journaltext_.text += "\n" + entry_;
+        }
+        journaltext_.text = string.Join("\n", PlayerData.JournalEntries);
+    }
+
+    public void DisplayPoints()
+    {
+        points_text.text = "Points: " + PlayerData.PlayerHeartPoints;
+    }
+
+    public void Save_PlayerData()
+    {
+        PlayerPrefs.SetInt("HeartPoints", PlayerData.PlayerHeartPoints);
+        PlayerPrefs.SetString("PlayerName", PlayerData.playerName);
+        PlayerPrefs.SetString("ClickedChoices", string.Join(",", PlayerData.clicked_));
+        PlayerPrefs.SetString("JournalEntries", string.Join("|", PlayerData.JournalEntries));
+        PlayerPrefs.Save();
+    }
+    public void Load_PlayerData()
+    {
+        if (PlayerPrefs.HasKey("HeartPoints"))
+        {
+            PlayerData.PlayerHeartPoints = PlayerPrefs.GetInt("HeartPoints");
+            PlayerData.playerName = PlayerPrefs.GetString("PlayerName");
+
+            string cliked = PlayerPrefs.GetString("ClickedChoices");
+            PlayerData.clicked_ = new HashSet<string>(cliked.Split(','));
+
+            string journal = PlayerPrefs.GetString("JournalEntries", "");
+            if (!string.IsNullOrEmpty(journal))
+            {
+                PlayerData.JournalEntries = new List<string>(journal.Split('|'));
+            }
+        }
+        DisplayPoints();
+    }
 
     public void BeginDialogue(List<Dialogue> dialoguelines)
     {
@@ -50,42 +109,53 @@ public class separateManager : MonoBehaviour
 
         if (lines.Count == 0)
         {
-            //btn
+            //continue btn
             EndDialogue();
             return;
         }
         Dialogue line = lines.Dequeue();
         string processedText = line.dialogueText.Replace("player's name", PlayerData.playerName);
         dialogue.text = processedText;
-        dialogue.text = line.dialogueText;
-        portrait.sprite = line.image;
 
-        DisplayContinue_button(line);
+        portrait.sprite = line.image;
 
         if (line.choices != null && line.choices.Count > 0)
         {
             choiceContainer.gameObject.SetActive(true);
 
-            foreach (var choice in line.choices) //foreach variable choice in line choices we want to instantiate the choice button prefab
+            for (int i = 0; i < line.choices.Count; i++)
             {
+                var choice = line.choices[i];
+                string choiceId = line.dialogueText + "_" + i;
+
                 GameObject buttonobject = Instantiate(choiceButtonPrefab, choiceContainer);
                 TMP_Text buttontext = buttonobject.GetComponentInChildren<TMP_Text>();
                 buttontext.text = choice.quizAnswer;
 
-                buttonobject.GetComponent<Button>().onClick.AddListener(() =>
+                Button btn = buttonobject.GetComponent<Button>();
+                if (PlayerData.clicked_.Contains(choiceId))
                 {
+                    btn.interactable = false;
+                }
+
+                btn.onClick.AddListener(() =>
+                {
+                    btn.interactable = false;
+                    PlayerData.clicked_.Add(choiceId);
+
+
                     choiceContainer.gameObject.SetActive(false);
                     timer.timerlinear.gameObject.SetActive(false);
-                    //bool timertextoff
 
+                    if (choice.heartpoints > 0)
+                    {
+                        PlayerData.PlayerHeartPoints += choice.heartpoints;
+                        DisplayPoints();
 
-                    // PlayerData.playerHeartPoints += choice.heartpoints;
-                    //Debug.Log("heart points: " + PlayerData.playerHeartPoints);
+                        DisplayTextJournal(choice.journal_entry);
+                    }
 
                     BeginDialogue(choice.nextLine);
-
-
-                    //UpdatePointsUI();
                 });
             }
         }

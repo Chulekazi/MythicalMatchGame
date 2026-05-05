@@ -8,7 +8,7 @@ public class quiz01 : MonoBehaviour
     public Sprite v_normal;
     public Sprite v_intrigued;
     public Sprite v_disappointed;
-    public Sprite heart_point;
+    
 
     void Start()
     {
@@ -67,6 +67,7 @@ public class quiz01 : MonoBehaviour
                     {
                         quizAnswer = "Chai",
                         heartpoints = 1,
+                        journal_entry = "Vikram liked your choice of Chai. You gained a heart point!",
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue

@@ -627,7 +627,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 360306105}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1317360448}
+        m_TargetAssemblyTypeName: GameManager01, Assembly-CSharp
+        m_MethodName: SaveGameProgress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &360306105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -939,9 +951,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Settings
-
-'
+  m_text: Save
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}
   m_sharedMaterial: {fileID: 591848939199570642, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}
@@ -1700,7 +1710,7 @@ MonoBehaviour:
     dialogue_text: Was that the wrong answer?
     options: []
   - char_name: Chryseis
-    dialogue_text: "No, no, it\u2019s fine. [sad]"
+    dialogue_text: "No, no, it\u2019s fine."
     options: []
   line_index01: 0
   continue_button01: {fileID: 1543278681}
@@ -2381,7 +2391,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1594323253}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1346659246}
+        m_TargetAssemblyTypeName: MainMenuScript, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: dialogue12
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1594323253
 MonoBehaviour:
   m_ObjectHideFlags: 0

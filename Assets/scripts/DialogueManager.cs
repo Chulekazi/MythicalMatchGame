@@ -21,7 +21,7 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject choiceButtonPrefab;
     public GameObject dialogueBox;
-    public GameObject book;
+    
     public GameObject pause_screen;
     public GameObject journal_screen;
     public string[] journal_text;
@@ -29,9 +29,9 @@ public class DialogueManager : MonoBehaviour
 
     public TimerScript timer;
 
-    //public bool endTimer;
+    public Image_Enabler image_enabler_;
 
-   
+
     private Queue<Dialogue> lines = new Queue<Dialogue>();
 
     void Awake()
@@ -108,7 +108,7 @@ public class DialogueManager : MonoBehaviour
                         PlayerData.PlayerHeartPoints += choice.heartpoints;
                         DisplayPoints();
                        
-                        DisplayTextJournal();
+                        DisplayTextJournal(choice.journal_entry);
                     }
 
                     BeginDialogue(choice.nextLine);
@@ -116,14 +116,14 @@ public class DialogueManager : MonoBehaviour
             }
         }
     }
-    public void DisplayTextJournal()
+    public void DisplayTextJournal(string entry_)
     {
-        string entry_ = "Vikram liked your choice of Chai. You earned a point!";
+        
         if (!journaltext_.text.Contains(entry_))
         {
              journaltext_.text += "\n" + entry_;
         }
-       
+        journaltext_.text = string.Join("\n", PlayerData.JournalEntries);
     }
 
     public void DisplayPoints()
@@ -146,7 +146,7 @@ public class DialogueManager : MonoBehaviour
     public void Open_Journal()
     {
         journal_screen.gameObject.SetActive(true);
-        DisplayTextJournal();
+        
     }
 
     public void Close_Journal()
@@ -163,11 +163,7 @@ public class DialogueManager : MonoBehaviour
     }
 
    
-    public void CloseJournal()
-    {
-        book.SetActive(false);
-    }
-
+  
    /* void UpdatePointsUI()
     {
         heartpointsText.text = "Your heart points: " + PlayerData.playerHeartPoints;
@@ -186,6 +182,7 @@ public class DialogueManager : MonoBehaviour
         PlayerPrefs.SetInt("HeartPoints", PlayerData.PlayerHeartPoints);
         PlayerPrefs.SetString("PlayerName", PlayerData.playerName);
         PlayerPrefs.SetString("ClickedChoices", string.Join(",", PlayerData.clicked_));
+        PlayerPrefs.SetString("JournalEntries", string.Join("|", PlayerData.JournalEntries));
         PlayerPrefs.Save();
     }
     public void Load_PlayerData()
@@ -197,6 +194,12 @@ public class DialogueManager : MonoBehaviour
 
             string cliked = PlayerPrefs.GetString("ClickedChoices");
             PlayerData.clicked_ = new HashSet<string>(cliked.Split(','));
+
+            string journal = PlayerPrefs.GetString("JournalEntries", "");
+            if(!string.IsNullOrEmpty(journal))
+            {
+                PlayerData.JournalEntries = new List<string>(journal.Split('|'));
+            }
         }
         DisplayPoints();
     }
