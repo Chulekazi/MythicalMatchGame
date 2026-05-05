@@ -28,8 +28,7 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text journaltext_;
 
     public TimerScript timer;
-
-    public Image_Enabler image_enabler_;
+    public AudioSource audioSource;
 
 
     private Queue<Dialogue> lines = new Queue<Dialogue>();
@@ -126,12 +125,22 @@ public class DialogueManager : MonoBehaviour
         journaltext_.text = string.Join("\n", PlayerData.JournalEntries);
     }
 
+    
+
+
     public void DisplayPoints()
     {
         points_text.text = "Points: " + PlayerData.PlayerHeartPoints;
     }
 
-
+    public void HandleChoice(DialogueChoice choice)
+    {
+        if (choice.heartpoints == 0 && choice.sound != null)
+        {
+            audioSource.PlayOneShot(choice.sound);
+        }
+        BeginDialogue(choice.nextLine);
+    }
 
     public void Pause_Button()
     {

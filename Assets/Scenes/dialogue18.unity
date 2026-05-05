@@ -200,7 +200,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 14405649}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 219693248}
+        m_TargetAssemblyTypeName: GameManager01, Assembly-CSharp
+        m_MethodName: ShowJournal01
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &14405649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,15 +290,15 @@ MonoBehaviour:
     dialogue_text: Us Kitsune live for a very long time. I guess they found me interesting.
     options: []
   - char_name: Akira
-    dialogue_text: "I assume it piqued their interest when I was running around after
+    dialogue_text: I assume it piqued their interest when I was running around after
       becoming a Kitsune, stalking humans but never mustering up the courage to talk
-      to them\u2026"
+      to them . . .
     options: []
   - char_name: characterText
     dialogue_text: "Why didn\u2019t you? Is it because of your shapeshifting?"
     options: []
   - char_name: Akira
-    dialogue_text: "It is\u2026complicated\u2026"
+    dialogue_text: It is . . . complicated . . .
     options: []
   - char_name: characterText
     dialogue_text: We can talk about it, I think my head is spinning less now-
@@ -486,7 +498,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 321424037}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 219693248}
+        m_TargetAssemblyTypeName: GameManager01, Assembly-CSharp
+        m_MethodName: Next_Line01
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &321424037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1203,7 +1227,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1149108214}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 219693248}
+        m_TargetAssemblyTypeName: GameManager01, Assembly-CSharp
+        m_MethodName: SaveGameProgress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1149108214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1254,6 +1290,7 @@ GameObject:
   - component: {fileID: 1488606428}
   - component: {fileID: 1488606427}
   - component: {fileID: 1488606426}
+  - component: {fileID: 1488606430}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1346,6 +1383,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1488606430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488606425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2dd7511460ce8344a01ed3a48b22c81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MainMenuScript
 --- !u!1 &1521659089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1723,7 +1772,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1627490518}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 219693248}
+        m_TargetAssemblyTypeName: GameManager01, Assembly-CSharp
+        m_MethodName: PlayButton01
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1627490518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1797,7 +1858,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 32}
+  m_AnchoredPosition: {x: 118, y: 31.995}
   m_SizeDelta: {x: 950.6046, y: 988.0892}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1703015020
@@ -1814,7 +1875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Image_Enabler
   image_: {fileID: 1703015021}
   activate: 0
-  deactivate: -1
+  deactivate: 8
 --- !u!114 &1703015021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2071,7 +2132,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1799224046}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 219693248}
+        m_TargetAssemblyTypeName: GameManager01, Assembly-CSharp
+        m_MethodName: PauseButton01
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1799224046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2329,7 +2402,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1909214306}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1488606430}
+        m_TargetAssemblyTypeName: MainMenuScript, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: menu
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1909214306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2665,7 +2750,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1953755100}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 219693248}
+        m_TargetAssemblyTypeName: GameManager01, Assembly-CSharp
+        m_MethodName: HideJournal01
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1953755100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2786,7 +2883,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2000773202}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1488606430}
+        m_TargetAssemblyTypeName: MainMenuScript, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: last
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2000773202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2882,7 +2991,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Settings
+  m_text: Save
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}
   m_sharedMaterial: {fileID: 591848939199570642, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}

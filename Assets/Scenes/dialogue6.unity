@@ -1874,9 +1874,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::quiz02
   manager02: {fileID: 1870432281}
-  v_normal01: {fileID: -7238525348623615091, guid: 2873b93bf8f8c8b41827b46fb203eb13, type: 3}
-  v_intrigued01: {fileID: 7769213561428612970, guid: 2873b93bf8f8c8b41827b46fb203eb13, type: 3}
-  v_disappointed01: {fileID: -4036966065250237502, guid: 2873b93bf8f8c8b41827b46fb203eb13, type: 3}
+  v_normal01: {fileID: 6097023460853420066, guid: 466d3c1d3943d8a45a794d4a217015af, type: 3}
+  v_intrigued01: {fileID: 3500089020182675265, guid: 466d3c1d3943d8a45a794d4a217015af, type: 3}
+  v_disappointed01: {fileID: -5711140437934189726, guid: 466d3c1d3943d8a45a794d4a217015af, type: 3}
 --- !u!1 &1016952239
 GameObject:
   m_ObjectHideFlags: 0
@@ -3146,6 +3146,7 @@ MonoBehaviour:
   journal_text: []
   journaltext_: {fileID: 882351449}
   timer: {fileID: 1721495067}
+  audioSource: {fileID: 0}
 --- !u!4 &1870432282
 Transform:
   m_ObjectHideFlags: 0

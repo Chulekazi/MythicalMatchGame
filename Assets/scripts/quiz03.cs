@@ -9,7 +9,7 @@ public class quiz03 : MonoBehaviour
     public Sprite c_intrigued;
     public Sprite c_disappointed;
     public Sprite c_surprised;
-    
+    public AudioClip audio1;
     
 
     void Start()
@@ -70,6 +70,7 @@ public class quiz03 : MonoBehaviour
                     {
                         quizAnswer = "No you choose",
                         heartpoints = 1,
+                        sound = audio1,
                         journal_entry = "Chryseis liked that. You gained a heart point!",
                         nextLine = new List<Dialogue>
                         {

@@ -1207,6 +1207,7 @@ MonoBehaviour:
   pause_screen: {fileID: 1642272448}
   journal: {fileID: 109313431}
   settings: {fileID: 0}
+  image_enabler_: {fileID: 0}
 --- !u!4 &632386823
 Transform:
   m_ObjectHideFlags: 0

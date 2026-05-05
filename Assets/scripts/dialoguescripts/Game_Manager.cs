@@ -25,6 +25,7 @@ public class Game_Manager : MonoBehaviour
     public GameObject journal;
     public GameObject settings;
     public Image_Enabler image_enabler_;
+   
 
     void Start() 
     {

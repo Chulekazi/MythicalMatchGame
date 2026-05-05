@@ -10,6 +10,8 @@ public class DialogueChoice
     public List<Dialogue> nextLine;
     public int heartpoints;
     public string journal_entry;
+    public AudioClip sound;
+    public AudioClip sound2;
 }
 
 [System.Serializable]
