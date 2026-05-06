@@ -3294,8 +3294,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: separateManager, Assembly-CSharp
+      - m_Target: {fileID: 1879880741}
+        m_TargetAssemblyTypeName: onemoreManager, Assembly-CSharp
         m_MethodName: Close_Journal
         m_Mode: 1
         m_Arguments:
@@ -3545,7 +3545,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 6342ae6943c8f124a837b15913415cc5, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -3991,7 +3991,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: b1ea619ccbd0a8144a421091d8d6b3dd, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
