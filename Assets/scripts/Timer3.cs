@@ -9,6 +9,8 @@ public class Timer3 : MonoBehaviour
 {
     public separateManager dialogue_Manager;
     public Button rewind_btn; //rewind time button
+    public AudioClip rewindSFX;
+    public AudioSource audioSource;
 
     public Image timerlinear; //slider
 
@@ -48,22 +50,33 @@ public class Timer3 : MonoBehaviour
     }
 
     public void RewindTime()
-    {
-        if (!rewindUsed) // if player hasn't used rewind yet:
+    { 
+   
+        if (!rewindUsed)
         {
-            rewindUsed = true; //mark as true
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name); //reload the scene, starts the timer again
-           
+            rewindUsed = true;
+
+            if (rewindSFX != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(rewindSFX);
+            }
+StartCoroutine(ReloadSceneAfterDelay(0.5f));
+
+          
         }
         else
-        {
-            rewind_btn.interactable = false; //rewind button is not interactable
-            
-        }
+{
+    rewind_btn.interactable = false;
+    
+}
     }
 
-
-    public void NextDialogueScene(string sceneName)
+    IEnumerator ReloadSceneAfterDelay(float delay)
+{
+    yield return new WaitForSeconds(delay);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+}
+public void NextDialogueScene(string sceneName)
     {
         //next scene after pressing button
         SceneManager.LoadScene(sceneName);

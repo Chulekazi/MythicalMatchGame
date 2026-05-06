@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -13,7 +14,7 @@ public class DialogueManager : MonoBehaviour
     
     public TMP_Text dialogue;
     public TMP_Text points_text;
-    
+    public AudioClip choiceClickSound;
 
     public Image portrait;
 
@@ -65,18 +66,18 @@ public class DialogueManager : MonoBehaviour
 
         if (lines.Count == 0)
         {
-            //continue btn
             EndDialogue();
             return;
         }
+
         Dialogue line = lines.Dequeue();
         string processedText = line.dialogueText.Replace("player's name", PlayerData.playerName);
         dialogue.text = processedText;
-        
         portrait.sprite = line.image;
 
         if (line.choices != null && line.choices.Count > 0)
-        {   choiceContainer.gameObject.SetActive(true);
+        {
+            choiceContainer.gameObject.SetActive(true);
 
             for (int i = 0; i < line.choices.Count; i++)
             {
@@ -98,15 +99,19 @@ public class DialogueManager : MonoBehaviour
                     btn.interactable = false;
                     PlayerData.clicked_.Add(choiceId);
 
-
                     choiceContainer.gameObject.SetActive(false);
                     timer.timerlinear.gameObject.SetActive(false);
+
+        
+                    if (choiceClickSound != null && audioSource != null)
+                    {
+                        audioSource.PlayOneShot(choiceClickSound);
+                    }
 
                     if (choice.heartpoints > 0)
                     {
                         PlayerData.PlayerHeartPoints += choice.heartpoints;
                         DisplayPoints();
-                       
                         DisplayTextJournal(choice.journal_entry);
                     }
 
@@ -194,21 +199,23 @@ public class DialogueManager : MonoBehaviour
         PlayerPrefs.SetString("JournalEntries", string.Join("|", PlayerData.JournalEntries));
         PlayerPrefs.Save();
     }
+
     public void Load_PlayerData()
     {
-        if(PlayerPrefs.HasKey("HeartPoints"))
+        if (PlayerPrefs.HasKey("HeartPoints"))
         {
             PlayerData.PlayerHeartPoints = PlayerPrefs.GetInt("HeartPoints");
             PlayerData.playerName = PlayerPrefs.GetString("PlayerName");
 
-            string cliked = PlayerPrefs.GetString("ClickedChoices");
-            PlayerData.clicked_ = new HashSet<string>(cliked.Split(','));
+            string clicked = PlayerPrefs.GetString("ClickedChoices", "");
+            PlayerData.clicked_ = string.IsNullOrEmpty(clicked)
+                ? new HashSet<string>()
+                : new HashSet<string>(clicked.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries));
 
             string journal = PlayerPrefs.GetString("JournalEntries", "");
-            if(!string.IsNullOrEmpty(journal))
-            {
-                PlayerData.JournalEntries = new List<string>(journal.Split('|'));
-            }
+            PlayerData.JournalEntries = string.IsNullOrEmpty(journal)
+                ? new List<string>()
+                : new List<string>(journal.Split(new[] { '|' }, StringSplitOptions.RemoveEmptyEntries));
         }
         DisplayPoints();
     }
