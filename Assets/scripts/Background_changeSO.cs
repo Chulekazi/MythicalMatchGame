@@ -5,4 +5,5 @@ public class Background_changeSO : ScriptableObject
 {
     public string background_name;
     public Sprite background_sprite;
+    public Vector3 imageScale = Vector3.one;
 }

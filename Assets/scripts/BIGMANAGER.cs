@@ -31,6 +31,8 @@ public class BIGMANAGER : MonoBehaviour
     public List<Sprite> background_sprites;
     public List<string> background_names;
     public TooManyTimers dialogue_timer; //different script
+    public AudioSource audioSource;
+    public AudioClip nextButtonSound;
 
     void Start()
     {
@@ -65,7 +67,7 @@ public class BIGMANAGER : MonoBehaviour
 
     public void Name_Check(Dialogue_line start_line)
     {
-        if (string.IsNullOrEmpty(Player_profile.Instance.player_name) || Player_profile.Instance.player_name == "")
+        if (string.IsNullOrEmpty(Player_profile.Instance.player_name))
         {
             name_panel.SetActive(true);
         }
@@ -88,7 +90,7 @@ public class BIGMANAGER : MonoBehaviour
             {
                 character_image.gameObject.SetActive(true);
                 character_image.sprite = current_line.speaker_;
-                //character_image.SetNativeSize();
+                character_image.rectTransform.localScale = current_line.spriteScale;
             }
             else
             {
@@ -116,7 +118,6 @@ public class BIGMANAGER : MonoBehaviour
             dialogue_timer.OnTimerFinished += HandleTimeout;
             next.gameObject.SetActive(false);
 
-
             rewind.Reset_Rewind();
 
             foreach (var option in availableOptions)
@@ -133,9 +134,13 @@ public class BIGMANAGER : MonoBehaviour
 
             next.onClick.RemoveAllListeners();
             next.GetComponentInChildren<TMP_Text>().text = "continue";
-            next.onClick.AddListener(() => SelectNextLine());
+            next.onClick.AddListener(() => {
+                PlayNextSound(); 
+                SelectNextLine();
+            });
         }
     }
+
     void SelectNextLine()
     {
         if (current_line.Next_Line != null)
@@ -154,24 +159,23 @@ public class BIGMANAGER : MonoBehaviour
         selected_options.Add(option);
         show_response = true;
         dialogue_timer.Stop_Timer();
-        //if dialogue option is correct, 1 heart point added
+
         if (option.Is_correct)
         {
             heartpoints++;
             correct_answer.Add(option.option_);
             update_heartpoints();
         }
-        //continue button enabled, dialogue options disabled
+
         next.gameObject.SetActive(true);
         options_parent.gameObject.SetActive(false);
 
-        //if rewind button has not been used yet
         Object.FindFirstObjectByType<Rewind_button>()?.EnableRewind(option);
 
         next.onClick.RemoveAllListeners();
         next.onClick.AddListener(() => {
+            PlayNextSound();
             show_response = false;
-            //display next dialogue line
             if (option.next_line_ != null)
             {
                 current_line = option.next_line_;
@@ -214,18 +218,26 @@ public class BIGMANAGER : MonoBehaviour
     public void EnableRewind(dialogue_optionSO option)
     {
         rewind.rewind.interactable = true;
-        //StartCoroutine(PulseRewind());
     }
 
     public void DisableRewind()
     {
         rewind.rewind.interactable = false;
-        StopAllCoroutines(); // stops the pulsing
+        StopAllCoroutines();
     }
 
     void ResetChoices()
     {
         selected_options.Clear();
         DisplayCurrentLine();
+    }
+
+    
+    void PlayNextSound()
+    {
+        if (audioSource != null && nextButtonSound != null)
+        {
+            audioSource.PlayOneShot(nextButtonSound);
+        }
     }
 }
