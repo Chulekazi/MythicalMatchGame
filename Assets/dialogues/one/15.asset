@@ -18,4 +18,4 @@ MonoBehaviour:
   Next_Line: {fileID: 11400000, guid: 2f35ee7f258a7d142a9de72d02f2f716, type: 2}
   background: {fileID: 11400000, guid: 33dcfe16b068cbc438a24b9bb06fc557, type: 2}
   speaker_: {fileID: 21300000, guid: 8c445de194c8c6848ac4a667b827db63, type: 3}
-  spriteScale: {x: 0.1, y: 0.1, z: 1}
+  spriteScale: {x: 1, y: 1, z: 1}

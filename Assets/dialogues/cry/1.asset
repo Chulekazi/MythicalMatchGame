@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
+  npc_name: ???
   npc_text: 
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
-  spriteScale: {x: 1, y: 1, z: 1}
+  Next_Line: {fileID: 11400000, guid: af3e145a6537dea45a35e4b122213252, type: 2}
+  background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}
+  speaker_: {fileID: -1628194422, guid: 44b8c8647a85bb542becc8fd912083b4, type: 3}
+  spriteScale: {x: 0.3, y: 0.9, z: 1}
