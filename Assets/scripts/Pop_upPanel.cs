@@ -17,6 +17,7 @@ public class Pop_upPanel : MonoBehaviour
         {
             panel1.SetActive(true);
             panel1Shown = true;
+            dialogue_timer.Pause_Timer();
         }
     }
 
@@ -36,5 +37,6 @@ public class Pop_upPanel : MonoBehaviour
     {
         panel2.SetActive(false);
         // After this, both panels are done and won’t show again
+        dialogue_timer.Resume_Timer();
     }
 }
