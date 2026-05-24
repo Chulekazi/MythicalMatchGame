@@ -8,6 +8,8 @@ public class Rewind_button : MonoBehaviour
     private dialogue_optionSO lastSelectedOption;
     private bool rewind_used = false;
     public GameObject panel;
+    public AudioSource audioSource;      
+    public AudioClip rewindSound;
 
     void Start()
     {
@@ -24,6 +26,11 @@ public class Rewind_button : MonoBehaviour
         {
             rewind_used = true;
             rewind.interactable = false;
+
+            if (audioSource != null && rewindSound != null)
+            {
+                audioSource.PlayOneShot(rewindSound);
+            }
 
             // Show the first tutorial panel
             Object.FindFirstObjectByType<Pop_upPanel>()?.ShowFirstPanel();
