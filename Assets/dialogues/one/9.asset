@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: 9
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
+  npc_name: Time
   npc_text: I find it amusing. Now, would you like the opportunity to meet the creatures
     you have dedicated your life to researching?
   optionSOs:

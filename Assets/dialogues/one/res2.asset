@@ -15,6 +15,6 @@ MonoBehaviour:
   option_: "No. I\u2019m terrified. Who are you and why are you in my ho-"
   response_: Splendid. Anyway, that device you have been working on. How does it
     work?
-  next_line_: {fileID: 0}
+  next_line_: {fileID: 11400000, guid: 4c843344effe26a4bb4f3dd874007a43, type: 2}
   Is_correct: 0
   is_default: 0

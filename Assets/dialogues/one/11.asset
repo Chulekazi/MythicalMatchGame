@@ -10,12 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
-  m_Name: 10
+  m_Name: 11
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: "I, uh, I can rewind time back about 40 seconds but that\u2019s it. This
-    is all I\u2019ve managed to achieve."
-  optionSOs: []
-  Next_Line: {fileID: 11400000, guid: eadf862fe4f174b43a20bcc61b6cae38, type: 2}
+  npc_text: "Perfect. Let us test it out then. What\u2019s my favourite colour?"
+  optionSOs:
+  - {fileID: 11400000, guid: 6251f47d39a8a5b48a8d3235cfad4f4e, type: 2}
+  - {fileID: 11400000, guid: 99ac93865a68f614f90d746ded277e13, type: 2}
+  - {fileID: 11400000, guid: 2017057f5001b594c826e33a02cb4e6e, type: 2}
+  - {fileID: 11400000, guid: 765d9f66f3628ed4b9e3320745f86de8, type: 2}
+  Next_Line: {fileID: 0}
   background: {fileID: 11400000, guid: 33dcfe16b068cbc438a24b9bb06fc557, type: 2}
   speaker_: {fileID: -5640059282633199397, guid: 8c445de194c8c6848ac4a667b827db63, type: 3}

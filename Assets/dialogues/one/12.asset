@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
-  m_Name: 10
+  m_Name: 12
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: "I, uh, I can rewind time back about 40 seconds but that\u2019s it. This
-    is all I\u2019ve managed to achieve."
+  npc_text: This is great and all, but it only has enough charge to work once a day.
   optionSOs: []
-  Next_Line: {fileID: 11400000, guid: eadf862fe4f174b43a20bcc61b6cae38, type: 2}
+  Next_Line: {fileID: 11400000, guid: 555a33288b52a3a4eab5bc85af8ee2cb, type: 2}
   background: {fileID: 11400000, guid: 33dcfe16b068cbc438a24b9bb06fc557, type: 2}
   speaker_: {fileID: -5640059282633199397, guid: 8c445de194c8c6848ac4a667b827db63, type: 3}

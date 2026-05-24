@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 4
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: "(Maybe this isn\u2019t worth it after all\u2026)"
+  npc_text: "(Maybe this isn\u2019t worth it after all . . .)"
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 11d04ff9f2cdcd54484980b85b73977a, type: 2}
   background: {fileID: 11400000, guid: 33dcfe16b068cbc438a24b9bb06fc557, type: 2}

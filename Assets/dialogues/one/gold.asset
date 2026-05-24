@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
-  m_Name: res1
+  m_Name: gold
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
-  option_: You can do tha-
-  response_: Splendid. Anyway, that device you have been working on. How does it
-    work?
-  next_line_: {fileID: 11400000, guid: 4c843344effe26a4bb4f3dd874007a43, type: 2}
+  option_: Gold
+  response_: That is not a colour, silly. Rewind time and try again.
+  next_line_: {fileID: 11400000, guid: 6747609316c787f4c80fc5828c41cb47, type: 2}
   Is_correct: 0
-  is_default: 1
+  is_default: 0
