@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: c64
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: 
+  npc_text: W-well yeah, how else am I supposed to improve otherwise?
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: f8490680cb5b34e4f93217683ae2c04d, type: 2}
+  background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}
+  speaker_: {fileID: -1628194422, guid: 44b8c8647a85bb542becc8fd912083b4, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

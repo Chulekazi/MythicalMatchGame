@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: c57
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: 
+  npc_text: "I mean, it\u2019s not necessarily a bad thing\u2026"
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: 852890efc5300bf48b9b140d062383a0, type: 2}
+  background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}
+  speaker_: {fileID: -1222198594972855245, guid: 44b8c8647a85bb542becc8fd912083b4, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}
