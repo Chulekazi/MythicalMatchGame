@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: Vikram
   npc_text: "Well, I\u2019m sure you already know me, the heir to the Daruwala family,
-    \tVikram. I don\u2019t mean to brag, but I am quite popular around here."
+    Vikram. I don\u2019t mean to brag, but I am quite popular around here."
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 4e8aa3aa06dfe894c9e767111dbe8e57, type: 2}
   background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: 52
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
-  npc_text: 
+  npc_name: Time
+  npc_text: 'Hello, Akira. '
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: 5423408ddf73277478cf1343a62dcc3b, type: 2}
+  background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
+  speaker_: {fileID: 21300000, guid: 8c445de194c8c6848ac4a667b827db63, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}
