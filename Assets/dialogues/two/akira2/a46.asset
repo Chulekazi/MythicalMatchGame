@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: a46
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
-  npc_text: 
+  npc_name: Akira
+  npc_text: 'It is why I chose to live up here. '
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: 03bf769b0e3a07443b49aae8aff66105, type: 2}
+  background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
+  speaker_: {fileID: -246690966026167622, guid: 55ce7c4c07635ec4094d5427093790e7, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

@@ -15,11 +15,11 @@ MonoBehaviour:
   npc_name: player
   npc_text: "Were you thinking about\u2026"
   optionSOs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 548f8b79a756cdd419fdf41a49fe5a2b, type: 2}
+  - {fileID: 11400000, guid: 0a15712aef83daa4ca550a51e904db60, type: 2}
+  - {fileID: 11400000, guid: 5261b584f00f17e468d4dd22a566dfd6, type: 2}
+  - {fileID: 11400000, guid: 947b12d81d9e2814ea205cdffe5ca893, type: 2}
   Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
+  speaker_: {fileID: 1893225516887195049, guid: 29af40d9032251d498b5baa405fb6d7d, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

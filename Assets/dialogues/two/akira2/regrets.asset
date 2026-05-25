@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
   option_: '. . . regrets? '
   response_: 'Unfortunately, that is where my mind goes whenever I have time to think. '
-  next_line_: {fileID: 0}
-  Is_correct: 0
+  next_line_: {fileID: 11400000, guid: d68161e3b9d40914e805deb80b235894, type: 2}
+  Is_correct: 1
   is_default: 0

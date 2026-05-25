@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
   option_: ". . . things you\u2019ve done?"
   response_: 'My journey here was not an easy one. I have many stories to tell. '
-  next_line_: {fileID: 0}
+  next_line_: {fileID: 11400000, guid: aedbbee0ccb93b64f8042c2744f0c3a2, type: 2}
   Is_correct: 0
   is_default: 0

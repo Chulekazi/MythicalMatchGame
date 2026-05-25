@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
   option_: Do some work on my research
   response_: 
-  next_line_: {fileID: 0}
+  next_line_: {fileID: 11400000, guid: dabd565f43043624081a000201473e79, type: 2}
   Is_correct: 0
   is_default: 0

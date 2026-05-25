@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: c71
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: "Uhh, anyway\u2026"
+  npc_text: Uhh, anyway . . .
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 1c8068d2ee8f34f4c905de2bb2c356cb, type: 2}
   background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}

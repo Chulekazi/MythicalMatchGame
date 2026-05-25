@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: Chryseis
   npc_text: "I guess you do have a point\u2026but I don\u2019t know how not to be
-    jealous\u2026"
+    jealous . . ."
   optionSOs:
   - {fileID: 11400000, guid: 5727bdaecf52205468b1291c4895086a, type: 2}
   - {fileID: 11400000, guid: c489ba923dffd8b4ab43f9dcb59420de, type: 2}

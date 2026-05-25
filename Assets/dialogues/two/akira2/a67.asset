@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: a67
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: Akira
+  npc_text: 'Oh? Do tell. '
+  optionSOs:
+  - {fileID: 11400000, guid: 8743afa32988a34458b3c4bf9b637002, type: 2}
+  - {fileID: 11400000, guid: 1f95a916337e2424bb70a4e743aef94e, type: 2}
+  - {fileID: 11400000, guid: 015a0bb7d5b7f3844b269d27d935e9a0, type: 2}
+  - {fileID: 11400000, guid: 6702608be1006494188a05ab9f5d5cfe, type: 2}
+  Next_Line: {fileID: 0}
+  background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
+  speaker_: {fileID: -246690966026167622, guid: 55ce7c4c07635ec4094d5427093790e7, type: 3}
+  spriteScale: {x: 1, y: 1, z: 1}

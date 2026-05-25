@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: c67
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: "Uh, yeah, that\u2019s how relationships work\u2026"
+  npc_text: "Uh, yeah, that\u2019s how relationships work . . ."
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 9ab6328fe554c984089a6c21b3ea9896, type: 2}
   background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}

@@ -15,6 +15,6 @@ MonoBehaviour:
   option_: . . . fond memories?
   response_: 'I only think about those if I am in a rough place emotionally. Right
     now I am at peace. '
-  next_line_: {fileID: 0}
+  next_line_: {fileID: 11400000, guid: 97fa70579b78bd04ebfbb79a29750641, type: 2}
   Is_correct: 0
   is_default: 0

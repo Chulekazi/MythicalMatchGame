@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: c86
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
-  npc_text: "This makes me feel worse\u2026"
+  npc_name: Chryseis
+  npc_text: This makes me feel worse . . .
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: ace426a13515ec54ebcb539125ab5735, type: 2}
+  background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}
+  speaker_: {fileID: -1222198594972855245, guid: 44b8c8647a85bb542becc8fd912083b4, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

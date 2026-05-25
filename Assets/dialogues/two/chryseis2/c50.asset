@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: c50
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: Chryseis
-  npc_text: "Swim around, find whatever debris humans have left in the ocean to add
-    to my collection, ride my shark around\u2026"
+  npc_text: Swim around, find whatever debris humans have left in the ocean to add
+    to my collection, ride my shark around . . .
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: a2a53a1976d0ffd4a8f3928576a7d4af, type: 2}
   background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}
