@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/GoodEndingAkira.unity
+    guid: 1c254e8381e0fb444a73e9d8e5ef911c
+  - enabled: 1
+    path: Assets/Scenes/GoodEndingChryseis.unity
+    guid: e0430db62bf0cc44da264fffcbbcb46a
+  - enabled: 1
+    path: Assets/Scenes/GoodEndingVikram.unity
+    guid: 3543377e27e624347bb7bb9bd3f359da
   - enabled: 0
     path: Assets/Scenes/menu.unity
     guid: 4ef0d0815c2530e4f8ac26726da18e86

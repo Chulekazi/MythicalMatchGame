@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class BIGMANAGER : MonoBehaviour
@@ -12,7 +13,9 @@ public class BIGMANAGER : MonoBehaviour
     public Button next;
     public Button skip;
 
-    public int heartpoints = 0;
+    public int Vikram_heartpoints = 0;
+    public int Chryseis_heartpoints = 0;
+    public int Akira_heartpoints = 0;
     public GameObject journal_panel;
     public TMP_Text heartpoints_text;
     public List<string> correct_answer = new List<string>();
@@ -33,6 +36,45 @@ public class BIGMANAGER : MonoBehaviour
     public TooManyTimers dialogue_timer; //different script
     public AudioSource audioSource;
     public AudioClip nextButtonSound;
+
+    private Dictionary<string, int> heartpoints = new Dictionary<string, int>()
+    {
+        {"Vikram",0 },
+        {"Chryseis",0 },
+        {"Akira",0 }
+    };
+
+    void CreateFinalChoiceButtons()
+    {
+        // Clear old buttons
+        foreach (Transform child in options_parent)
+        {
+            Destroy(child.gameObject);
+        }
+
+        // Characters to choose from
+        string[] characters = { "Vikram", "Chryseis", "Akira" };
+
+        foreach (string character in characters)
+        {
+            Button newButton = Instantiate(options_button, options_parent);
+            newButton.GetComponentInChildren<TMP_Text>().text = "Choose " + character;
+
+            string chosenCharacter = character; // capture local variable
+            newButton.onClick.AddListener(() =>
+            {
+                // Disable all buttons once one is clicked
+                foreach (Transform child in options_parent)
+                {
+                    child.GetComponent<Button>().interactable = false;
+                }
+
+                Ending(chosenCharacter);
+            });
+        }
+        options_parent.gameObject.SetActive(true);
+        next.gameObject.SetActive(false);
+    }
 
     void Start()
     {
@@ -150,6 +192,10 @@ public class BIGMANAGER : MonoBehaviour
             show_response = false;
             DisplayCurrentLine();
         }
+        else
+        {
+            CreateFinalChoiceButtons();
+        }
     }
 
     void SelectOption(dialogue_optionSO option)
@@ -162,9 +208,12 @@ public class BIGMANAGER : MonoBehaviour
 
         if (option.Is_correct)
         {
-            heartpoints++;
-            correct_answer.Add(option.option_);
-            update_heartpoints();
+           if(heartpoints.ContainsKey(current_line.npc_name))
+            {
+                heartpoints[current_line.npc_name]++;
+                update_journal();
+            }
+            
         }
 
         next.gameObject.SetActive(true);
@@ -185,19 +234,73 @@ public class BIGMANAGER : MonoBehaviour
         });
     }
 
+    void Ending(string chosen_character)
+    {
+        var sorted = heartpoints.OrderByDescending(kvp => kvp.Value).ToList();
+
+        string highest = sorted[0].Key;
+        string second = sorted[1].Key;
+        string lowest = sorted[sorted.Count - 1].Key;
+
+        if (chosen_character==highest)
+        {
+            switch (chosen_character)
+            {
+                case "Vikram":
+                    SceneManager.LoadScene("GoodEndingVikram");
+                    break;
+                case "Chryseis":
+                    SceneManager.LoadScene("GoodEndingChryseis");
+                    break;
+                case "Akira":
+                    SceneManager.LoadScene("GoodEndingAkira");
+                    break;
+            }
+        }
+        else if (chosen_character==second) 
+        {
+            ShowMiddleEnding(chosen_character);
+        }
+        else
+        {
+            ShowBadEnding(chosen_character);
+        }
+    }
+
+    void ShowGoodEnding(string character)
+    {
+        Debug.Log("Good ending with " + character);
+        SceneManager.LoadScene("");
+    }
+    void ShowMiddleEnding(string character)
+    {
+        Debug.Log("Middle ending with " + character);
+        SceneManager.LoadScene("MehEnding");
+    }
+
+    void ShowBadEnding(string character)
+    {
+        Debug.Log("Bad ending with " + character);
+        SceneManager.LoadScene("BadEnding");
+    }
+
     public void open_journal()
     {
         journal_panel.SetActive(!journal_panel.activeSelf);
-        update_heartpoints();
+        update_journal();
     }
-
-    public void update_heartpoints()
+    public void update_journal()
     {
-        heartpoints_text.text = "Heart Points: " + heartpoints;
-        history_log.text = "Correct Answer:\n";
+        heartpoints_text.text = "Heart Points:\n";
+        foreach (var keyvaluepair in heartpoints)
+        {
+            heartpoints_text.text += keyvaluepair.Key + ": " + keyvaluepair.Value + "\n";
+        }
+
+        history_log.text = "Correct Answers:\n";
         foreach (string answer in correct_answer)
         {
-            history_log.text += "- " + answer + "\n";
+            history_log.text += answer + "\n";
         }
     }
 

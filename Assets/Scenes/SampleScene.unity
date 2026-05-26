@@ -465,7 +465,9 @@ MonoBehaviour:
   options_button: {fileID: 3444907417546294398, guid: 1edc2ba09510f804c9c7e6b691126739, type: 3}
   next: {fileID: 1997531573}
   skip: {fileID: 65580274}
-  heartpoints: 0
+  Vikram_heartpoints: 0
+  Chryseis_heartpoints: 0
+  Akira_heartpoints: 0
   journal_panel: {fileID: 1906357886}
   heartpoints_text: {fileID: 823786918}
   correct_answer: []
@@ -1980,8 +1982,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 148, y: 4.2006}
-  m_SizeDelta: {x: 296, y: 893.8289}
+  m_AnchoredPosition: {x: 0, y: 225.56}
+  m_SizeDelta: {x: 592, y: 451.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &823786918
 MonoBehaviour:
@@ -2520,8 +2522,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -148, y: 4.2006}
-  m_SizeDelta: {x: 296, y: 893.8289}
+  m_AnchoredPosition: {x: 0, y: -231.17354}
+  m_SizeDelta: {x: 592, y: 423.0829}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &994267612
 MonoBehaviour:
