@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: 33c
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: player
+  npc_text: "No! It\u2019s just that . . . you told me they\u2019re just sitting
+    in a container, so it\u2019s not like you\u2019re using them . . ."
+  optionSOs: []
+  Next_Line: {fileID: 0}
+  background: {fileID: 0}
+  speaker_: {fileID: 0}
+  spriteScale: {x: 1, y: 1, z: 1}
