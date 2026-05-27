@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: a20
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: Akira
-  npc_text: "\u2026interesting. At best. Regardless, I know you have been visiting
+  npc_text: '. . . interesting. At best. Regardless, I know you have been visiting
     other mythical creatures such as myself. Do not worry about needing to omit their
-    details. "
+    details. '
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: b79a9861c701dcc4d8b79e251a4125af, type: 2}
   background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}

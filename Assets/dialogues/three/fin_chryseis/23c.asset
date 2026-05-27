@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: 23c
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
+  npc_name: Chryseis
   npc_text: 'Like what? '
   optionSOs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: e3ae95319cd2ae1499d44b9bc9c961ae, type: 2}
+  - {fileID: 11400000, guid: 3735727bbeaf88946a3abd4f33be8698, type: 2}
+  - {fileID: 11400000, guid: 0938f727221a28c48ae40a7d9ced2cdb, type: 2}
+  - {fileID: 11400000, guid: 36d4a33f62c498b459cd8670a984b379, type: 2}
   Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}
+  speaker_: {fileID: -1628194422, guid: 44b8c8647a85bb542becc8fd912083b4, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: 9v
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
+  npc_name: Vikram
   npc_text: "I guess if I\u2019m trying to court you, I can\u2019t treat you like
     any other person. "
   optionSOs:
@@ -20,6 +20,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bdaf7ce1d3a21ac45abce73e17ba0f12, type: 2}
   - {fileID: 11400000, guid: fe218b984bd268343b10a14ca9a1f0cd, type: 2}
   Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}
+  speaker_: {fileID: 6097023460853420066, guid: 466d3c1d3943d8a45a794d4a217015af, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

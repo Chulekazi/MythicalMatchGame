@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: a12
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: "Do you\u2026want to talk about it?"
+  npc_text: Do you . . .want to talk about it?
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: a1abcb346959ef545ac276815a7640b2, type: 2}
   background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}

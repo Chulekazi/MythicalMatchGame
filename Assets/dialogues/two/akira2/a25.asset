@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: a25
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: "So, about the past\u2026"
+  npc_text: So, about the past . . .
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: b48922b09a65c3e4e98ec01161393024, type: 2}
   background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}

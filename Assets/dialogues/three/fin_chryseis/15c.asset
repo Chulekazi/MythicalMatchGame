@@ -16,7 +16,7 @@ MonoBehaviour:
   npc_text: "(Man, she\u2019s really flushed, I probably shouldn\u2019t push too
     hard.)"
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: 65ea95fc116a3c9449b74b4e3f45adea, type: 2}
+  background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}
+  speaker_: {fileID: -1222198594972855245, guid: 44b8c8647a85bb542becc8fd912083b4, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

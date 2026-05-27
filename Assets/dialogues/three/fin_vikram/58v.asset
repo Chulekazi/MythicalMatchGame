@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 58v
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: "Wow, those are definitely some good options\u2026"
+  npc_text: Wow, those are definitely some good options . . .
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: cafbf324520f98a4ead0824ba128f731, type: 2}
+  background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}
+  speaker_: {fileID: 6097023460853420066, guid: 466d3c1d3943d8a45a794d4a217015af, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

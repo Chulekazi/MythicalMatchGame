@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: a39
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: Akira
-  npc_text: "There may be\u2026some truth in that statement."
+  npc_text: There may be . . . some truth in that statement.
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: ce6ca7c93e906c8408213da7fd618ab3, type: 2}
   background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}

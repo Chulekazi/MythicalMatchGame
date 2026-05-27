@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: c2
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: "Hi Chryseis! Just give me a minute, I\u2019m still dizzy\u2026"
+  npc_text: "Hi Chryseis! Just give me a minute, I\u2019m still dizzy . . ."
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 363b834e2924a6140b3b2f2eb6362b9f, type: 2}
   background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}

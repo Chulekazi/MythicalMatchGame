@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: d1d3a616d966df1488cef642ef308212
+guid: 83cfb3b03aef18e43bc7a649df2b85f7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -471183320929071752
-    second: CherryBlossomPicnic2_0
+      213: 2004232101495086770
+    second: journal_0
+  - first:
+      213: 2045552901351212115
+    second: journal_1
+  - first:
+      213: -4602453797270904901
+    second: journal_2
+  - first:
+      213: -2400006736884651699
+    second: journal_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CherryBlossomPicnic2_0
+      name: journal_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 109
         y: 0
-        width: 1920
-        height: 1080
+        width: 883
+        height: 936
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87d0feb14450679f0800000000000000
-      internalID: -471183320929071752
+      spriteID: 2be9c093a7670db10800000000000000
+      internalID: 2004232101495086770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: journal_1
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 917
+        width: 41
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3540f46a683436c10800000000000000
+      internalID: 2045552901351212115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: journal_2
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 746
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf158ef7acc020c0800000000000000
+      internalID: -4602453797270904901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: journal_3
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 757
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49227da69671bed0800000000000000
+      internalID: -2400006736884651699
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CherryBlossomPicnic2_0: -471183320929071752
+      journal_0: 2004232101495086770
+      journal_1: 2045552901351212115
+      journal_2: -4602453797270904901
+      journal_3: -2400006736884651699
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

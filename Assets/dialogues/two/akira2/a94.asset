@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: a94
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: Akira
-  npc_text: "At the end of these three days you will have to choose one of the .
-    . . dates\u2026 that Time has provided you. "
+  npc_text: 'At the end of these three days you will have to choose one of the .
+    . . dates . . . that Time has provided you. '
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: b18ceac6d6039094ba3a75882345bcb3, type: 2}
   background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}

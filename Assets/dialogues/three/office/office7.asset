@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: office7
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
+  npc_name: Time
   npc_text: 'You may or may not be faced with some difficult decisions today. '
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 0f2f90276a79b5545a8fff7af0db48aa, type: 2}

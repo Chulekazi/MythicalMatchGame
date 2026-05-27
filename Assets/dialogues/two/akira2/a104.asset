@@ -15,7 +15,7 @@ MonoBehaviour:
   npc_name: player
   npc_text: End of Day 2.
   optionSOs: []
-  Next_Line: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: de7a35931fc407249b22c6e2a713fbe4, type: 2}
   background: {fileID: 11400000, guid: 0549616cb5671a642b1538457533a3a8, type: 2}
   speaker_: {fileID: 0}
   spriteScale: {x: 1, y: 1, z: 1}

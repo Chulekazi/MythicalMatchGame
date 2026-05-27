@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: office3
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
+  npc_name: Time
   npc_text: Good morning mortal.
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: d4463a4d494f03546a1e97031c1c35bc, type: 2}

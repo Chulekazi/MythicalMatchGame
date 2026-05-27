@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: 18v
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
+  npc_name: Vikram
   npc_text: 'Uh, yeah . . .
 
 '
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: 6a8b484d08545c1498c9231e453526b1, type: 2}
+  background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}
+  speaker_: {fileID: -5711140437934189726, guid: 466d3c1d3943d8a45a794d4a217015af, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

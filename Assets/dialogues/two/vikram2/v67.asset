@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: v67
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: "You make a point\u2026"
+  npc_text: You make a point . . .
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 36863922b2ca98f4c93ddc8f54daf710, type: 2}
   background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}

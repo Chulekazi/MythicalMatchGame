@@ -16,7 +16,7 @@ MonoBehaviour:
   npc_text: "(I can FEEL my face burning, I really hope he doesn\u2019t notice .
     . .)"
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: b069128e2f124b546b3c86966fc1ffa3, type: 2}
+  background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}
+  speaker_: {fileID: 6097023460853420066, guid: 466d3c1d3943d8a45a794d4a217015af, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

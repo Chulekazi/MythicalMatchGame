@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: a26
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: "Were you thinking about\u2026"
+  npc_text: Were you thinking about . . .
   optionSOs:
   - {fileID: 11400000, guid: 548f8b79a756cdd419fdf41a49fe5a2b, type: 2}
   - {fileID: 11400000, guid: 0a15712aef83daa4ca550a51e904db60, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: office11
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
+  npc_name: Time
   npc_text: 'It is nothing of your concern. '
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 1823943ea1d411140b717246c9535035, type: 2}

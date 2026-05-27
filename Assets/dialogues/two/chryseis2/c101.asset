@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: c101
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
+  npc_name: Chryseis
   npc_text: Uh, okay . . .
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 4781ffb051292c148963e0a44b3d95b6, type: 2}

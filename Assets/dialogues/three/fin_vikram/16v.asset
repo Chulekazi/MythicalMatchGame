@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: 16v
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
+  npc_name: Vikram
   npc_text: "Please say something\u2026"
   optionSOs:
   - {fileID: 11400000, guid: b56c6ee845630b44493a35ab7ad1e82c, type: 2}
@@ -20,6 +20,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f2dc6af3e70a1804cbca70ec472ce6e0, type: 2}
   - {fileID: 11400000, guid: 4758e69a942f0d14897938353362a731, type: 2}
   Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}
+  speaker_: {fileID: -5711140437934189726, guid: 466d3c1d3943d8a45a794d4a217015af, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

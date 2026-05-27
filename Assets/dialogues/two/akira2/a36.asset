@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: a36
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: "Is that not\u2026bad for you?"
+  npc_text: Is that not . . . bad for you?
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 72b3cd70d333e3e40a71669da7de6f9a, type: 2}
   background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}

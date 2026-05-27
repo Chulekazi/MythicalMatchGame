@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: a19
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: Akira
-  npc_text: "You do not need to be shy. I know what Time has set you up with. I think,
-    quite frankly, that the concept is\u2026"
+  npc_text: You do not need to be shy. I know what Time has set you up with. I think,
+    quite frankly, that the concept is . . .
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 663f482261075814f838ba27c46b5fea, type: 2}
   background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
