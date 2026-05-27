@@ -15,9 +15,9 @@ MonoBehaviour:
   npc_name: player
   npc_text: 'You do not know what their true intentions are. '
   optionSOs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: e195988e65795d343b1604899ceddef1, type: 2}
+  - {fileID: 11400000, guid: 59dd5d605c375d84d92d098d8f28391e, type: 2}
+  - {fileID: 11400000, guid: 2aaffdb393c1f07408d01ef690354de9, type: 2}
   Next_Line: {fileID: 0}
   background: {fileID: 0}
   speaker_: {fileID: 0}

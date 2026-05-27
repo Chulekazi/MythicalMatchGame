@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: 59c
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
-  npc_text: "\u2026and I remember you were wary the first time we met too\u2026"
+  npc_name: Chryseis
+  npc_text: . . . and I remember you were wary the first time we met too . . .
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: 2cc02cfdcb3fa3e4d841bfa05b8629e0, type: 2}
+  background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}
+  speaker_: {fileID: 1896126802, guid: 8d3dfd38ed06bb24ca26ddd9bf7ec783, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

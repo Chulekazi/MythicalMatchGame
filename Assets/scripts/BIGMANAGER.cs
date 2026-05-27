@@ -52,7 +52,6 @@ public class BIGMANAGER : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        // Characters to choose from
         string[] characters = { "Vikram", "Chryseis", "Akira" };
 
         foreach (string character in characters)
@@ -60,20 +59,37 @@ public class BIGMANAGER : MonoBehaviour
             Button newButton = Instantiate(options_button, options_parent);
             newButton.GetComponentInChildren<TMP_Text>().text = "Choose " + character;
 
-            string chosenCharacter = character; // capture local variable
+            string chosenCharacter = character;
             newButton.onClick.AddListener(() =>
             {
-                // Disable all buttons once one is clicked
-                foreach (Transform child in options_parent)
-                {
-                    child.GetComponent<Button>().interactable = false;
-                }
-
+                DisableAllButtons();
                 Ending(chosenCharacter);
             });
         }
+
+        // Add "None" button
+        Button noneButton = Instantiate(options_button, options_parent);
+        noneButton.GetComponentInChildren<TMP_Text>().text = "Choose None";
+        noneButton.onClick.AddListener(() =>
+        {
+            DisableAllButtons();
+            Ending("None");
+        });
+
         options_parent.gameObject.SetActive(true);
         next.gameObject.SetActive(false);
+    }
+
+    void DisableAllButtons()
+    {
+        foreach (Transform child in options_parent)
+        {
+            Button btn = child.GetComponent<Button>();
+            if (btn != null)
+            {
+                btn.interactable = false; // disables the button
+            }
+        }
     }
 
     void Start()
@@ -156,6 +172,7 @@ public class BIGMANAGER : MonoBehaviour
         if (availableOptions.Length > 0 && selected_options.Count < maxChoices)
         {
             options_parent.gameObject.SetActive(true);
+            dialogue_timer.gameObject.SetActive(true);
             dialogue_timer.Start_Timer();
             dialogue_timer.OnTimerFinished += HandleTimeout;
             next.gameObject.SetActive(false);
@@ -173,6 +190,7 @@ public class BIGMANAGER : MonoBehaviour
         {
             options_parent.gameObject.SetActive(false);
             next.gameObject.SetActive(true);
+            dialogue_timer.gameObject.SetActive(false);
 
             next.onClick.RemoveAllListeners();
             next.GetComponentInChildren<TMP_Text>().text = "continue";
@@ -236,13 +254,18 @@ public class BIGMANAGER : MonoBehaviour
 
     void Ending(string chosen_character)
     {
-        var sorted = heartpoints.OrderByDescending(kvp => kvp.Value).ToList();
+        if (chosen_character == "None")
+        {
+            // Always bad ending if None is chosen
+            SceneManager.LoadScene("BadEnding");
+            return;
+        }
 
+        var sorted = heartpoints.OrderByDescending(kvp => kvp.Value).ToList();
         string highest = sorted[0].Key;
         string second = sorted[1].Key;
-        string lowest = sorted[sorted.Count - 1].Key;
 
-        if (chosen_character==highest)
+        if (chosen_character == highest)
         {
             switch (chosen_character)
             {
@@ -257,13 +280,13 @@ public class BIGMANAGER : MonoBehaviour
                     break;
             }
         }
-        else if (chosen_character==second) 
+        else if (chosen_character == second)
         {
-            ShowMiddleEnding(chosen_character);
+            SceneManager.LoadScene("MiddleEnding");
         }
         else
         {
-            ShowBadEnding(chosen_character);
+            SceneManager.LoadScene("BadEnding");
         }
     }
 

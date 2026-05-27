@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GoodEndingVikram.unity
     guid: 3543377e27e624347bb7bb9bd3f359da
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/menu.unity
     guid: 4ef0d0815c2530e4f8ac26726da18e86
   - enabled: 0

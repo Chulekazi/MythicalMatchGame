@@ -16,6 +16,6 @@ MonoBehaviour:
   npc_text: 'I hope you are proud of yourself. '
   optionSOs: []
   Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  background: {fileID: 11400000, guid: 33dcfe16b068cbc438a24b9bb06fc557, type: 2}
+  speaker_: {fileID: 21300000, guid: 8c445de194c8c6848ac4a667b827db63, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

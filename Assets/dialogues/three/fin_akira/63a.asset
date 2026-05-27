@@ -15,7 +15,7 @@ MonoBehaviour:
   npc_name: player
   npc_text: "That\u2019s good! You should go for it!"
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: 28b6c32acee4fe849aaecdd7a36fdba6, type: 2}
+  background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
+  speaker_: {fileID: 1893225516887195049, guid: 29af40d9032251d498b5baa405fb6d7d, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
   option_: Akira
   response_: 'They have a peaceful demeanour, and is retrospective. '
-  next_line_: {fileID: 11400000, guid: 6ec4449b977fd3747b2224b9d15628e0, type: 2}
+  next_line_: {fileID: 11400000, guid: cde43461c2e37c64ebd27d7be09cb819, type: 2}
   Is_correct: 0
   is_default: 0

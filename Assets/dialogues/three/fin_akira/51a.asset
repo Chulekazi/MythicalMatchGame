@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
   npc_text: "To be honest, I wouldn\u2019t be brave enough to do that either, I don\u2019t
-    know why I suggested it\u2026"
+    know why I suggested it . . ."
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: cd650c8dcb38c484fb0e540af733c6ab, type: 2}
+  background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
+  speaker_: {fileID: -246690966026167622, guid: 55ce7c4c07635ec4094d5427093790e7, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

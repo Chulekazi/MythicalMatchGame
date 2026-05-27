@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: 58c
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
+  npc_name: Chryseis
   npc_text: Were you bothered by my reaction?
   optionSOs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: ba59b3e303ebf52428163c074e2ab221, type: 2}
+  - {fileID: 11400000, guid: f0cf6ad547256e148bd271ce5f635914, type: 2}
+  - {fileID: 11400000, guid: 04337e87fac5f504d87f3bc7a86a7dbb, type: 2}
+  - {fileID: 11400000, guid: 6f3020867d11df941846397e4a331f97, type: 2}
   Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}
+  speaker_: {fileID: 7722630707363057709, guid: 8d3dfd38ed06bb24ca26ddd9bf7ec783, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

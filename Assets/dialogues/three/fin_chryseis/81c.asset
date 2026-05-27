@@ -15,7 +15,7 @@ MonoBehaviour:
   npc_name: player
   npc_text: "No it\u2019s fine . . ."
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: 84e736e66621f5144ad833f65eb0a5f3, type: 2}
+  background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}
+  speaker_: {fileID: 7722630707363057709, guid: 8d3dfd38ed06bb24ca26ddd9bf7ec783, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

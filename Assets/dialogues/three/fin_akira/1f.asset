@@ -15,7 +15,7 @@ MonoBehaviour:
   npc_name: player
   npc_text: (Does Akira want me to choose them that badly?)
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: 1f60bd4499b44cb4f85e862a12ea107a, type: 2}
+  background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
+  speaker_: {fileID: -725102812000686796, guid: 29af40d9032251d498b5baa405fb6d7d, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

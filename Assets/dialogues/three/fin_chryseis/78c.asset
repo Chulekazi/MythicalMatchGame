@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 78c
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: "As long as you\u2019re feeling okay. "
+  npc_text: Y-yeah.
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: a7cf871a45af3b342acafaefc93716ca, type: 2}
+  background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}
+  speaker_: {fileID: 7722630707363057709, guid: 8d3dfd38ed06bb24ca26ddd9bf7ec783, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

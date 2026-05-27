@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: 49a
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
+  npc_name: Akira
   npc_text: In the event that we never see each other again, what new experience
     would you recommend I try?
   optionSOs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: adf51cc2d0ac4fb44bb130e02de5531f, type: 2}
+  - {fileID: 11400000, guid: eae439882ae49ff42b97347b20c06641, type: 2}
+  - {fileID: 11400000, guid: 456a5f24b53f2ba4691fbd9ae9299f92, type: 2}
+  - {fileID: 11400000, guid: d23bbbabec4aa144383060fcd0c85bc0, type: 2}
   Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
+  speaker_: {fileID: -246690966026167622, guid: 55ce7c4c07635ec4094d5427093790e7, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}

@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: 37a
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
+  npc_name: Akira
   npc_text: 'I will explain for you. Time has granted you the ability to speak whatever
     language you have been faced with. Though I do not know if it is permanent. '
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
-  speaker_: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: 632de3ae7b5bf454c95f6259cba175a5, type: 2}
+  background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
+  speaker_: {fileID: -246690966026167622, guid: 55ce7c4c07635ec4094d5427093790e7, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}
