@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 6
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: ???
-  npc_text: Oh, I see the Gods have outdone themselves ~
+  npc_text: Oh, I see the Gods have outdone themselvesss
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 1e4451deb29ffa845837a45d00c1e2f7, type: 2}
   background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}

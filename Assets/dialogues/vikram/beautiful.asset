@@ -18,3 +18,4 @@ MonoBehaviour:
   next_line_: {fileID: 11400000, guid: cc7d2096cd3c55d4c90b5e58049f4dc7, type: 2}
   Is_correct: 1
   is_default: 0
+  journal_image: {fileID: -667355888381364147, guid: deedf2c58664f954cb116abacabf285a, type: 3}

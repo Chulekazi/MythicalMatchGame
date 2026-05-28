@@ -8,4 +8,5 @@ public class dialogue_optionSO : ScriptableObject
     public Dialogue_line next_line_;
     public bool Is_correct;
     public bool is_default;
+    public Sprite journal_image;
 }

@@ -1,0 +1,1911 @@
+fileFormatVersion: 2
+guid: 37cd92beccb533742a897e7ea95d92ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3110410176524791367
+    second: ADay3Note1_0
+  - first:
+      213: 8813391428456052327
+    second: ADay3Note1_1
+  - first:
+      213: -4205769431945443409
+    second: ADay3Note1_2
+  - first:
+      213: -8017343951943256468
+    second: ADay3Note1_3
+  - first:
+      213: 4114208048691971820
+    second: ADay3Note1_4
+  - first:
+      213: 6392785140496549903
+    second: ADay3Note1_5
+  - first:
+      213: 6030321855156491285
+    second: ADay3Note1_6
+  - first:
+      213: -3576947839048380506
+    second: ADay3Note1_7
+  - first:
+      213: 6079231766535319415
+    second: ADay3Note1_8
+  - first:
+      213: 1572071815238469665
+    second: ADay3Note1_9
+  - first:
+      213: 131325721635532788
+    second: ADay3Note1_10
+  - first:
+      213: -6439948263325300972
+    second: ADay3Note1_11
+  - first:
+      213: 9023322140530087213
+    second: ADay3Note1_12
+  - first:
+      213: -3843009557126354545
+    second: ADay3Note1_13
+  - first:
+      213: -5585257146510692765
+    second: ADay3Note1_14
+  - first:
+      213: -5152138766091888944
+    second: ADay3Note1_15
+  - first:
+      213: 4785394228572551330
+    second: ADay3Note1_16
+  - first:
+      213: 3376487008656184524
+    second: ADay3Note1_17
+  - first:
+      213: -3835168170071421930
+    second: ADay3Note1_18
+  - first:
+      213: 3813546545959027641
+    second: ADay3Note1_19
+  - first:
+      213: -6454581602757734000
+    second: ADay3Note1_20
+  - first:
+      213: -4904108580748480379
+    second: ADay3Note1_21
+  - first:
+      213: 8359693286394613236
+    second: ADay3Note1_22
+  - first:
+      213: -3776101438454406707
+    second: ADay3Note1_23
+  - first:
+      213: -5253741338289417946
+    second: ADay3Note1_24
+  - first:
+      213: 7362911310046670784
+    second: ADay3Note1_25
+  - first:
+      213: -7497956779587871014
+    second: ADay3Note1_26
+  - first:
+      213: 2644638859634496393
+    second: ADay3Note1_27
+  - first:
+      213: 1427817954853391606
+    second: ADay3Note1_28
+  - first:
+      213: 5817706100248158611
+    second: ADay3Note1_29
+  - first:
+      213: 8641346955595137123
+    second: ADay3Note1_30
+  - first:
+      213: 2824443429907140591
+    second: ADay3Note1_31
+  - first:
+      213: 132719940877419629
+    second: ADay3Note1_32
+  - first:
+      213: -8432080077179162579
+    second: ADay3Note1_33
+  - first:
+      213: -580091811588688612
+    second: ADay3Note1_34
+  - first:
+      213: -5472024567446770425
+    second: ADay3Note1_35
+  - first:
+      213: -719617460380713138
+    second: ADay3Note1_36
+  - first:
+      213: 2712986066279018369
+    second: ADay3Note1_37
+  - first:
+      213: -2250571494913701365
+    second: ADay3Note1_38
+  - first:
+      213: -4648625515090597003
+    second: ADay3Note1_39
+  - first:
+      213: -4941059806998848143
+    second: ADay3Note1_40
+  - first:
+      213: -3668572131250216550
+    second: ADay3Note1_41
+  - first:
+      213: -5301977392359746443
+    second: ADay3Note1_42
+  - first:
+      213: 1522015637062039817
+    second: ADay3Note1_43
+  - first:
+      213: 5182436212876694551
+    second: ADay3Note1_44
+  - first:
+      213: 527363816249667235
+    second: ADay3Note1_45
+  - first:
+      213: -1000559097356094133
+    second: ADay3Note1_46
+  - first:
+      213: -6738049986786091641
+    second: ADay3Note1_47
+  - first:
+      213: 3018339063991537524
+    second: ADay3Note1_48
+  - first:
+      213: -1420147026657635536
+    second: ADay3Note1_49
+  - first:
+      213: -1369785487554738446
+    second: ADay3Note1_50
+  - first:
+      213: -2608338249940135483
+    second: ADay3Note1_51
+  - first:
+      213: 1171325770323903824
+    second: ADay3Note1_52
+  - first:
+      213: -2406306812874885315
+    second: ADay3Note1_53
+  - first:
+      213: -6323793946335095348
+    second: ADay3Note1_54
+  - first:
+      213: 3154702040522043347
+    second: ADay3Note1_55
+  - first:
+      213: 4796706880460953372
+    second: ADay3Note1_56
+  - first:
+      213: 5384409902706917665
+    second: ADay3Note1_57
+  - first:
+      213: 7073615351578100343
+    second: ADay3Note1_58
+  - first:
+      213: -8521881462086380577
+    second: ADay3Note1_59
+  - first:
+      213: 213235644359831642
+    second: ADay3Note1_60
+  - first:
+      213: 3238769580235749128
+    second: ADay3Note1_61
+  - first:
+      213: 2177375967308658174
+    second: ADay3Note1_62
+  - first:
+      213: 4403177247277837714
+    second: ADay3Note1_63
+  - first:
+      213: -1709972144840016
+    second: ADay3Note1_64
+  - first:
+      213: 8710847787889339898
+    second: ADay3Note1_65
+  - first:
+      213: 5020890621562402283
+    second: ADay3Note1_66
+  - first:
+      213: -4026840286527662226
+    second: ADay3Note1_67
+  - first:
+      213: 827385807303602859
+    second: ADay3Note1_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ADay3Note1_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 149
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e258d63956a2b20800000000000000
+      internalID: 3110410176524791367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 180
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766789f0fc47f4a70800000000000000
+      internalID: 8813391428456052327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 155
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa702b91cfa12a5c0800000000000000
+      internalID: -4205769431945443409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 155
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66bb46472cacb090800000000000000
+      internalID: -8017343951943256468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_4
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 156
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6865a1c6a981930800000000000000
+      internalID: 4114208048691971820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 157
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0841b0073cb7b850800000000000000
+      internalID: 6392785140496549903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_6
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 155
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51490e9f6c100b350800000000000000
+      internalID: 6030321855156491285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 157
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af8b6154e02c5ec0800000000000000
+      internalID: -3576947839048380506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_8
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 158
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fab9f1515cd5450800000000000000
+      internalID: 6079231766535319415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 157
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12841bc9cfe11d510800000000000000
+      internalID: 1572071815238469665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 156
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff25fb4c0092d100800000000000000
+      internalID: 131325721635532788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_11
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 160
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4170a90cc25b0a6a0800000000000000
+      internalID: -6439948263325300972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_12
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 162
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d259630eda7493d70800000000000000
+      internalID: 9023322140530087213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_13
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 158
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f896d0f3b23eaaac0800000000000000
+      internalID: -3843009557126354545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_14
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 162
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ea40b973e2d72b0800000000000000
+      internalID: -5585257146510692765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_15
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 160
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6d295e61def78b0800000000000000
+      internalID: -5152138766091888944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_16
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 157
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8754062b2296240800000000000000
+      internalID: 4785394228572551330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_17
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 161
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc45ca38b01bbde20800000000000000
+      internalID: 3376487008656184524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_18
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 160
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c02017edeb6cac0800000000000000
+      internalID: -3835168170071421930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_19
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 161
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b34e46e0607ce430800000000000000
+      internalID: 3813546545959027641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_20
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 167
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0919ad9ea38bc66a0800000000000000
+      internalID: -6454581602757734000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_21
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 161
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580ba889a3b11fbb0800000000000000
+      internalID: -4904108580748480379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_22
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 164
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdc4ce90c8930470800000000000000
+      internalID: 8359693286394613236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_23
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 164
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc165159fb7989bc0800000000000000
+      internalID: -3776101438454406707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_24
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 159
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621597d9616f617b0800000000000000
+      internalID: -5253741338289417946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_25
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 136
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfa90c73d05e2660800000000000000
+      internalID: 7362911310046670784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_26
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 160
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adede6be808e1f790800000000000000
+      internalID: -7497956779587871014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_27
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 160
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98355bbe705a3b420800000000000000
+      internalID: 2644638859634496393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_28
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 160
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc06f27dd0a0d310800000000000000
+      internalID: 1427817954853391606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_29
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 153
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3912ae8efd4acb050800000000000000
+      internalID: 5817706100248158611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_30
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 152
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360c625b54b3ce770800000000000000
+      internalID: 8641346955595137123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_31
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 103
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef0dcfb550723720800000000000000
+      internalID: 2824443429907140591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_32
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 134
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d640c92451487d100800000000000000
+      internalID: 132719940877419629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_33
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 137
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20761a48db3bfa80800000000000000
+      internalID: -8432080077179162579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_34
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 109
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15b421229913f7f0800000000000000
+      internalID: -580091811588688612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_35
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 126
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70def1fd5a67f04b0800000000000000
+      internalID: -5472024567446770425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_36
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 113
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fb6d38bb76306f0800000000000000
+      internalID: -719617460380713138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_37
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 107
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f2529047676a520800000000000000
+      internalID: 2712986066279018369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_38
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 18
+        width: 201
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a8c00462d54c0e0800000000000000
+      internalID: -2250571494913701365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b253739b3cc7fb0800000000000000
+      internalID: -4648625515090597003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_40
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 99
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d9fddc844dd6bb0800000000000000
+      internalID: -4941059806998848143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_41
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 104
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91eee3651d961dc0800000000000000
+      internalID: -3668572131250216550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_42
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 93
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574de3917a79b66b0800000000000000
+      internalID: -5301977392359746443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_43
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 85
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9093cad68294f1510800000000000000
+      internalID: 1522015637062039817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_44
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 102
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714d2a32746bbe740800000000000000
+      internalID: 5182436212876694551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_45
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 104
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aea4f6c892915700800000000000000
+      internalID: 527363816249667235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_46
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 106
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45fd495dcc4d12f0800000000000000
+      internalID: -1000559097356094133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_47
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 108
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d1aca9c33ad72a0800000000000000
+      internalID: -6738049986786091641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_48
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 100
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f86e8036b43e920800000000000000
+      internalID: 3018339063991537524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_49
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 106
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0339e33bdcf9a4ce0800000000000000
+      internalID: -1420147026657635536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_50
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 105
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f680d34b5b8dfce0800000000000000
+      internalID: -1369785487554738446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_51
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 107
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c111466e225dcbd0800000000000000
+      internalID: -2608338249940135483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_52
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 109
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055ca680592614010800000000000000
+      internalID: 1171325770323903824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_53
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 108
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d377dfde3b41b9ed0800000000000000
+      internalID: -2406306812874885315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_54
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 106
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc55ee329ee5d38a0800000000000000
+      internalID: -6323793946335095348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_55
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 109
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df2481aac0c7cb20800000000000000
+      internalID: 3154702040522043347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_56
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 48
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c171c856e73519240800000000000000
+      internalID: 4796706880460953372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_57
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 49
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12101f7574449ba40800000000000000
+      internalID: 5384409902706917665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_58
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 50
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77200944fa78a2260800000000000000
+      internalID: 7073615351578100343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_59
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 66
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3da5a06f13cb980800000000000000
+      internalID: -8521881462086380577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_60
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 76
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50f48350b095f200800000000000000
+      internalID: 213235644359831642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_61
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 45
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807fa4306cb62fc20800000000000000
+      internalID: 3238769580235749128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_62
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 50
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5b7e1f7e7973e10800000000000000
+      internalID: 2177375967308658174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_63
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 51
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29de31b906a3b1d30800000000000000
+      internalID: 4403177247277837714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_64
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 47
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b22bb51acce9fff0800000000000000
+      internalID: -1709972144840016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_65
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 36
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd24a939e523e870800000000000000
+      internalID: 8710847787889339898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_66
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 32
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be531522b69cda540800000000000000
+      internalID: 5020890621562402283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_67
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 52
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e675942381acd18c0800000000000000
+      internalID: -4026840286527662226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADay3Note1_68
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 53
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2f78012077b7b00800000000000000
+      internalID: 827385807303602859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ADay3Note1_0: 3110410176524791367
+      ADay3Note1_1: 8813391428456052327
+      ADay3Note1_10: 131325721635532788
+      ADay3Note1_11: -6439948263325300972
+      ADay3Note1_12: 9023322140530087213
+      ADay3Note1_13: -3843009557126354545
+      ADay3Note1_14: -5585257146510692765
+      ADay3Note1_15: -5152138766091888944
+      ADay3Note1_16: 4785394228572551330
+      ADay3Note1_17: 3376487008656184524
+      ADay3Note1_18: -3835168170071421930
+      ADay3Note1_19: 3813546545959027641
+      ADay3Note1_2: -4205769431945443409
+      ADay3Note1_20: -6454581602757734000
+      ADay3Note1_21: -4904108580748480379
+      ADay3Note1_22: 8359693286394613236
+      ADay3Note1_23: -3776101438454406707
+      ADay3Note1_24: -5253741338289417946
+      ADay3Note1_25: 7362911310046670784
+      ADay3Note1_26: -7497956779587871014
+      ADay3Note1_27: 2644638859634496393
+      ADay3Note1_28: 1427817954853391606
+      ADay3Note1_29: 5817706100248158611
+      ADay3Note1_3: -8017343951943256468
+      ADay3Note1_30: 8641346955595137123
+      ADay3Note1_31: 2824443429907140591
+      ADay3Note1_32: 132719940877419629
+      ADay3Note1_33: -8432080077179162579
+      ADay3Note1_34: -580091811588688612
+      ADay3Note1_35: -5472024567446770425
+      ADay3Note1_36: -719617460380713138
+      ADay3Note1_37: 2712986066279018369
+      ADay3Note1_38: -2250571494913701365
+      ADay3Note1_39: -4648625515090597003
+      ADay3Note1_4: 4114208048691971820
+      ADay3Note1_40: -4941059806998848143
+      ADay3Note1_41: -3668572131250216550
+      ADay3Note1_42: -5301977392359746443
+      ADay3Note1_43: 1522015637062039817
+      ADay3Note1_44: 5182436212876694551
+      ADay3Note1_45: 527363816249667235
+      ADay3Note1_46: -1000559097356094133
+      ADay3Note1_47: -6738049986786091641
+      ADay3Note1_48: 3018339063991537524
+      ADay3Note1_49: -1420147026657635536
+      ADay3Note1_5: 6392785140496549903
+      ADay3Note1_50: -1369785487554738446
+      ADay3Note1_51: -2608338249940135483
+      ADay3Note1_52: 1171325770323903824
+      ADay3Note1_53: -2406306812874885315
+      ADay3Note1_54: -6323793946335095348
+      ADay3Note1_55: 3154702040522043347
+      ADay3Note1_56: 4796706880460953372
+      ADay3Note1_57: 5384409902706917665
+      ADay3Note1_58: 7073615351578100343
+      ADay3Note1_59: -8521881462086380577
+      ADay3Note1_6: 6030321855156491285
+      ADay3Note1_60: 213235644359831642
+      ADay3Note1_61: 3238769580235749128
+      ADay3Note1_62: 2177375967308658174
+      ADay3Note1_63: 4403177247277837714
+      ADay3Note1_64: -1709972144840016
+      ADay3Note1_65: 8710847787889339898
+      ADay3Note1_66: 5020890621562402283
+      ADay3Note1_67: -4026840286527662226
+      ADay3Note1_68: 827385807303602859
+      ADay3Note1_7: -3576947839048380506
+      ADay3Note1_8: 6079231766535319415
+      ADay3Note1_9: 1572071815238469665
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: Vikram
   npc_text: "Hm? I\u2019m not sure I believe you . . . I don\u2019t think a journalist
-    would\u2019ve written the things you wrote to me ~"
+    would\u2019ve written the things you wrote to meee"
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 4e104932372fbdb429005f69cd93971a, type: 2}
   background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}
   speaker_: {fileID: 3500089020182675265, guid: 466d3c1d3943d8a45a794d4a217015af, type: 3}
-  spriteScale: {x: 0.3, y: 0.9, z: 1}
+  spriteScale: {x: 0.2, y: 0.8, z: 1}

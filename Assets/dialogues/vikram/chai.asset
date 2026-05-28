@@ -17,3 +17,4 @@ MonoBehaviour:
   next_line_: {fileID: 11400000, guid: 1b6558914c7428a4a806dc01d60a9a1c, type: 2}
   Is_correct: 1
   is_default: 0
+  journal_image: {fileID: 5103032903733801824, guid: 6f04cb5af4d13d549b338f4bfc8e9a52, type: 3}

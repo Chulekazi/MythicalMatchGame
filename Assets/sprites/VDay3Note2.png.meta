@@ -1,0 +1,2379 @@
+fileFormatVersion: 2
+guid: dc4cd4b1069586945a1f0611b4cbf4c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2178561520694209822
+    second: VDay3Note2_0
+  - first:
+      213: -7770313638984550305
+    second: VDay3Note2_1
+  - first:
+      213: 4917007563261009838
+    second: VDay3Note2_2
+  - first:
+      213: 1375294967185357463
+    second: VDay3Note2_3
+  - first:
+      213: 6490810341813618237
+    second: VDay3Note2_4
+  - first:
+      213: 4707760908117484422
+    second: VDay3Note2_5
+  - first:
+      213: 3330269878402217341
+    second: VDay3Note2_6
+  - first:
+      213: 4827527563635824311
+    second: VDay3Note2_7
+  - first:
+      213: -9199408760056900264
+    second: VDay3Note2_8
+  - first:
+      213: 3319206856818412311
+    second: VDay3Note2_9
+  - first:
+      213: -9017109145865019335
+    second: VDay3Note2_10
+  - first:
+      213: 1502311902401200374
+    second: VDay3Note2_11
+  - first:
+      213: -7740731633295056988
+    second: VDay3Note2_12
+  - first:
+      213: 2436990414074760478
+    second: VDay3Note2_13
+  - first:
+      213: 4590116705513831260
+    second: VDay3Note2_14
+  - first:
+      213: 480286817385912359
+    second: VDay3Note2_15
+  - first:
+      213: -8422469502083606078
+    second: VDay3Note2_16
+  - first:
+      213: -5044438542928704774
+    second: VDay3Note2_17
+  - first:
+      213: -68385078874269224
+    second: VDay3Note2_18
+  - first:
+      213: -1686488485819630242
+    second: VDay3Note2_19
+  - first:
+      213: 8733557170285905684
+    second: VDay3Note2_20
+  - first:
+      213: -4772157842718567726
+    second: VDay3Note2_21
+  - first:
+      213: 5802190595428281224
+    second: VDay3Note2_22
+  - first:
+      213: 702422798243172828
+    second: VDay3Note2_23
+  - first:
+      213: -1608359628088405056
+    second: VDay3Note2_24
+  - first:
+      213: 5225636584344009688
+    second: VDay3Note2_25
+  - first:
+      213: -8290416092146132453
+    second: VDay3Note2_26
+  - first:
+      213: 4273471981269339128
+    second: VDay3Note2_27
+  - first:
+      213: 4644440223265774375
+    second: VDay3Note2_28
+  - first:
+      213: -7603354079596681822
+    second: VDay3Note2_29
+  - first:
+      213: 7880608485055492735
+    second: VDay3Note2_30
+  - first:
+      213: 2093465596791874582
+    second: VDay3Note2_31
+  - first:
+      213: -3049430600837554459
+    second: VDay3Note2_32
+  - first:
+      213: -8809381086424313071
+    second: VDay3Note2_33
+  - first:
+      213: -7327101653754245040
+    second: VDay3Note2_34
+  - first:
+      213: -8762971135079534130
+    second: VDay3Note2_35
+  - first:
+      213: 8264558211814153959
+    second: VDay3Note2_36
+  - first:
+      213: 6036345307184965028
+    second: VDay3Note2_37
+  - first:
+      213: -3307700016802683162
+    second: VDay3Note2_38
+  - first:
+      213: -7787674424661212284
+    second: VDay3Note2_39
+  - first:
+      213: 1037088775002965633
+    second: VDay3Note2_40
+  - first:
+      213: -8707851191461673989
+    second: VDay3Note2_41
+  - first:
+      213: -235511854517656023
+    second: VDay3Note2_42
+  - first:
+      213: 5093545916316276911
+    second: VDay3Note2_43
+  - first:
+      213: 917115377345779615
+    second: VDay3Note2_44
+  - first:
+      213: 2784992891973152434
+    second: VDay3Note2_45
+  - first:
+      213: -2914474747373469291
+    second: VDay3Note2_46
+  - first:
+      213: 5016594160120642199
+    second: VDay3Note2_47
+  - first:
+      213: -2847536774410381639
+    second: VDay3Note2_48
+  - first:
+      213: 2965946236292974722
+    second: VDay3Note2_49
+  - first:
+      213: -3730598961568077008
+    second: VDay3Note2_50
+  - first:
+      213: 1535086646290102712
+    second: VDay3Note2_51
+  - first:
+      213: -8969950629766104793
+    second: VDay3Note2_52
+  - first:
+      213: -8885894910770586271
+    second: VDay3Note2_53
+  - first:
+      213: -8497649489498755356
+    second: VDay3Note2_54
+  - first:
+      213: -2982049681559811220
+    second: VDay3Note2_55
+  - first:
+      213: -5707979885325834307
+    second: VDay3Note2_56
+  - first:
+      213: 6146413221258225024
+    second: VDay3Note2_57
+  - first:
+      213: 8068443141980834711
+    second: VDay3Note2_58
+  - first:
+      213: -5402077135118991560
+    second: VDay3Note2_59
+  - first:
+      213: -7624592711045445275
+    second: VDay3Note2_60
+  - first:
+      213: 1933421944465111146
+    second: VDay3Note2_61
+  - first:
+      213: -6576814437280843627
+    second: VDay3Note2_62
+  - first:
+      213: -765010899076058125
+    second: VDay3Note2_63
+  - first:
+      213: -631757384154256397
+    second: VDay3Note2_64
+  - first:
+      213: 3523941531045174588
+    second: VDay3Note2_65
+  - first:
+      213: -5881595924032236020
+    second: VDay3Note2_66
+  - first:
+      213: -621296947358053306
+    second: VDay3Note2_67
+  - first:
+      213: 5703405245086613124
+    second: VDay3Note2_68
+  - first:
+      213: -1373390677182442439
+    second: VDay3Note2_69
+  - first:
+      213: 825725919967462288
+    second: VDay3Note2_70
+  - first:
+      213: -1238974750576871669
+    second: VDay3Note2_71
+  - first:
+      213: 4646092408184189283
+    second: VDay3Note2_72
+  - first:
+      213: -1645691663728519102
+    second: VDay3Note2_73
+  - first:
+      213: 5524536404713714865
+    second: VDay3Note2_74
+  - first:
+      213: -1492142904974712829
+    second: VDay3Note2_75
+  - first:
+      213: 5586299150220232025
+    second: VDay3Note2_76
+  - first:
+      213: -3671065869298638872
+    second: VDay3Note2_77
+  - first:
+      213: -8778047395895095069
+    second: VDay3Note2_78
+  - first:
+      213: -9204111394705422982
+    second: VDay3Note2_79
+  - first:
+      213: -9186110427045628711
+    second: VDay3Note2_80
+  - first:
+      213: 8632626436630874800
+    second: VDay3Note2_81
+  - first:
+      213: -9022400045368546489
+    second: VDay3Note2_82
+  - first:
+      213: -9159442239878351865
+    second: VDay3Note2_83
+  - first:
+      213: 7192010688249659806
+    second: VDay3Note2_84
+  - first:
+      213: -1481827271069410595
+    second: VDay3Note2_85
+  - first:
+      213: 4920343399701175771
+    second: VDay3Note2_86
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VDay3Note2_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 166
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d205a192ecb3e10800000000000000
+      internalID: 2178561520694209822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 175
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58f3fa0aec4a2490800000000000000
+      internalID: -7770313638984550305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_2
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 177
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafd41ec358bc3440800000000000000
+      internalID: 4917007563261009838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 177
+        width: 11
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a377c6c77061310800000000000000
+      internalID: 1375294967185357463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_4
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 157
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d368b38bd9df31a50800000000000000
+      internalID: 6490810341813618237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_5
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 197
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68320d76a93555140800000000000000
+      internalID: 4707760908117484422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 175
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75f8545fce773e20800000000000000
+      internalID: 3330269878402217341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_7
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 172
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b69be5edb2def240800000000000000
+      internalID: 4827527563635824311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_8
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 174
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85511392972255080800000000000000
+      internalID: -9199408760056900264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_9
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 202
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bc3b4ec01301e20800000000000000
+      internalID: 3319206856818412311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_10
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 174
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9302acba10bccd280800000000000000
+      internalID: -9017109145865019335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_11
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 174
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0077437b849d410800000000000000
+      internalID: 1502311902401200374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_12
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 198
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af91d77795639490800000000000000
+      internalID: -7740731633295056988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_13
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 175
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d45ffaedde1d120800000000000000
+      internalID: 2436990414074760478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_14
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 167
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5bfcbdf2de53bf30800000000000000
+      internalID: 4590116705513831260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_15
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 169
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7281794d0525aa600800000000000000
+      internalID: 480286817385912359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 173
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9debcac906d1b80800000000000000
+      internalID: -8422469502083606078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_17
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 172
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa027d2fdd8ef9b0800000000000000
+      internalID: -5044438542928704774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_18
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 177
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d913c1122c0d0ff0800000000000000
+      internalID: -68385078874269224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_19
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 157
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d3fe458a36898e0800000000000000
+      internalID: -1686488485819630242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_20
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 174
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417057859f3d33970800000000000000
+      internalID: 8733557170285905684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_21
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 175
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d25aacd9b3e5cdb0800000000000000
+      internalID: -4772157842718567726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_22
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 173
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b6d9fea95858050800000000000000
+      internalID: 5802190595428281224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_23
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 171
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd19b6b30d18fb900800000000000000
+      internalID: 702422798243172828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_24
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 156
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c316b09075fda9e0800000000000000
+      internalID: -1608359628088405056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_25
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 168
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db3c1f69c0358840800000000000000
+      internalID: 5225636584344009688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_26
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 175
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a927b1d7682fc80800000000000000
+      internalID: -8290416092146132453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_27
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 153
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbc429002c6e4b30800000000000000
+      internalID: 4273471981269339128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_28
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 176
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bda4896cd547040800000000000000
+      internalID: 4644440223265774375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_29
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 164
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a56f18bfb57b7690800000000000000
+      internalID: -7603354079596681822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_30
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 119
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7279a5f9ab8d5d60800000000000000
+      internalID: 7880608485055492735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_31
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 145
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614e74e5edb7d0d10800000000000000
+      internalID: 2093465596791874582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 122
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee1fdd660f3ea5d0800000000000000
+      internalID: -3049430600837554459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_33
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 124
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11352a4739aceb580800000000000000
+      internalID: -8809381086424313071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_34
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 120
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0501dc6ddd7e05a90800000000000000
+      internalID: -7327101653754245040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_35
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 100
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1359c4e2ca36680800000000000000
+      internalID: -8762971135079534130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_36
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 147
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee58b8f7eb91b270800000000000000
+      internalID: 8264558211814153959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_37
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 116
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a52b50331865c350800000000000000
+      internalID: 6036345307184965028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_38
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 117
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e62ce21c50b812d0800000000000000
+      internalID: -3307700016802683162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_39
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 123
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4838ca32f5f9ce390800000000000000
+      internalID: -7787674424661212284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_40
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 120
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186c8920fba746e00800000000000000
+      internalID: 1037088775002965633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_41
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 123
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf307ff3a7f772780800000000000000
+      internalID: -8707851191461673989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_42
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 117
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926e413573b4bbcf0800000000000000
+      internalID: -235511854517656023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_43
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 132
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa85c2d2609efa640800000000000000
+      internalID: 5093545916316276911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_44
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 117
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f975ebc939f3abc00800000000000000
+      internalID: 917115377345779615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_45
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 102
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be2c0c974846a620800000000000000
+      internalID: 2784992891973152434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_46
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 130
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59145f7a8a4bd87d0800000000000000
+      internalID: -2914474747373469291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_47
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 116
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a3a404fc58e9540800000000000000
+      internalID: 5016594160120642199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_48
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 118
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6586cf3648b78d0800000000000000
+      internalID: -2847536774410381639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_49
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 118
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288462d3368292920800000000000000
+      internalID: 2965946236292974722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_50
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 117
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b2b4092004a3cc0800000000000000
+      internalID: -3730598961568077008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_51
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 115
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9319beb29bd4510800000000000000
+      internalID: 1535086646290102712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_52
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 121
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729fff35d65548380800000000000000
+      internalID: -8969950629766104793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_53
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 120
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d511c78a5fea480800000000000000
+      internalID: -8885894910770586271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_54
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 119
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eea5a0dfc8421a80800000000000000
+      internalID: -8497649489498755356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_55
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 117
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b8f0c3d91ad96d0800000000000000
+      internalID: -2982049681559811220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_56
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 118
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db72416598e29c0b0800000000000000
+      internalID: -5707979885325834307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_57
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 105
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0856cd772427c4550800000000000000
+      internalID: 6146413221258225024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_58
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 120
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b44380a4ed8ff60800000000000000
+      internalID: 8068443141980834711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_59
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 119
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ff8ff8777f705b0800000000000000
+      internalID: -5402077135118991560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_60
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 106
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5698a1d7351003690800000000000000
+      internalID: -7624592711045445275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_61
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 117
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68b9c8c305e4da10800000000000000
+      internalID: 1933421944465111146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_62
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 116
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598f6306d167ab4a0800000000000000
+      internalID: -6576814437280843627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_63
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 116
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3f447f3a22265f0800000000000000
+      internalID: -765010899076058125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_64
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 61
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb614d910c8b37f0800000000000000
+      internalID: -631757384154256397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_65
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 72
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d913fd62e87e030800000000000000
+      internalID: 3523941531045174588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_66
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 94
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c065cab4baf506ea0800000000000000
+      internalID: -5881595924032236020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_67
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 71
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c40b8d7b5b067f0800000000000000
+      internalID: -621296947358053306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_68
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 66
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ebc7b3ad0962f40800000000000000
+      internalID: 5703405245086613124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_69
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 65
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93415b4a47cb0fce0800000000000000
+      internalID: -1373390677182442439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_70
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 66
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0934e7d6951957b00800000000000000
+      internalID: 825725919967462288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_71
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 69
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07ff2a57074ecee0800000000000000
+      internalID: -1238974750576871669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_72
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 59
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361357fdd6c3a7040800000000000000
+      internalID: 4646092408184189283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_73
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 63
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248d3ada6245929e0800000000000000
+      internalID: -1645691663728519102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_74
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 62
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4bcaff6981bac40800000000000000
+      internalID: 5524536404713714865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_75
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 64
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300ecd20fe7da4be0800000000000000
+      internalID: -1492142904974712829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_76
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 61
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95581f9ca75868d40800000000000000
+      internalID: 5586299150220232025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_77
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 68
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efd461ca01cd0dc0800000000000000
+      internalID: -3671065869298638872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_78
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 66
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0512ac66c1e2680800000000000000
+      internalID: -8778047395895095069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_79
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 70
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a754575b37d644080800000000000000
+      internalID: -9204111394705422982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_80
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 70
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4fe689c31648080800000000000000
+      internalID: -9186110427045628711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_81
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 70
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba870aa1004dc770800000000000000
+      internalID: 8632626436630874800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_82
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 69
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74be65226fef9c280800000000000000
+      internalID: -9022400045368546489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_83
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 68
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704b757cfcf13e080800000000000000
+      internalID: -9159442239878351865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_84
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 67
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e910fe5bd972fc360800000000000000
+      internalID: 7192010688249659806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_85
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 67
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddadb61b2fd7f6be0800000000000000
+      internalID: -1481827271069410595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VDay3Note2_86
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 67
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd5020c042984440800000000000000
+      internalID: 4920343399701175771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VDay3Note2_0: 2178561520694209822
+      VDay3Note2_1: -7770313638984550305
+      VDay3Note2_10: -9017109145865019335
+      VDay3Note2_11: 1502311902401200374
+      VDay3Note2_12: -7740731633295056988
+      VDay3Note2_13: 2436990414074760478
+      VDay3Note2_14: 4590116705513831260
+      VDay3Note2_15: 480286817385912359
+      VDay3Note2_16: -8422469502083606078
+      VDay3Note2_17: -5044438542928704774
+      VDay3Note2_18: -68385078874269224
+      VDay3Note2_19: -1686488485819630242
+      VDay3Note2_2: 4917007563261009838
+      VDay3Note2_20: 8733557170285905684
+      VDay3Note2_21: -4772157842718567726
+      VDay3Note2_22: 5802190595428281224
+      VDay3Note2_23: 702422798243172828
+      VDay3Note2_24: -1608359628088405056
+      VDay3Note2_25: 5225636584344009688
+      VDay3Note2_26: -8290416092146132453
+      VDay3Note2_27: 4273471981269339128
+      VDay3Note2_28: 4644440223265774375
+      VDay3Note2_29: -7603354079596681822
+      VDay3Note2_3: 1375294967185357463
+      VDay3Note2_30: 7880608485055492735
+      VDay3Note2_31: 2093465596791874582
+      VDay3Note2_32: -3049430600837554459
+      VDay3Note2_33: -8809381086424313071
+      VDay3Note2_34: -7327101653754245040
+      VDay3Note2_35: -8762971135079534130
+      VDay3Note2_36: 8264558211814153959
+      VDay3Note2_37: 6036345307184965028
+      VDay3Note2_38: -3307700016802683162
+      VDay3Note2_39: -7787674424661212284
+      VDay3Note2_4: 6490810341813618237
+      VDay3Note2_40: 1037088775002965633
+      VDay3Note2_41: -8707851191461673989
+      VDay3Note2_42: -235511854517656023
+      VDay3Note2_43: 5093545916316276911
+      VDay3Note2_44: 917115377345779615
+      VDay3Note2_45: 2784992891973152434
+      VDay3Note2_46: -2914474747373469291
+      VDay3Note2_47: 5016594160120642199
+      VDay3Note2_48: -2847536774410381639
+      VDay3Note2_49: 2965946236292974722
+      VDay3Note2_5: 4707760908117484422
+      VDay3Note2_50: -3730598961568077008
+      VDay3Note2_51: 1535086646290102712
+      VDay3Note2_52: -8969950629766104793
+      VDay3Note2_53: -8885894910770586271
+      VDay3Note2_54: -8497649489498755356
+      VDay3Note2_55: -2982049681559811220
+      VDay3Note2_56: -5707979885325834307
+      VDay3Note2_57: 6146413221258225024
+      VDay3Note2_58: 8068443141980834711
+      VDay3Note2_59: -5402077135118991560
+      VDay3Note2_6: 3330269878402217341
+      VDay3Note2_60: -7624592711045445275
+      VDay3Note2_61: 1933421944465111146
+      VDay3Note2_62: -6576814437280843627
+      VDay3Note2_63: -765010899076058125
+      VDay3Note2_64: -631757384154256397
+      VDay3Note2_65: 3523941531045174588
+      VDay3Note2_66: -5881595924032236020
+      VDay3Note2_67: -621296947358053306
+      VDay3Note2_68: 5703405245086613124
+      VDay3Note2_69: -1373390677182442439
+      VDay3Note2_7: 4827527563635824311
+      VDay3Note2_70: 825725919967462288
+      VDay3Note2_71: -1238974750576871669
+      VDay3Note2_72: 4646092408184189283
+      VDay3Note2_73: -1645691663728519102
+      VDay3Note2_74: 5524536404713714865
+      VDay3Note2_75: -1492142904974712829
+      VDay3Note2_76: 5586299150220232025
+      VDay3Note2_77: -3671065869298638872
+      VDay3Note2_78: -8778047395895095069
+      VDay3Note2_79: -9204111394705422982
+      VDay3Note2_8: -9199408760056900264
+      VDay3Note2_80: -9186110427045628711
+      VDay3Note2_81: 8632626436630874800
+      VDay3Note2_82: -9022400045368546489
+      VDay3Note2_83: -9159442239878351865
+      VDay3Note2_84: 7192010688249659806
+      VDay3Note2_85: -1481827271069410595
+      VDay3Note2_86: 4920343399701175771
+      VDay3Note2_9: 3319206856818412311
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
