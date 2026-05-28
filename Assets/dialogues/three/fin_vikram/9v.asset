@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: 9v
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: Vikram
+  npc_text: "I guess if I\u2019m trying to court you, I can\u2019t treat you like
+    any other person. "
+  optionSOs:
+  - {fileID: 11400000, guid: 47097526b962a1a4c8e65100d2dde90a, type: 2}
+  - {fileID: 11400000, guid: bdaf7ce1d3a21ac45abce73e17ba0f12, type: 2}
+  - {fileID: 11400000, guid: fe218b984bd268343b10a14ca9a1f0cd, type: 2}
+  Next_Line: {fileID: 0}
+  background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}
+  speaker_: {fileID: 6097023460853420066, guid: 466d3c1d3943d8a45a794d4a217015af, type: 3}
+  spriteScale: {x: 1, y: 1, z: 1}

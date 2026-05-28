@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: 50
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: Akira
+  npc_text: It is . . . complicated . . .
+  optionSOs: []
+  Next_Line: {fileID: 11400000, guid: e802266786fa7e04dac4bb17c650a423, type: 2}
+  background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
+  speaker_: {fileID: 1893225516887195049, guid: 29af40d9032251d498b5baa405fb6d7d, type: 3}
+  spriteScale: {x: 1, y: 1, z: 1}

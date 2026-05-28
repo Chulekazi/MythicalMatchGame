@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: c72
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: Chryseis
+  npc_text: "I guess you do have a point\u2026but I don\u2019t know how not to be
+    jealous . . ."
+  optionSOs:
+  - {fileID: 11400000, guid: 5727bdaecf52205468b1291c4895086a, type: 2}
+  - {fileID: 11400000, guid: c489ba923dffd8b4ab43f9dcb59420de, type: 2}
+  - {fileID: 11400000, guid: 0da87b3adc2eb9f42b04ca8469d9dc3c, type: 2}
+  - {fileID: 11400000, guid: 9e7e9cefaaabe7a479dfa05713a99f69, type: 2}
+  Next_Line: {fileID: 0}
+  background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}
+  speaker_: {fileID: -1222198594972855245, guid: 44b8c8647a85bb542becc8fd912083b4, type: 3}
+  spriteScale: {x: 1, y: 1, z: 1}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
+  m_Name: hobbies
+  m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  option_: Your hobbies
+  response_: "I mean, there\u2019s so much to do down here! I like to go up to the
+    surface and watch the humans though. I have a little box of trinkets somewhere
+    in here. "
+  next_line_: {fileID: 11400000, guid: 66a89071d3be5bf40becc41a10a63297, type: 2}
+  Is_correct: 0
+  is_default: 0

@@ -1,0 +1,1859 @@
+fileFormatVersion: 2
+guid: 2625c3eddeeb81047a95dd4a7e32c834
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3020503680374305043
+    second: CDay1Note1_0
+  - first:
+      213: 7116787525336366453
+    second: CDay1Note1_1
+  - first:
+      213: -1787765909344252633
+    second: CDay1Note1_2
+  - first:
+      213: 6836203023589826428
+    second: CDay1Note1_3
+  - first:
+      213: -5225770408926498610
+    second: CDay1Note1_4
+  - first:
+      213: 819670896714006280
+    second: CDay1Note1_5
+  - first:
+      213: -5920752343291782973
+    second: CDay1Note1_6
+  - first:
+      213: -1804103872334594413
+    second: CDay1Note1_7
+  - first:
+      213: 4610698560280597205
+    second: CDay1Note1_8
+  - first:
+      213: -5306870762328546871
+    second: CDay1Note1_9
+  - first:
+      213: 5603162488505920032
+    second: CDay1Note1_10
+  - first:
+      213: -7429154696049395719
+    second: CDay1Note1_11
+  - first:
+      213: -7338752850684186873
+    second: CDay1Note1_12
+  - first:
+      213: -5691024812594520567
+    second: CDay1Note1_13
+  - first:
+      213: -890705086737457777
+    second: CDay1Note1_14
+  - first:
+      213: -2217646612634050642
+    second: CDay1Note1_15
+  - first:
+      213: -5071333499800442188
+    second: CDay1Note1_16
+  - first:
+      213: -1276834869664881549
+    second: CDay1Note1_17
+  - first:
+      213: 488353022327872203
+    second: CDay1Note1_18
+  - first:
+      213: -3066048370032688924
+    second: CDay1Note1_19
+  - first:
+      213: 3737206290216679958
+    second: CDay1Note1_20
+  - first:
+      213: -8144637823298013168
+    second: CDay1Note1_21
+  - first:
+      213: 2107882030221807469
+    second: CDay1Note1_22
+  - first:
+      213: -7937511514495203688
+    second: CDay1Note1_23
+  - first:
+      213: 2613179173884617674
+    second: CDay1Note1_24
+  - first:
+      213: -4507503110374145321
+    second: CDay1Note1_25
+  - first:
+      213: -7874397920394162665
+    second: CDay1Note1_26
+  - first:
+      213: 2509035799721849863
+    second: CDay1Note1_27
+  - first:
+      213: 345742536765026886
+    second: CDay1Note1_28
+  - first:
+      213: 7229153305994858974
+    second: CDay1Note1_29
+  - first:
+      213: 8327802872882309672
+    second: CDay1Note1_30
+  - first:
+      213: -7389726344833872870
+    second: CDay1Note1_31
+  - first:
+      213: -5781138213043320544
+    second: CDay1Note1_32
+  - first:
+      213: -7066262152594509064
+    second: CDay1Note1_33
+  - first:
+      213: -9043093613887190289
+    second: CDay1Note1_34
+  - first:
+      213: 6449235423623918425
+    second: CDay1Note1_35
+  - first:
+      213: -3207110960049300559
+    second: CDay1Note1_36
+  - first:
+      213: -2449949694235270726
+    second: CDay1Note1_37
+  - first:
+      213: 8688999841015082293
+    second: CDay1Note1_38
+  - first:
+      213: -4345134985560169101
+    second: CDay1Note1_39
+  - first:
+      213: -3486254473608619912
+    second: CDay1Note1_40
+  - first:
+      213: 7115643962088621699
+    second: CDay1Note1_41
+  - first:
+      213: 1264935807233547485
+    second: CDay1Note1_42
+  - first:
+      213: 9045192798843949918
+    second: CDay1Note1_43
+  - first:
+      213: 3037909225487125329
+    second: CDay1Note1_44
+  - first:
+      213: -1701701605321196189
+    second: CDay1Note1_45
+  - first:
+      213: -6442165409229521328
+    second: CDay1Note1_46
+  - first:
+      213: -3969766829927497668
+    second: CDay1Note1_47
+  - first:
+      213: 5142700649212420707
+    second: CDay1Note1_48
+  - first:
+      213: -3082946789873765925
+    second: CDay1Note1_49
+  - first:
+      213: -2672329940815564933
+    second: CDay1Note1_50
+  - first:
+      213: -3383997258900858644
+    second: CDay1Note1_51
+  - first:
+      213: 6541219147521331639
+    second: CDay1Note1_52
+  - first:
+      213: 2700951399342647392
+    second: CDay1Note1_53
+  - first:
+      213: 5007360648678714680
+    second: CDay1Note1_54
+  - first:
+      213: -1786692013926036869
+    second: CDay1Note1_55
+  - first:
+      213: -488922676610757489
+    second: CDay1Note1_56
+  - first:
+      213: -8557703640794278819
+    second: CDay1Note1_57
+  - first:
+      213: 3491702845358870420
+    second: CDay1Note1_58
+  - first:
+      213: -6674769453072103517
+    second: CDay1Note1_59
+  - first:
+      213: 2481452625695141411
+    second: CDay1Note1_60
+  - first:
+      213: 4458572038438351092
+    second: CDay1Note1_61
+  - first:
+      213: 7224533100039219412
+    second: CDay1Note1_62
+  - first:
+      213: -1570706528747002934
+    second: CDay1Note1_63
+  - first:
+      213: -799498408868116487
+    second: CDay1Note1_64
+  - first:
+      213: -7768654961224189709
+    second: CDay1Note1_65
+  - first:
+      213: -1150080720660481568
+    second: CDay1Note1_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CDay1Note1_0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 213
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee8780f7e30516d0800000000000000
+      internalID: -3020503680374305043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_1
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 211
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dfa954c88e3c260800000000000000
+      internalID: 7116787525336366453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_2
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 237
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d8bff90649037e0800000000000000
+      internalID: -1787765909344252633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_3
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 210
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fd5812e621fde50800000000000000
+      internalID: 6836203023589826428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_4
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 217
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0303a10855a77b0800000000000000
+      internalID: -5225770408926498610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_5
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 244
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f3d57765e006b00800000000000000
+      internalID: 819670896714006280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_6
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 214
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8180ffc1345dda0800000000000000
+      internalID: -5920752343291782973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_7
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 206
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ef69f261986f6e0800000000000000
+      internalID: -1804103872334594413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_8
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 222
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d21eeb79ed7cff30800000000000000
+      internalID: 4610698560280597205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 191
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1208e98253a56b0800000000000000
+      internalID: -5306870762328546871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 205
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a6032b89e62cd40800000000000000
+      internalID: 5603162488505920032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 207
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7fc805a2756e890800000000000000
+      internalID: -7429154696049395719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_12
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 207
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f65982a23872a90800000000000000
+      internalID: -7338752850684186873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_13
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 208
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e9e55d51b6501b0800000000000000
+      internalID: -5691024812594520567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_14
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 197
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d5169517493a3f0800000000000000
+      internalID: -890705086737457777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_15
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 208
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf5998c7265931e0800000000000000
+      internalID: -2217646612634050642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_16
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 215
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba2bde0d010f99b0800000000000000
+      internalID: -5071333499800442188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_17
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 212
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374eac47375c74ee0800000000000000
+      internalID: -1276834869664881549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_18
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 211
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca57d48c7af6c600800000000000000
+      internalID: 488353022327872203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_19
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 215
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0490880453375d0800000000000000
+      internalID: -3066048370032688924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_20
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 215
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a78b402593dd330800000000000000
+      internalID: 3737206290216679958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_21
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 212
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0187c164d0f68fe80800000000000000
+      internalID: -8144637823298013168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_22
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 216
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fccc7d983b04d10800000000000000
+      internalID: 2107882030221807469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_23
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 217
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896c0f1155b48d190800000000000000
+      internalID: -7937511514495203688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_24
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 215
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac367d90d90e34420800000000000000
+      internalID: 2613179173884617674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_25
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 198
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d24e2a8dc12271c0800000000000000
+      internalID: -4507503110374145321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_26
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 219
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ec4decfc488b290800000000000000
+      internalID: -7874397920394162665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_27
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 154
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704b82334c2e1d220800000000000000
+      internalID: 2509035799721849863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_28
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 150
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6423f9f51035cc400800000000000000
+      internalID: 345742536765026886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_29
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 172
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed11aae41ac135460800000000000000
+      internalID: 7229153305994858974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_30
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 154
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82aa0ad179c429370800000000000000
+      internalID: 8327802872882309672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_31
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 184
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1cc4d4ba0b627990800000000000000
+      internalID: -7389726344833872870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_32
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 157
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029cd1ecc6545cfa0800000000000000
+      internalID: -5781138213043320544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_33
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 189
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f231d8c2089fed90800000000000000
+      internalID: -7066262152594509064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_34
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 159
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea86a1454a708280800000000000000
+      internalID: -9043093613887190289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_35
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 160
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95338f1c279408950800000000000000
+      internalID: 6449235423623918425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_36
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 155
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbdff6e29d0e73d0800000000000000
+      internalID: -3207110960049300559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_37
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 189
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1a785cbb7000ed0800000000000000
+      internalID: -2449949694235270726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_38
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 160
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d2121b157859870800000000000000
+      internalID: 8688999841015082293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_39
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 177
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375609c80caf2b3c0800000000000000
+      internalID: -4345134985560169101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_40
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 151
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87811f7f6065e9fc0800000000000000
+      internalID: -3486254473608619912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_41
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 149
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3860274bb78dfb260800000000000000
+      internalID: 7115643962088621699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_42
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 154
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcd3dd2a64fd8110800000000000000
+      internalID: 1264935807233547485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_43
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 141
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53d3045deaf68d70800000000000000
+      internalID: 9045192798843949918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_44
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 153
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bca055852d82a20800000000000000
+      internalID: 3037909225487125329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_45
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 153
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d3e1de7675268e0800000000000000
+      internalID: -1701701605321196189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_46
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 152
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05eb09e31b4d896a0800000000000000
+      internalID: -6442165409229521328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_47
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 152
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c300b05d91e88e8c0800000000000000
+      internalID: -3969766829927497668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_48
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 155
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3622a764efa8e5740800000000000000
+      internalID: 5142700649212420707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_49
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 157
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1b4209a3c2735d0800000000000000
+      internalID: -3082946789873765925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_50
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 158
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f2c03d31af9ead0800000000000000
+      internalID: -2672329940815564933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_51
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 140
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce891561c60a901d0800000000000000
+      internalID: -3383997258900858644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_52
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 158
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b11ef5682417ca50800000000000000
+      internalID: 6541219147521331639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_53
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 159
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068a969ccf4bb7520800000000000000
+      internalID: 2700951399342647392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_54
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 160
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83da3c6daf7bd7540800000000000000
+      internalID: 5007360648678714680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_55
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 155
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a49e264156437e0800000000000000
+      internalID: -1786692013926036869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_56
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 157
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c8bf18a6ff639f0800000000000000
+      internalID: -488922676610757489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_57
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 139
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54d36d11edec3980800000000000000
+      internalID: -8557703640794278819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_58
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 163
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f06deec35057030800000000000000
+      internalID: 3491702845358870420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_59
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 160
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a742000c847e53a0800000000000000
+      internalID: -6674769453072103517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_60
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 155
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ee4890404ef6220800000000000000
+      internalID: 2481452625695141411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_61
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 33
+        width: 73
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f07b9c75a700ed30800000000000000
+      internalID: 4458572038438351092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_62
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 36
+        width: 82
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8a3e7c392b24460800000000000000
+      internalID: 7224533100039219412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_63
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 62
+        width: 113
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3e5abebbab33ae0800000000000000
+      internalID: -1570706528747002934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_64
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 52
+        width: 171
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f70decde6c97e4f0800000000000000
+      internalID: -799498408868116487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_65
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 89
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8f7ad0971303490800000000000000
+      internalID: -7768654961224189709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CDay1Note1_66
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 52
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9b10e8da71a00f0800000000000000
+      internalID: -1150080720660481568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CDay1Note1_0: -3020503680374305043
+      CDay1Note1_1: 7116787525336366453
+      CDay1Note1_10: 5603162488505920032
+      CDay1Note1_11: -7429154696049395719
+      CDay1Note1_12: -7338752850684186873
+      CDay1Note1_13: -5691024812594520567
+      CDay1Note1_14: -890705086737457777
+      CDay1Note1_15: -2217646612634050642
+      CDay1Note1_16: -5071333499800442188
+      CDay1Note1_17: -1276834869664881549
+      CDay1Note1_18: 488353022327872203
+      CDay1Note1_19: -3066048370032688924
+      CDay1Note1_2: -1787765909344252633
+      CDay1Note1_20: 3737206290216679958
+      CDay1Note1_21: -8144637823298013168
+      CDay1Note1_22: 2107882030221807469
+      CDay1Note1_23: -7937511514495203688
+      CDay1Note1_24: 2613179173884617674
+      CDay1Note1_25: -4507503110374145321
+      CDay1Note1_26: -7874397920394162665
+      CDay1Note1_27: 2509035799721849863
+      CDay1Note1_28: 345742536765026886
+      CDay1Note1_29: 7229153305994858974
+      CDay1Note1_3: 6836203023589826428
+      CDay1Note1_30: 8327802872882309672
+      CDay1Note1_31: -7389726344833872870
+      CDay1Note1_32: -5781138213043320544
+      CDay1Note1_33: -7066262152594509064
+      CDay1Note1_34: -9043093613887190289
+      CDay1Note1_35: 6449235423623918425
+      CDay1Note1_36: -3207110960049300559
+      CDay1Note1_37: -2449949694235270726
+      CDay1Note1_38: 8688999841015082293
+      CDay1Note1_39: -4345134985560169101
+      CDay1Note1_4: -5225770408926498610
+      CDay1Note1_40: -3486254473608619912
+      CDay1Note1_41: 7115643962088621699
+      CDay1Note1_42: 1264935807233547485
+      CDay1Note1_43: 9045192798843949918
+      CDay1Note1_44: 3037909225487125329
+      CDay1Note1_45: -1701701605321196189
+      CDay1Note1_46: -6442165409229521328
+      CDay1Note1_47: -3969766829927497668
+      CDay1Note1_48: 5142700649212420707
+      CDay1Note1_49: -3082946789873765925
+      CDay1Note1_5: 819670896714006280
+      CDay1Note1_50: -2672329940815564933
+      CDay1Note1_51: -3383997258900858644
+      CDay1Note1_52: 6541219147521331639
+      CDay1Note1_53: 2700951399342647392
+      CDay1Note1_54: 5007360648678714680
+      CDay1Note1_55: -1786692013926036869
+      CDay1Note1_56: -488922676610757489
+      CDay1Note1_57: -8557703640794278819
+      CDay1Note1_58: 3491702845358870420
+      CDay1Note1_59: -6674769453072103517
+      CDay1Note1_6: -5920752343291782973
+      CDay1Note1_60: 2481452625695141411
+      CDay1Note1_61: 4458572038438351092
+      CDay1Note1_62: 7224533100039219412
+      CDay1Note1_63: -1570706528747002934
+      CDay1Note1_64: -799498408868116487
+      CDay1Note1_65: -7768654961224189709
+      CDay1Note1_66: -1150080720660481568
+      CDay1Note1_7: -1804103872334594413
+      CDay1Note1_8: 4610698560280597205
+      CDay1Note1_9: -5306870762328546871
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

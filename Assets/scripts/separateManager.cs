@@ -17,17 +17,13 @@ public class separateManager : MonoBehaviour
     public AudioClip choiceClickSound;
     public AudioSource audioSource;
     public Image portrait;
-
+    public Button continue_1, continue_2, continue_3, continue_4;
     public Transform choiceContainer;
 
     public GameObject choiceButtonPrefab;
     public GameObject dialogueBox;
     public GameObject pause_screen;
     public GameObject journal_screen;
-    public Button continue_3;
-    public Button continue_1;
-    public Button continue_2;
-    public Button continue_4;
     public Timer3 timer;
     public TMP_Text points_text;
     public TMP_Text journaltext_;
@@ -168,25 +164,19 @@ public class separateManager : MonoBehaviour
         }
     }
 
-    public void DisplayContinue_button(Dialogue dialogue)
+    public void DisplayContinue_button(string text)
     {
-        continue_1.gameObject.SetActive(false);
-        continue_2.gameObject.SetActive(false);
-        continue_3.gameObject.SetActive(false);
-        continue_4.gameObject.SetActive(false);
-        if(dialogue.dialogueText == "Okay, so, I have sooo many siblings, but we all have the same mom and dad! I’m the youngest out of all of us so I get to just run around and do whatever I like all day.")
+        if(text == "Okay, so, I have sooo many siblings, but we all have the same mom and dad! I’m the youngest out of all of us so I get to just run around and do whatever I like all day.")
         {
             continue_1.gameObject.SetActive(true);
         }
-        else if (dialogue.dialogueText == "I mean, there’s so much to do down here! I like to go up to the surface and watch the humans though. I have a little box of trinkets somewhere in here.")
+        else if(text == "I mean, there’s so much to do down here! I like to go up to the surface and watch the humans though. I have a little box of trinkets somewhere in here.")
         {
             continue_2.gameObject.SetActive(true);
         }
-        else if ( dialogue.dialogueText == "You’re in my room in my family’s palace.")
-        {
-            continue_3.gameObject.SetActive(true);
-        }
-        else if (dialogue.dialogueText == "Oh yay! I love choosing!")
+        else if(text == "You’re in my room in my family’s palace.")
+        {  continue_3.gameObject.SetActive(true);}
+        else if(text == "Oh yay! I love choosing! ")
         {
             continue_4.gameObject.SetActive(true);
         }

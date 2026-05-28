@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: 44
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: player
+  npc_text: What, uh. What do you think of the spot I chose for our . . . encounter?
+  optionSOs:
+  - {fileID: 11400000, guid: 8b43f8b295b9f2e4f8fa03e83166e308, type: 2}
+  - {fileID: 11400000, guid: f798f6c46729eeb41b31522431f06fee, type: 2}
+  - {fileID: 11400000, guid: 6235ea55240f8594cb8c2c6dfee09170, type: 2}
+  - {fileID: 11400000, guid: b9328ac42dfd31643a872465d4130d0f, type: 2}
+  Next_Line: {fileID: 0}
+  background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
+  speaker_: {fileID: -725102812000686796, guid: 29af40d9032251d498b5baa405fb6d7d, type: 3}
+  spriteScale: {x: 1, y: 1, z: 1}

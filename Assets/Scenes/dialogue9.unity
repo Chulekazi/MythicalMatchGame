@@ -1368,8 +1368,16 @@ MonoBehaviour:
   rewindSFX: {fileID: 8300000, guid: 6342ae6943c8f124a837b15913415cc5, type: 3}
   audioSource: {fileID: 406394971}
   timerlinear: {fileID: 1426697880}
+  dialogue:
+    characterName: 
+    dialogueText: 
+    image: {fileID: 0}
+    choices: []
+    dialogueID: 
+  proceed: {fileID: 0}
   dialogue_text: {fileID: 2011902999}
   maxtime: 10
+  max_rewind: 2
 --- !u!82 &406394971
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1797,7 +1805,7 @@ MonoBehaviour:
   m_text: Chryseis
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8b71e737d5204a746b4c9afca0530a89, type: 2}
-  m_sharedMaterial: {fileID: -3369196133546419546, guid: 8b71e737d5204a746b4c9afca0530a89, type: 2}
+  m_sharedMaterial: {fileID: -6933397316817927161, guid: 8b71e737d5204a746b4c9afca0530a89, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2192,15 +2200,15 @@ MonoBehaviour:
   choiceClickSound: {fileID: 8300000, guid: b1ea619ccbd0a8144a421091d8d6b3dd, type: 3}
   audioSource: {fileID: 710968444}
   portrait: {fileID: 787100830}
+  continue_1: {fileID: 424830302}
+  continue_2: {fileID: 1277613702}
+  continue_3: {fileID: 352692668}
+  continue_4: {fileID: 2009164774}
   choiceContainer: {fileID: 177648627}
   choiceButtonPrefab: {fileID: 7748690250080199172, guid: 1edc2ba09510f804c9c7e6b691126739, type: 3}
   dialogueBox: {fileID: 1717822424}
   pause_screen: {fileID: 969786591}
   journal_screen: {fileID: 1563062196}
-  continue_3: {fileID: 352692668}
-  continue_1: {fileID: 424830302}
-  continue_2: {fileID: 1277613702}
-  continue_4: {fileID: 2009164774}
   timer: {fileID: 406394970}
   points_text: {fileID: 1725828470}
   journaltext_: {fileID: 1903874586}
@@ -5136,7 +5144,7 @@ MonoBehaviour:
   m_text: test
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}
-  m_sharedMaterial: {fileID: 591848939199570642, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}
+  m_sharedMaterial: {fileID: 1469830664393107, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
