@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: aroundwomen
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: 
   option_: 'You are more comfortable around women. '
   response_: How . . .
   next_line_: {fileID: 11400000, guid: ae5a0f931161c104fb061b4e182922a1, type: 2}
   Is_correct: 1
   is_default: 0
+  journal_image: {fileID: 3003703272523732513, guid: ad614dfaeec528745babcf9cddbf5bea, type: 3}

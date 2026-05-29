@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: 42
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: Vikram
-  npc_text: '* sigh *'
+  npc_text: sigh
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 8da924479d847bb41b67fc47a66d0254, type: 2}
   background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}
-  speaker_: {fileID: -5711140437934189726, guid: 466d3c1d3943d8a45a794d4a217015af, type: 3}
+  speaker_: {fileID: -3457779202279489850, guid: bab8f0b7683aaa34fb181daf5848637e, type: 3}
   spriteScale: {x: 0.2, y: 0.8, z: 1}
+  dialogueSong: {fileID: 0}

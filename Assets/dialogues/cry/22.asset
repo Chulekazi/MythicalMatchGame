@@ -21,5 +21,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a06652a2371ff140a63206a8a95480b, type: 2}
   Next_Line: {fileID: 0}
   background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}
-  speaker_: {fileID: 7722630707363057709, guid: 8d3dfd38ed06bb24ca26ddd9bf7ec783, type: 3}
-  spriteScale: {x: 0.2, y: 0.8, z: 1}
+  speaker_: {fileID: -8839143234329222874, guid: 7a3970773a1ef1240a12775174f8b680, type: 3}
+  spriteScale: {x: 0.3, y: 0.9, z: 1}
+  dialogueSong: {fileID: 0}

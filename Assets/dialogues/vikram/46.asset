@@ -17,5 +17,6 @@ MonoBehaviour:
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: c9d278c70b1fd3043b0b6fe3635c4e5f, type: 2}
   background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}
-  speaker_: {fileID: -639273587953430154, guid: 7b7e864842c5b514f8db3ebcb922aaa8, type: 3}
-  spriteScale: {x: 0.3, y: 0.8, z: 1}
+  speaker_: {fileID: 6589195840885176018, guid: 4821e9683dede1145ba522db61278a7f, type: 3}
+  spriteScale: {x: 0.3, y: 0.9, z: 1}
+  dialogueSong: {fileID: 0}

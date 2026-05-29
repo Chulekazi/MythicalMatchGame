@@ -32,6 +32,7 @@ private Dialogue_line current_line;
 private HashSet<dialogue_optionSO> selected_options = new HashSet<dialogue_optionSO>();
 private int maxChoices = 2;
 private bool show_response = false;
+    private bool isTyping = false;
 public GameObject name_panel;
 public TMP_Text speaker_text;
 public UnityEngine.UI.Image character_image;
@@ -45,34 +46,7 @@ public AudioSource audioSource;
     public AudioClip nextButtonSound;
     public AudioClip correct;
 
-    void CreateFinalChoiceButtons()
-{
-    // Clear old buttons
-    foreach (Transform child in options_parent)
-    {
-        Destroy(child.gameObject);
-    }
-
-    // Just one generic choice now
-    Button newButton = Instantiate(options_button, options_parent);
-    newButton.GetComponentInChildren<TMP_Text>().text = "Choose Ending";
-    newButton.onClick.AddListener(() =>
-    {
-        DisableAllButtons();
-        Ending();
-    });
-
-    // Add "None" button
-    Button noneButton = Instantiate(options_button, options_parent);
-    noneButton.GetComponentInChildren<TMP_Text>().text = "Choose None";
-    noneButton.onClick.AddListener(() =>
-    {
-        SceneManager.LoadScene("BadEnding");
-    });
-
-    options_parent.gameObject.SetActive(true);
-    next.gameObject.SetActive(false);
-}
+   
 
 void DisableAllButtons()
 {
@@ -217,10 +191,11 @@ void SelectNextLine()
         show_response = false;
         DisplayCurrentLine();
     }
-    else
-    {
-        CreateFinalChoiceButtons();
-    }
+        else
+        {
+            SceneManager.LoadScene("menu");
+        }
+   
 }
 
 void SelectOption(dialogue_optionSO option)
@@ -304,12 +279,16 @@ public void update_journal()
 
     IEnumerator TypeText(string fullText, TMP_Text textComponent, float delay = 0.03f)
     {
+        isTyping = true;
+        next.interactable = false;
         textComponent.text = "";
         foreach (char c in fullText)
         {
             textComponent.text += c;
             yield return new WaitForSeconds(delay);
         }
+        isTyping =false;
+        next.interactable = true;
     }
 
     public void Rewind(dialogue_optionSO option)

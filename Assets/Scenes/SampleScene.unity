@@ -489,10 +489,13 @@ MonoBehaviour:
   - water_room
   - cherry_blossom
   - black_screen
+  - Good_ending_akira
+  - Good_ending_vikram
+  - Good_ending_siren
   dialogue_timer: {fileID: 594376335}
   audioSource: {fileID: 48992884}
   audioSource2: {fileID: 48992885}
-  nextButtonSound: {fileID: 8300000, guid: b1ea619ccbd0a8144a421091d8d6b3dd, type: 3}
+  nextButtonSound: {fileID: 8300000, guid: b6af50e711a415342a292b50143fa5ff, type: 3}
   correct: {fileID: 8300000, guid: 22f1576ff2a71b241a19888dd471d2ef, type: 3}
 --- !u!4 &48992883
 Transform:
@@ -520,7 +523,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: b1ea619ccbd0a8144a421091d8d6b3dd, type: 3}
+  m_Resource: {fileID: 8300000, guid: b6af50e711a415342a292b50143fa5ff, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1866,7 +1869,7 @@ MonoBehaviour:
   m_RenderShadows: 1
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
+  m_CameraType: 1
   m_Cameras: []
   m_RendererIndex: -1
   m_VolumeLayerMask:
@@ -1904,7 +1907,7 @@ Camera:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -3071,6 +3074,7 @@ GameObject:
   - component: {fileID: 994267611}
   - component: {fileID: 994267613}
   - component: {fileID: 994267612}
+  - component: {fileID: 994267614}
   m_Layer: 5
   m_Name: entry
   m_TagString: Untagged
@@ -3197,6 +3201,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994267610}
   m_CullTransparentMesh: 1
+--- !u!114 &994267614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994267610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ScrollRect
+  m_Content: {fileID: 994267611}
+  m_Horizontal: 1
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 0}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 0
+  m_HorizontalScrollbarSpacing: 0
+  m_VerticalScrollbarSpacing: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1040289342
 GameObject:
   m_ObjectHideFlags: 0
@@ -8613,7 +8647,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 65.442, y: 52.266}
+  m_AnchoredPosition: {x: 65.442, y: 12}
   m_SizeDelta: {x: 718.0064, y: 145.2989}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1281514900
@@ -8855,8 +8889,8 @@ RectTransform:
   - {fileID: 65580277}
   - {fileID: 1552864787}
   - {fileID: 2141869353}
-  - {fileID: 1906357887}
   - {fileID: 683284245}
+  - {fileID: 1906357887}
   - {fileID: 2004066093}
   - {fileID: 99152331}
   - {fileID: 1145043561}
