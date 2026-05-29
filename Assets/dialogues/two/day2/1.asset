@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: 1
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: '* yawn * '
+  npc_text: 'yawn '
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 1df012a436759ae4c862d20ec0d6758a, type: 2}
   background: {fileID: 11400000, guid: 33dcfe16b068cbc438a24b9bb06fc557, type: 2}
   speaker_: {fileID: 0}
   spriteScale: {x: 1, y: 1, z: 1}
+  dialogueSong: {fileID: 0}

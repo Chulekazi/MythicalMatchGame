@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: trick
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: 
   option_: "That\u2019s a trick question."
   response_: "It wasn\u2019t, but you can rewind time and try again."
   next_line_: {fileID: 11400000, guid: 6747609316c787f4c80fc5828c41cb47, type: 2}
   Is_correct: 0
   is_default: 0
+  journal_image: {fileID: 0}

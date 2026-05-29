@@ -1,7 +1,8 @@
+using System.Xml.Linq;
 using UnityEngine;
-[CreateAssetMenu(fileName = "NewNPCMusic", menuName = "Sound/NPCMusic")]
-public class SoundPlayer : ScriptableObject
+
+[CreateAssetMenu(fileName = "NPCMusicLibrary", menuName = "Sound/NPCMusicLibrary")]
+public class NPCMusicLibrary : ScriptableObject
 {
-    public string npcName;
-    public AudioClip song;
+    public sounddd[] npcSongs;
 }

@@ -138,7 +138,9 @@ void DisplayCurrentLine()
             StartCoroutine(TypeText(
                 current_line.npc_text.Replace("{player}", Player_profile.Instance.player_name),
                 npc
+
             ));
+            
             speaker_text.text = current_line.npc_name.ToLower() == "player"
             ? Player_profile.Instance.player_name
             : current_line.npc_name;
@@ -154,7 +156,13 @@ void DisplayCurrentLine()
             character_image.gameObject.SetActive(false);
         }
 
-        if (current_line.background != null)
+            var trigger = Object.FindFirstObjectByType<music>();
+            if (trigger != null)
+            {
+                trigger.CheckDialogue(current_line.npc_text);
+            }
+
+            if (current_line.background != null)
         {
             background_panel.sprite = current_line.background.background_sprite;
         }

@@ -11,4 +11,5 @@ public class Dialogue_line : ScriptableObject
     public Background_changeSO background;
     public Sprite speaker_;
     public Vector3 spriteScale = Vector3.one;
+    public AudioClip dialogueSong;
 }
