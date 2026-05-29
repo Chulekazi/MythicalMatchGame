@@ -3,6 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DialogueOption", menuName = "Dialogue/Option")]
 public class dialogue_optionSO : ScriptableObject
 {
+    public string speakerName;
     public string option_;
     public string response_;
     public Dialogue_line next_line_;

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: 66
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: Chryseis
-  npc_text: "Oh look at the time! Dad told me not to take up too much of your time\tbecause
-    I\u2019d scare you off! Do you need to go?"
+  npc_text: "Oh look at the time! Dad told me not to take up too much of your time
+    because I\u2019d scare you off! Do you need to go?"
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 62357dbe9500cad4896ab34931375dce, type: 2}
   background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}
-  speaker_: {fileID: -1222198594972855245, guid: 44b8c8647a85bb542becc8fd912083b4, type: 3}
-  spriteScale: {x: 0.3, y: 0.9, z: 1}
+  speaker_: {fileID: 7722630707363057709, guid: 8d3dfd38ed06bb24ca26ddd9bf7ec783, type: 3}
+  spriteScale: {x: 0.2, y: 0.8, z: 1}

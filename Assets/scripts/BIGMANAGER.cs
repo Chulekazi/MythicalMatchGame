@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
@@ -40,9 +41,11 @@ public List<Sprite> background_sprites;
 public List<string> background_names;
 public TooManyTimers dialogue_timer; //different script
 public AudioSource audioSource;
-public AudioClip nextButtonSound;
+    public AudioSource audioSource2;
+    public AudioClip nextButtonSound;
+    public AudioClip correct;
 
-void CreateFinalChoiceButtons()
+    void CreateFinalChoiceButtons()
 {
     // Clear old buttons
     foreach (Transform child in options_parent)
@@ -64,7 +67,6 @@ void CreateFinalChoiceButtons()
     noneButton.GetComponentInChildren<TMP_Text>().text = "Choose None";
     noneButton.onClick.AddListener(() =>
     {
-        DisableAllButtons();
         SceneManager.LoadScene("BadEnding");
     });
 
@@ -87,7 +89,8 @@ void DisableAllButtons()
 void Start()
 {
     dialogue_timer.OnTimerFinished += HandleTimeout;
-}
+        notes.gameObject.SetActive(false);
+    }
 
 void HandleTimeout()
 {
@@ -131,8 +134,12 @@ void DisplayCurrentLine()
 {
     if (!show_response)
     {
-        npc.text = current_line.npc_text.Replace("{player}", Player_profile.Instance.player_name);
-        speaker_text.text = current_line.npc_name.ToLower() == "player"
+            StopAllCoroutines(); // stop any previous typing
+            StartCoroutine(TypeText(
+                current_line.npc_text.Replace("{player}", Player_profile.Instance.player_name),
+                npc
+            ));
+            speaker_text.text = current_line.npc_name.ToLower() == "player"
             ? Player_profile.Instance.player_name
             : current_line.npc_name;
 
@@ -211,14 +218,15 @@ void SelectNextLine()
 void SelectOption(dialogue_optionSO option)
 {
     npc.text = option.response_;
-    speaker_text.text = Player_profile.Instance.player_name;
-    selected_options.Add(option);
+        speaker_text.text = option.speakerName;
+        selected_options.Add(option);
     show_response = true;
     dialogue_timer.Stop_Timer();
 
     if (option.Is_correct)
     {
         heartPoints++;
+            Correct();
         correct_answer.Add(option.option_);
         update_journal();
             Sprite response_image = option.journal_image;
@@ -286,6 +294,16 @@ public void update_journal()
         }
     }
 
+    IEnumerator TypeText(string fullText, TMP_Text textComponent, float delay = 0.03f)
+    {
+        textComponent.text = "";
+        foreach (char c in fullText)
+        {
+            textComponent.text += c;
+            yield return new WaitForSeconds(delay);
+        }
+    }
+
     public void Rewind(dialogue_optionSO option)
     {
         show_response = false;
@@ -323,6 +341,14 @@ public void update_journal()
         if (audioSource != null && nextButtonSound != null)
         {
             audioSource.PlayOneShot(nextButtonSound);
+        }
+    }
+
+    void Correct()
+    {
+        if (audioSource2 != null && correct != null)
+        {
+            audioSource2.PlayOneShot(correct);
         }
     }
 }
