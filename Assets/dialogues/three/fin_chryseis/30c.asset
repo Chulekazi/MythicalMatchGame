@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: 30c
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: "Oh\u2026you make a valid point\u2026"
+  npc_text: Oh . . . you make a valid point . . .
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 779e2c228f0ebfb458b604a6dfece37f, type: 2}
   background: {fileID: 11400000, guid: b833866f86ef0a6468f9090bfec67a57, type: 2}
   speaker_: {fileID: 1896126802, guid: 8d3dfd38ed06bb24ca26ddd9bf7ec783, type: 3}
   spriteScale: {x: 1, y: 1, z: 1}
+  dialogueSong: {fileID: 0}

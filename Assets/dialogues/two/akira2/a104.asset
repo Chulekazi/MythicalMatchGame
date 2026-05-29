@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
   m_Name: a104
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
-  npc_name: player
+  npc_name: 
   npc_text: End of Day 2.
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: de7a35931fc407249b22c6e2a713fbe4, type: 2}
   background: {fileID: 11400000, guid: 0549616cb5671a642b1538457533a3a8, type: 2}
   speaker_: {fileID: 0}
   spriteScale: {x: 1, y: 1, z: 1}
+  dialogueSong: {fileID: 0}

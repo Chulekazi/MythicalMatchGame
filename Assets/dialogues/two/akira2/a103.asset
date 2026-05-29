@@ -19,3 +19,4 @@ MonoBehaviour:
   background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
   speaker_: {fileID: 0}
   spriteScale: {x: 1, y: 1, z: 1}
+  dialogueSong: {fileID: 0}

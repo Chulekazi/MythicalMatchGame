@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: defend
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: 
   option_: '(Defend yourself) '
   response_: Something urgent came up that was completely out of my control! Some
     could argue that you were rude for leaving in the middle of our date, even if
@@ -19,3 +20,4 @@ MonoBehaviour:
   next_line_: {fileID: 11400000, guid: 0f98df11e100cb648a411775bc93441a, type: 2}
   Is_correct: 1
   is_default: 0
+  journal_image: {fileID: -2049659360804107548, guid: 02b469330b1feb64ba2b98de692e42f4, type: 3}
