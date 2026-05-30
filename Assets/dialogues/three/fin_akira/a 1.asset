@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: a 1
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Akira
   option_: What are the chances that they are genuinely just amused?
   response_: 'I am not sure. '
   next_line_: {fileID: 11400000, guid: be75bc8ec773b5a4db433df7fac28018, type: 2}
   Is_correct: 0
   is_default: 0
+  journal_image: {fileID: 0}

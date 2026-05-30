@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: a
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Akira
   option_: The older deities are condescending to them.
   response_: 'Not necessarily. I do think that the older deities would just find
     that a waste of time. '
-  next_line_: {fileID: 0}
+  next_line_: {fileID: 11400000, guid: 187706196c09e2c47af358f7f5babb52, type: 2}
   Is_correct: 0
   is_default: 1
+  journal_image: {fileID: 0}

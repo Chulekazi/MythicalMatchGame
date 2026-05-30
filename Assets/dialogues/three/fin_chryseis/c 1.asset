@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: c 1
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
-  speakerName: 
+  speakerName: Chryseis
   option_: Just a little . . .
   response_: "It doesn\u2019t sound like you\u2019re being honest. "
   next_line_: {fileID: 11400000, guid: f657caf53b29ffe45812589d077242a6, type: 2}

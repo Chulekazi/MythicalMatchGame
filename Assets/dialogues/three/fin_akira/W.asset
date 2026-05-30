@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: W
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Akira
   option_: Something thrilling, like cliff jumping
   response_: 'I am . . . not brave enough to try something like that. '
   next_line_: {fileID: 11400000, guid: b490b4db099ee49409fda7ffc1f495a7, type: 2}
   Is_correct: 0
   is_default: 1
+  journal_image: {fileID: 0}

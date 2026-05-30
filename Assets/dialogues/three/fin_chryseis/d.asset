@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: d
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
-  speakerName: 
+  speakerName: Chryseis
   option_: No, not at all
   response_: Are you sure?
   next_line_: {fileID: 11400000, guid: 975084d626f92c94bafd24d9f3c36899, type: 2}

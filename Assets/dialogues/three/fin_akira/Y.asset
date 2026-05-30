@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: Y
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Akira
   option_: Something to make memories, like travelling
   response_: 'As lovely as that would be, travelling as someone who is unable to
     control their shapeshifting would be quite risky. '
   next_line_: {fileID: 11400000, guid: 261c0d06b4d824b4f918b64379c29e1d, type: 2}
   Is_correct: 0
   is_default: 0
+  journal_image: {fileID: 0}

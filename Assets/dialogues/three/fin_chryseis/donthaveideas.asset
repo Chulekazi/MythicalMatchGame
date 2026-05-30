@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: donthaveideas
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Chryseis
   option_: "I actually don\u2019t have any ideas"
   response_: "Then why would you lie to me and say that there\u2019s lots of stuff
     I could do?"
   next_line_: {fileID: 11400000, guid: ee671cbbd4291334387361c693026190, type: 2}
   Is_correct: 0
   is_default: 0
+  journal_image: {fileID: 0}

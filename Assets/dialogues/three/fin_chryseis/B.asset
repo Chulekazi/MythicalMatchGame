@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: B
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Chryseis
   option_: How many brothers do you have?
   response_: "Doesn\u2019t matter, point is that he told me that he started talking
     to a siren and she was out with a different guy. "
   next_line_: {fileID: 11400000, guid: 5c4a78ed81d0b19469e78e2cf82c2e7a, type: 2}
   Is_correct: 0
   is_default: 0
+  journal_image: {fileID: 0}

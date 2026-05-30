@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: b 1
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Chryseis
   option_: Yeah, it was a little irritating
   response_: . . .
   next_line_: {fileID: 11400000, guid: 1400f6c475c2ef64687d647eb26fdd15, type: 2}
   Is_correct: 0
   is_default: 0
+  journal_image: {fileID: 0}
