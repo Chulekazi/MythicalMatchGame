@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: popularclothing
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Vikram
   option_: 'Popular clothing vendor '
   response_: "Ah, they already have fantastic business. I\u2019m honestly unsure
     if they even need me for publicity. "
-  next_line_: {fileID: 0}
+  next_line_: {fileID: 11400000, guid: 1ebd7d85b6b636644a1792675d27af77, type: 2}
   Is_correct: 0
   is_default: 1
+  journal_image: {fileID: 0}

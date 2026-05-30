@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: timidwomen
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Vikram
   option_: 'Timid woman '
   response_: Hm, what makes you say that?
-  next_line_: {fileID: 0}
+  next_line_: {fileID: 11400000, guid: 9f201b15be8fe384db56a260fa6331fc, type: 2}
   Is_correct: 1
   is_default: 0
+  journal_image: {fileID: 2178561520694209822, guid: dc4cd4b1069586945a1f0611b4cbf4c9, type: 3}

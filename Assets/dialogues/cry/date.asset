@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: date
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: 
   option_: 'Uh, date me? '
   response_: Mmmmaybe ~
   next_line_: {fileID: 11400000, guid: 186cea2b3f90b7f458c7485e86ba880c, type: 2}
   Is_correct: 1
   is_default: 0
+  journal_image: {fileID: -8537553497430270220, guid: f0e5e069106fc164c86c022196281c0b, type: 3}

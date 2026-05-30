@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: B
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Vikram
   option_: 'I still think you should apologise. '
   response_: . .  oh.
   next_line_: {fileID: 11400000, guid: c021403b28c5f874db19b70bf8239e9a, type: 2}
   Is_correct: 1
   is_default: 0
+  journal_image: {fileID: 5542597428628949864, guid: a33dd7ecc93e1414b8b78afb193c9beb, type: 3}

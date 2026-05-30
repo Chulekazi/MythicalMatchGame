@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: noneofthem
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Vikram
   option_: None of them
   response_: I really thought you would be supportive since you were the one who
     suggested I try something else apart from the family business . . .
-  next_line_: {fileID: 0}
+  next_line_: {fileID: 11400000, guid: c8925a887c01ccb4bb409fe8d85fa69f, type: 2}
   Is_correct: 0
   is_default: 0
+  journal_image: {fileID: 0}

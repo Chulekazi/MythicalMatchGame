@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: customclothes
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Chryseis
   option_: 'Custom clothes '
   response_: "But I don\u2019t know how to do that . . ."
-  next_line_: {fileID: 0}
+  next_line_: {fileID: 11400000, guid: 8c73ef0ea2d3ceb4081e46327ec63ef3, type: 2}
   Is_correct: 1
   is_default: 0
+  journal_image: {fileID: -2182393763280014290, guid: 4999a41d6ddf9d54b93a860f0fc873f8, type: 3}

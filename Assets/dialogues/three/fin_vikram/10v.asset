@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 10v
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: player
-  npc_text: "This might be\u2026the least cocky you\u2019ve been in our conversations. "
+  npc_text: "This might be . . . the least cocky you\u2019ve been in our conversations. "
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: b2d9376287a057647a969722b0bab241, type: 2}
   background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}

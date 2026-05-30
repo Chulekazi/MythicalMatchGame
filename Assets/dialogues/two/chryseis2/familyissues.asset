@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: familyissues
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: 
   option_: 'He had family issues. '
   response_: "Oh\u2026what kind of family issues?"
   next_line_: {fileID: 11400000, guid: 88b612ffce921824bbb6e362091ab7ee, type: 2}
   Is_correct: 1
   is_default: 0
+  journal_image: {fileID: 6735628671288522546, guid: 9fa44bd95f7645d43be7df2f3eb2e84e, type: 3}

@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: Smallerclothingvendor
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Vikram
   option_: 'Smaller clothing vendor '
   response_: " I would definitely help the foot traffic but I\u2019m not sure about
     the actual work part. "
-  next_line_: {fileID: 0}
+  next_line_: {fileID: 11400000, guid: 5bd8639f4ae43c341b3dc7fbaf5609ab, type: 2}
   Is_correct: 0
   is_default: 0
+  journal_image: {fileID: 0}

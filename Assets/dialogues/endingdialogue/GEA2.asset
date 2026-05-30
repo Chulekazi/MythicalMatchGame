@@ -16,8 +16,8 @@ MonoBehaviour:
   npc_text: 'They have definitely been getting less nervous about it over time. They
     get chattier every time we go into town. '
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: 46cf8f8c28042f5429027fec794ab284, type: 2}
+  background: {fileID: 11400000, guid: 9db4fe9cc7d75004ba4f4345f210fd69, type: 2}
   speaker_: {fileID: 0}
   spriteScale: {x: 1, y: 1, z: 1}
   dialogueSong: {fileID: 0}

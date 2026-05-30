@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 24v
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
   npc_name: Vikram
-  npc_text: '*inhale*'
+  npc_text: inhale
   optionSOs: []
   Next_Line: {fileID: 11400000, guid: 0ab75a269ec87b349a3d19816b4eac30, type: 2}
   background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}

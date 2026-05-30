@@ -15,8 +15,8 @@ MonoBehaviour:
   npc_name: player
   npc_text: "It\u2019s been peaceful living with Akira."
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: 6ca1fb31c1c08fc4baa6884136fb57b6, type: 2}
+  background: {fileID: 11400000, guid: 9db4fe9cc7d75004ba4f4345f210fd69, type: 2}
   speaker_: {fileID: 0}
   spriteScale: {x: 1, y: 1, z: 1}
   dialogueSong: {fileID: 0}

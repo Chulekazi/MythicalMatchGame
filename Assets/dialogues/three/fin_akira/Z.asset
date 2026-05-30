@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: Z
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: 
   option_: "Something you\u2019ve always wanted to do, like talking to humans "
   response_: . . . that is something I have been putting off . . .
   next_line_: {fileID: 11400000, guid: 413cc09631d0798428fd516badd57a7a, type: 2}
   Is_correct: 1
   is_default: 0
+  journal_image: {fileID: 8823070440652039625, guid: 60d5e2a971b57dc43afe80df573bc316, type: 3}

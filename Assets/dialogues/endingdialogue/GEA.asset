@@ -16,8 +16,8 @@ MonoBehaviour:
   npc_text: 'To help them with interacting with humans, we go down to the settlement
     once a week. '
   optionSOs: []
-  Next_Line: {fileID: 0}
-  background: {fileID: 0}
+  Next_Line: {fileID: 11400000, guid: f0731d3a9e5fa174ba7b6242f4c768de, type: 2}
+  background: {fileID: 11400000, guid: 9db4fe9cc7d75004ba4f4345f210fd69, type: 2}
   speaker_: {fileID: 0}
   spriteScale: {x: 1, y: 1, z: 1}
   dialogueSong: {fileID: 0}

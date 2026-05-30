@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: A
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Vikram
   option_: "You haven\u2019t been treating me as an equal?"
   response_: "I mean, I guess I didn\u2019t realise that I haven\u2019t because I\u2019ve
     been treating you like everyone else. "
   next_line_: {fileID: 11400000, guid: 2991b2a7540b81340a0427d5bb904bbc, type: 2}
   Is_correct: 0
   is_default: 1
+  journal_image: {fileID: 0}
