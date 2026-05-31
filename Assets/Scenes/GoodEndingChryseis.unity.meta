@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/GoodEndingChryseis.unity.meta
 guid: e0430db62bf0cc44da264fffcbbcb46a
+========
+guid: 3543377e27e624347bb7bb9bd3f359da
+>>>>>>>> particles:Assets/Scenes/GoodEndingVikram.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/GoodEndingAkira.unity.meta
 guid: 1c254e8381e0fb444a73e9d8e5ef911c
+========
+guid: e0430db62bf0cc44da264fffcbbcb46a
+>>>>>>>> particles:Assets/Scenes/GoodEndingChryseis.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

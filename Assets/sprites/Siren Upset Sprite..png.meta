@@ -1,10 +1,19 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/sprites/Siren Upset Sprite..png.meta
 guid: 9cb03ff1623552444b4a40d992466de0
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -5700003075713760703
     second: Siren Upset Sprite._0
+========
+guid: 4821e9683dede1145ba522db61278a7f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6589195840885176018
+    second: Unicorn Happy Sprite_0
+>>>>>>>> particles:Assets/sprites/Unicorn Happy Sprite.png.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< HEAD:Assets/sprites/Siren Upset Sprite..png.meta
       name: Siren Upset Sprite._0
+========
+      name: Unicorn Happy Sprite_0
+>>>>>>>> particles:Assets/sprites/Unicorn Happy Sprite.png.meta
       rect:
         serializedVersion: 2
         x: 0
         y: 0
+<<<<<<<< HEAD:Assets/sprites/Siren Upset Sprite..png.meta
         width: 604
         height: 964
+========
+        width: 485
+        height: 972
+>>>>>>>> particles:Assets/sprites/Unicorn Happy Sprite.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +133,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< HEAD:Assets/sprites/Siren Upset Sprite..png.meta
       spriteID: 142827d076585e0b0800000000000000
       internalID: -5700003075713760703
+========
+      spriteID: 2d6317bc4b6817b50800000000000000
+      internalID: 6589195840885176018
+>>>>>>>> particles:Assets/sprites/Unicorn Happy Sprite.png.meta
       vertices: []
       indices: 
       edges: []
@@ -135,7 +158,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<<< HEAD:Assets/sprites/Siren Upset Sprite..png.meta
       Siren Upset Sprite._0: -5700003075713760703
+========
+      Unicorn Happy Sprite_0: 6589195840885176018
+>>>>>>>> particles:Assets/sprites/Unicorn Happy Sprite.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

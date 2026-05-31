@@ -1,10 +1,19 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/sprites/Continue button.png.meta
 guid: 93725dfc0b0fe3a479caef2f8d73e214
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 3766366245671916965
     second: Continue button_0
+========
+guid: 69fb9fda0837a454c9c84ce043652332
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8666386090546663215
+    second: Siren Happy Sprite_0
+>>>>>>>> particles:Assets/sprites/Siren Happy Sprite.png.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< HEAD:Assets/sprites/Continue button.png.meta
       name: Continue button_0
+========
+      name: Siren Happy Sprite_0
+>>>>>>>> particles:Assets/sprites/Siren Happy Sprite.png.meta
       rect:
         serializedVersion: 2
         x: 0
         y: 0
+<<<<<<<< HEAD:Assets/sprites/Continue button.png.meta
         width: 365
         height: 145
+========
+        width: 347
+        height: 996
+>>>>>>>> particles:Assets/sprites/Siren Happy Sprite.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +133,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< HEAD:Assets/sprites/Continue button.png.meta
       spriteID: 5a5db473522d44430800000000000000
       internalID: 3766366245671916965
+========
+      spriteID: 1d0749264cfcab780800000000000000
+      internalID: -8666386090546663215
+>>>>>>>> particles:Assets/sprites/Siren Happy Sprite.png.meta
       vertices: []
       indices: 
       edges: []
@@ -135,7 +158,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<<< HEAD:Assets/sprites/Continue button.png.meta
       Continue button_0: 3766366245671916965
+========
+      Siren Happy Sprite_0: -8666386090546663215
+>>>>>>>> particles:Assets/sprites/Siren Happy Sprite.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
