@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: 1v
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: player
+  npc_text: Oh, hello!
+  optionSOs: []
+  Next_Line: {fileID: 11400000, guid: af3099b439c410a49b6fc36553719ebb, type: 2}
+  background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}
+  speaker_: {fileID: 6589195840885176018, guid: 4821e9683dede1145ba522db61278a7f, type: 3}
+  spriteScale: {x: 1, y: 1, z: 1}
+  dialogueSong: {fileID: 0}

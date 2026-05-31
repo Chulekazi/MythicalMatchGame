@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -12,7 +13,8 @@ public class Timer4 : MonoBehaviour
     public Image timerlinear; //slider
 
     public TMP_Text dialogue_text; //dialogue text, mainly for the quiz questions
-
+    public AudioClip rewindSFX;
+    public AudioSource audioSource;
     float timeremain;
     public float maxtime = 5.0f;
     public static bool rewindUsed = false;
@@ -48,10 +50,15 @@ public class Timer4 : MonoBehaviour
 
     public void RewindTime()
     {
-        if (!rewindUsed) // if player hasn't used rewind yet:
+        if (!rewindUsed)
         {
-            rewindUsed = true; //mark as true
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name); //reload the scene, starts the timer again
+            rewindUsed = true;
+
+            if (rewindSFX != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(rewindSFX);
+            }
+            StartCoroutine(ReloadSceneAfterDelay(0.5f));
 
         }
         else
@@ -61,6 +68,11 @@ public class Timer4 : MonoBehaviour
         }
     }
 
+    IEnumerator ReloadSceneAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 
     public void NextDialogueScene(string sceneName)
     {

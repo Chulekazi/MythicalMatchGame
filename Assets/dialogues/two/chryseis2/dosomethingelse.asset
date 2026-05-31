@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
+  m_Name: dosomethingelse
+  m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  option_: Do something else to get your mind off things
+  response_: "That\u2019s what I\u2019ve been doing all day, I literally just listed
+    out to you what I\u2019ve been doing! "
+  next_line_: {fileID: 11400000, guid: b22be47f88d351242811d5379d1e9d85, type: 2}
+  Is_correct: 0
+  is_default: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: 51a
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: player
+  npc_text: "To be honest, I wouldn\u2019t be brave enough to do that either, I don\u2019t
+    know why I suggested it . . ."
+  optionSOs: []
+  Next_Line: {fileID: 11400000, guid: cd650c8dcb38c484fb0e540af733c6ab, type: 2}
+  background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
+  speaker_: {fileID: -246690966026167622, guid: 55ce7c4c07635ec4094d5427093790e7, type: 3}
+  spriteScale: {x: 1, y: 1, z: 1}

@@ -23,6 +23,8 @@ public class quiz6 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "I like that it overlooks the settlement over there.",
+                        heartpoints=1,
+                        journal_entry ="Akira likes how attentive you are. You gained a heart point!",
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
@@ -36,6 +38,7 @@ public class quiz6 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "I think the spot is peaceful.",
+                        heartpoints =0,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
@@ -49,6 +52,7 @@ public class quiz6 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "I love cherry blossoms.",
+                        heartpoints =0,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
@@ -62,6 +66,7 @@ public class quiz6 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "It’s nice.",
+                        heartpoints =0,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue

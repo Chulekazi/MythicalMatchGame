@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: a52
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: Akira
+  npc_text: 'Secondly, it may not seem that I am awkward in our conversation, but
+    that may be due to the fact that we are both awkward, so we do not notice. '
+  optionSOs: []
+  Next_Line: {fileID: 11400000, guid: 9288729d3951860488f7502c9f763761, type: 2}
+  background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
+  speaker_: {fileID: 6966830547647088885, guid: ac1ca3d9af09544469be8f5976d9440f, type: 3}
+  spriteScale: {x: 0.4, y: 0.9, z: 1}
+  dialogueSong: {fileID: 0}

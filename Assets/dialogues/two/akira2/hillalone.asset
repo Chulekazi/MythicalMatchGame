@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
+  m_Name: hillalone
+  m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  option_: 'You enjoy living on this hill alone. '
+  response_: This hill has a fantastic view, but I would be lying if I said the loneliness
+    can be unpleasant. You can only talk to yourself for so long.
+  next_line_: {fileID: 11400000, guid: e4fb1cf4156eb3942a3778bf3da17f7b, type: 2}
+  Is_correct: 0
+  is_default: 0

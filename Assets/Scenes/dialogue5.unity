@@ -1025,7 +1025,7 @@ MonoBehaviour:
   character_text01: {fileID: 379653273}
   dialogue01:
   - char_name: characterText
-    dialogue_text: ...Thanks for the drink.
+    dialogue_text: . . . Thanks for the drink.
     options: []
   - char_name: Vikram
     dialogue_text: You're welcome. Anyway, do you have any questions for me, "journalist"?
@@ -1044,7 +1044,7 @@ MonoBehaviour:
       me?
     options: []
   - char_name: characterText
-    dialogue_text: ...Is it not part of your style?
+    dialogue_text: . . . Is it not part of your style?
     options: []
   - char_name: Vikram
     dialogue_text: You ask that like you don't already know.
@@ -1071,13 +1071,14 @@ MonoBehaviour:
     dialogue_text: I'm a Unicorn.
     options: []
   - char_name: characterText
-    dialogue_text: ...No.
+    dialogue_text: . . . No.
     options: []
   - char_name: Vikram
     dialogue_text: What do you mean "no"?
     options: []
   - char_name: characterText
-    dialogue_text: I mean, no you're not. Unicorns are horses... you look... human...
+    dialogue_text: I mean, no you're not. Unicorns are horses . . . you look . .
+      . human. . .
     options: []
   - char_name: Vikram
     dialogue_text: Ah, that's a common misonception about us non-human creatures.
@@ -1093,24 +1094,21 @@ MonoBehaviour:
     options: []
   - char_name: characterText
     dialogue_text: But I mean, you have horse ears...so you must have been some form
-      of horse at some point...
+      of horse at some point. . .
     options: []
   - char_name: Vikram
     dialogue_text: We adapted, darling. With humans being increasingly more populous,
-      we had to. Not that I'm complaining. You're all soo cute~
+      we had to. Not that I'm complaining. You're all soo cute ~
     options: []
   - char_name: characterText
-    dialogue_text: Uh... thank you?
-    options: []
-  - char_name: 
-    dialogue_text: ...
+    dialogue_text: Uh . . . thank you?
     options: []
   line_index01: 0
   continue_button01: {fileID: 1238595497}
   next_scene01: {fileID: 29809295}
   pause_screen01: {fileID: 48979235}
   journal01: {fileID: 647382385}
-  image_enabler: {fileID: 0}
+  image_enabler: {fileID: 708254289}
 --- !u!4 &640947481
 Transform:
   m_ObjectHideFlags: 0
@@ -1161,8 +1159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -1000, y: -200}
+  m_AnchoredPosition: {x: 15.300049, y: 0}
+  m_SizeDelta: {x: -249.99997, y: -200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &647382387
 MonoBehaviour:
@@ -1213,6 +1211,7 @@ GameObject:
   - component: {fileID: 708254286}
   - component: {fileID: 708254288}
   - component: {fileID: 708254287}
+  - component: {fileID: 708254289}
   m_Layer: 5
   m_Name: dateable
   m_TagString: Untagged
@@ -1277,6 +1276,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708254285}
   m_CullTransparentMesh: 1
+--- !u!114 &708254289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708254285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1df0a7894a6b8f342afa59bd41fef46c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Image_Enabler
+  image_: {fileID: 708254287}
+  activate: 0
+  deactivate: -1
 --- !u!1 &821304242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1334,7 +1348,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Settings
+  m_text: Save
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}
   m_sharedMaterial: {fileID: 591848939199570642, guid: 5aed244355c57d24b940f71e133ee9f1, type: 2}
@@ -2126,7 +2140,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 387, y: -378}
+  m_AnchoredPosition: {x: 760, y: -378}
   m_SizeDelta: {x: 85.8105, y: 77.211}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1432672246
@@ -2337,8 +2351,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 132}
-  m_SizeDelta: {x: 180.2334, y: 171.6342}
+  m_AnchoredPosition: {x: 0, y: 54}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1509172592
 MonoBehaviour:
@@ -2447,7 +2461,7 @@ GameObject:
   - component: {fileID: 1600613570}
   - component: {fileID: 1600613569}
   m_Layer: 5
-  m_Name: quit (1)
+  m_Name: save
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2512,11 +2526,23 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1600613570}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 640947480}
+        m_TargetAssemblyTypeName: GameManager01, Assembly-CSharp
+        m_MethodName: SaveGameProgress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1600613570
 MonoBehaviour:
   m_ObjectHideFlags: 0

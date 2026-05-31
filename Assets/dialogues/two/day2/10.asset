@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: 10
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: Time
+  npc_text: 'I have been watching you for quite some time, and I found your antics
+    of interest, so I decided to make my presence known and aid you. '
+  optionSOs:
+  - {fileID: 11400000, guid: 5afa48840b307754d9931a70d3051951, type: 2}
+  - {fileID: 11400000, guid: 2e27b5beb38a32046a516185cb97611a, type: 2}
+  - {fileID: 11400000, guid: cf0cafc0b08d9d642a06c1005637e5b3, type: 2}
+  Next_Line: {fileID: 0}
+  background: {fileID: 11400000, guid: 33dcfe16b068cbc438a24b9bb06fc557, type: 2}
+  speaker_: {fileID: -5208465577559588558, guid: 5939823eddbe420458df020e48201cd6, type: 3}
+  spriteScale: {x: 1, y: 1, z: 1}
+  dialogueSong: {fileID: 0}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
+  m_Name: b
+  m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Akira
+  option_: "They\u2019re intimidated by the older deities"
+  response_: 'That definitely would be true, if it was not because older deities
+    do not really take interest in us. '
+  next_line_: {fileID: 11400000, guid: 5ade0af0debe7214c9c22cecf6c3d39f, type: 2}
+  Is_correct: 0
+  is_default: 0
+  journal_image: {fileID: 0}

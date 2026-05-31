@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -6,8 +7,8 @@ using UnityEngine.UI;
 public class onemoreManager : MonoBehaviour
 {
     public TMP_Text dialogue_;
-    //public TMP_Text heartpointsText;
-
+    public TMP_Text points_text;
+    public TMP_Text journaltext_;
 
     public Image portrait_;
 
@@ -21,9 +22,10 @@ public class onemoreManager : MonoBehaviour
     public Button continue1;
     public Button continue2;
     public Button continue4;
-    public Timer3 timer_;
+    public Timer4 timer_;
 
-
+    public AudioSource audioSource;
+    public AudioClip choiceClickSound;
 
 
     private Queue<Dialogue> lines_ = new Queue<Dialogue>();
@@ -45,45 +47,74 @@ public class onemoreManager : MonoBehaviour
 
         if (lines_.Count == 0)
         {
-            //btn
             EndDialogue();
             return;
         }
+
         Dialogue line = lines_.Dequeue();
         string processedText = line.dialogueText.Replace("player's name", PlayerData.playerName);
         dialogue_.text = processedText;
-        dialogue_.text = line.dialogueText;
         portrait_.sprite = line.image;
-
-        DisplayContinue_button(line);
 
         if (line.choices != null && line.choices.Count > 0)
         {
             choiceContainer_.gameObject.SetActive(true);
 
-            foreach (var choice in line.choices) //foreach variable choice in line choices we want to instantiate the choice button prefab
+            for (int i = 0; i < line.choices.Count; i++)
             {
+                var choice = line.choices[i];
+                string choiceId = line.dialogueText + "_" + i;
+
                 GameObject buttonobject = Instantiate(choiceButtonPrefab_, choiceContainer_);
                 TMP_Text buttontext = buttonobject.GetComponentInChildren<TMP_Text>();
                 buttontext.text = choice.quizAnswer;
 
-                buttonobject.GetComponent<Button>().onClick.AddListener(() =>
+                Button btn = buttonobject.GetComponent<Button>();
+                if (PlayerData.clicked_.Contains(choiceId))
                 {
+                    btn.interactable = false;
+                }
+
+                btn.onClick.AddListener(() =>
+                {
+                    btn.interactable = false;
+                    PlayerData.clicked_.Add(choiceId);
+
                     choiceContainer_.gameObject.SetActive(false);
                     timer_.timerlinear.gameObject.SetActive(false);
-                    //bool timertextoff
 
 
-                    // PlayerData.playerHeartPoints += choice.heartpoints;
-                    //Debug.Log("heart points: " + PlayerData.playerHeartPoints);
+                    if (choiceClickSound != null && audioSource != null)
+                    {
+                        audioSource.PlayOneShot(choiceClickSound);
+                    }
+
+                    if (choice.heartpoints > 0)
+                    {
+                        PlayerData.PlayerHeartPoints += choice.heartpoints;
+                        DisplayPoints();
+                        DisplayTextJournal(choice.journal_entry);
+                    }
 
                     BeginDialogue(choice.nextLine);
-
-
-                    //UpdatePointsUI();
                 });
             }
         }
+    }
+
+    public void DisplayTextJournal(string entry_)
+    {
+
+        if (!journaltext_.text.Contains(entry_))
+        {
+            journaltext_.text += "\n" + entry_;
+        }
+        journaltext_.text = string.Join("\n", PlayerData.JournalEntries);
+    }
+
+    public void DisplayPoints()
+    {
+        points_text.text = "Points: " + PlayerData.PlayerHeartPoints;
     }
 
     public void DisplayContinue_button(Dialogue dialogue)
@@ -152,5 +183,34 @@ public class onemoreManager : MonoBehaviour
         choiceContainer_.gameObject.SetActive(false);
 
         Debug.Log("Dialogue ended.");
+    }
+
+    public void Save_PlayerData()
+    {
+        PlayerPrefs.SetInt("HeartPoints", PlayerData.PlayerHeartPoints);
+        PlayerPrefs.SetString("PlayerName", PlayerData.playerName);
+        PlayerPrefs.SetString("ClickedChoices", string.Join(",", PlayerData.clicked_));
+        PlayerPrefs.SetString("JournalEntries", string.Join("|", PlayerData.JournalEntries));
+        PlayerPrefs.Save();
+    }
+
+    public void Load_PlayerData()
+    {
+        if (PlayerPrefs.HasKey("HeartPoints"))
+        {
+            PlayerData.PlayerHeartPoints = PlayerPrefs.GetInt("HeartPoints");
+            PlayerData.playerName = PlayerPrefs.GetString("PlayerName");
+
+            string clicked = PlayerPrefs.GetString("ClickedChoices", "");
+            PlayerData.clicked_ = string.IsNullOrEmpty(clicked)
+                ? new HashSet<string>()
+                : new HashSet<string>(clicked.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries));
+
+            string journal = PlayerPrefs.GetString("JournalEntries", "");
+            PlayerData.JournalEntries = string.IsNullOrEmpty(journal)
+                ? new List<string>()
+                : new List<string>(journal.Split(new[] { '|' }, StringSplitOptions.RemoveEmptyEntries));
+        }
+        DisplayPoints();
     }
 }

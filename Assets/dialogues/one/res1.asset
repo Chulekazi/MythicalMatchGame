@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
+  m_Name: res1
+  m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: 
+  option_: You can do tha-
+  response_: Splendid. Anyway, that device you have been working on. How does it
+    work?
+  next_line_: {fileID: 11400000, guid: 4c843344effe26a4bb4f3dd874007a43, type: 2}
+  Is_correct: 0
+  is_default: 1
+  journal_image: {fileID: 0}

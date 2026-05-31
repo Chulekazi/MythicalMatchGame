@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -10,7 +11,8 @@ public class TimerScript : MonoBehaviour
     public DialogueManager dialogue_Manager;
 
     public GameObject continue_btn; //button to display next dialogue line
-    
+    public AudioClip rewindSFX;
+    public AudioSource audioSource;
 
     public Button rewind_btn; //rewind time button
 
@@ -53,24 +55,29 @@ public class TimerScript : MonoBehaviour
 
     public void RewindTime()
     {
-        if(!rewindUsed) // if player hasn't used rewind yet:
+        if (!rewindUsed)
         {
-            rewindUsed = true; //mark as true
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name); //reload the scene, starts the timer again
-            //continue btn
+            rewindUsed = true;
+
+            if (rewindSFX != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(rewindSFX);
+            }
+            StartCoroutine(ReloadSceneAfterDelay(0.5f));
+
+          
         }
         else
         {
-            rewind_btn.interactable = false; //rewind button is not interactable
-            
-
+            rewind_btn.interactable = false;
             continue_btn.SetActive(true);
-            //player presses continue button to next scene gah lee
-            
-            
-            //audio sfx 
         }
-       
+    }
+
+    IEnumerator ReloadSceneAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void Skip()

@@ -8,7 +8,7 @@ public class quiz02 : MonoBehaviour
     public Sprite v_normal01;
     public Sprite v_intrigued01;
     public Sprite v_disappointed01;
-    public Sprite heart_point01;
+   
 
     void Start()
     {
@@ -23,6 +23,7 @@ public class quiz02 : MonoBehaviour
                 new DialogueChoice
                 {
                     quizAnswer = "I think they're interesting.",
+                    heartpoints = 0,
                     nextLine = new List<Dialogue>
                     {
                         new Dialogue
@@ -36,6 +37,8 @@ public class quiz02 : MonoBehaviour
                 new DialogueChoice
                 {
                     quizAnswer = "I think they're beautiful.",
+                    heartpoints =1,
+                    journal_entry = "Vikram appreciated your honesty. You gained 1 heart point!",
                     nextLine = new List<Dialogue>
                     {
                         new Dialogue
@@ -49,6 +52,7 @@ public class quiz02 : MonoBehaviour
                 new DialogueChoice
                 {
                     quizAnswer = "I'm weirdly attracted to them.",
+                    heartpoints = 0,
                     nextLine = new List<Dialogue>
                     {
                         new Dialogue
@@ -62,6 +66,7 @@ public class quiz02 : MonoBehaviour
                 new DialogueChoice
                 {
                     quizAnswer = "I want to prove they exist.",
+                    heartpoints=0,
                     nextLine = new List<Dialogue>
                     {
                         new Dialogue

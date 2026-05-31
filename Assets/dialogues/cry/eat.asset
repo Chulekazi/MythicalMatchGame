@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
+  m_Name: eat
+  m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  option_: "You\u2019re going to eat me."
+  response_: "I told you I\u2019m not gonna eat you! Do you not trust me? "
+  next_line_: {fileID: 11400000, guid: 97ed149cade5a9f47a4dfc8e5204b6d4, type: 2}
+  Is_correct: 0
+  is_default: 1

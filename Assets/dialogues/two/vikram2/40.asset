@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: 40
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: Vikram
+  npc_text: What about you? Do you drink?
+  optionSOs:
+  - {fileID: 11400000, guid: 3cb29cdc237ddc040b3f6e61c2a20f8a, type: 2}
+  - {fileID: 11400000, guid: fd96216b02f2bbc4f82b0b2dec37ec9d, type: 2}
+  - {fileID: 11400000, guid: e1cc0dc1152a81645a613145511201b1, type: 2}
+  Next_Line: {fileID: 0}
+  background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}
+  speaker_: {fileID: -639273587953430154, guid: 7b7e864842c5b514f8db3ebcb922aaa8, type: 3}
+  spriteScale: {x: 0.2, y: 0.8, z: 1}
+  dialogueSong: {fileID: 0}

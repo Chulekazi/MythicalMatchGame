@@ -14,6 +14,8 @@ public class Timer2 : MonoBehaviour
     float time_;
     public float maxtime_ = 5.0f;
     public static bool rewindUsed_ = false;
+    public AudioClip rewindSFX;
+    public AudioSource audioSource;
 
     void Start()
     {
@@ -36,16 +38,27 @@ public class Timer2 : MonoBehaviour
 
     public void RewindTime_()
     {
-        if (!rewindUsed_) // if player has used rewind:
+        if (!rewindUsed_)
         {
-            rewindUsed_ = true; //mark as true
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name); //reload the scene, starts the timer again
+            rewindUsed_ = true;
+
+            if (rewindSFX != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(rewindSFX);
+            }
+            StartCoroutine(ReloadSceneAfterDelay(0.5f));
+
+
         }
         else
         {
             rewind_.interactable = false; //rewind button is not interactable
             text_.gameObject.SetActive(false); // dialogue text is inactive
         }
-
+        IEnumerator ReloadSceneAfterDelay(float delay)
+        {
+            yield return new WaitForSeconds(delay);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }

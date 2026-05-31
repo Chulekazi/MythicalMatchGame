@@ -8,35 +8,31 @@ using UnityEngine.UI;
 public class Timer3 : MonoBehaviour
 {
     public separateManager dialogue_Manager;
-    public Button rewind_btn; //rewind time button
-
-    public Image timerlinear; //slider
-
-    public TMP_Text dialogue_text; //dialogue text, mainly for the quiz questions
+    public Button rewind_btn; 
+    public AudioClip rewindSFX;
+    public AudioSource audioSource;
+    public Image timerlinear;
+    public Dialogue dialogue;
+    public Button proceed;
+    public TMP_Text dialogue_text; 
 
     float timeremain;
     public float maxtime = 5.0f;
-    public static bool rewindUsed = false;
 
-
-    //private float time_remain;
-
-    //"times up! pops up when the player has already pressed a choice button.
-    //instead of freezing time we can make the rewind time slower
+    public static int rewind_count = 0;
+    public int max_rewind = 2;
 
     void Start()
     {
-        timeremain = maxtime; //initializes timeremain (tracks how much time remaining) to the value of maxtime (max duration for the countdown)
-
-        //coroutine allows you to run code over time without freezing the game
-        //this decreases timeremain until it reaches zero. activates time's up thereafter
+        
+        timeremain = maxtime; 
         StartCoroutine(RunTimer());
 
     }
 
     private IEnumerator RunTimer()
     {
-        while (timeremain > 0) //loops until the timer reaches zero
+        while (timeremain > 0) 
         {
             timeremain -= Time.deltaTime; //decreases the remaining time by the amount of time passed 
             timerlinear.fillAmount = timeremain / maxtime; //updates the slider (linear bar)
@@ -49,21 +45,29 @@ public class Timer3 : MonoBehaviour
 
     public void RewindTime()
     {
-        if (!rewindUsed) // if player hasn't used rewind yet:
+        if (rewind_count < max_rewind)
         {
-            rewindUsed = true; //mark as true
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name); //reload the scene, starts the timer again
-           
+            rewind_count++;
+            if (rewindSFX != null && audioSource != null)
+            { audioSource.PlayOneShot(rewindSFX); }
+
+            StartCoroutine(ReloadSceneAfterDelay(0.5f));
         }
         else
         {
-            rewind_btn.interactable = false; //rewind button is not interactable
-            
+            rewind_btn.interactable = false;
+            proceed.gameObject.SetActive(true);
         }
+        
     }
 
+    IEnumerator ReloadSceneAfterDelay(float delay)
+{
+    yield return new WaitForSeconds(delay);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+}
 
-    public void NextDialogueScene(string sceneName)
+public void NextDialogueScene(string sceneName)
     {
         //next scene after pressing button
         SceneManager.LoadScene(sceneName);

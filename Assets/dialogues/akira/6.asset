@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: Akira
+  npc_text: My name is Akira, and I am a Kitsune, pleasure to meet you.
+  optionSOs: []
+  Next_Line: {fileID: 11400000, guid: b4d4548e82238fd459c56e001e0d36f7, type: 2}
+  background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
+  speaker_: {fileID: -1809498115230615344, guid: 0997de71425d38e43af50a14759715ab, type: 3}
+  spriteScale: {x: 0.4, y: 0.9, z: 1}
+  dialogueSong: {fileID: 0}

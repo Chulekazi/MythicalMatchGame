@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: Time
+  npc_text: 'You act as though the experience I have provided you was not to your
+    liking. '
+  optionSOs: []
+  Next_Line: {fileID: 11400000, guid: df376677f33fc4843a68c999c4fe6c90, type: 2}
+  background: {fileID: 11400000, guid: 33dcfe16b068cbc438a24b9bb06fc557, type: 2}
+  speaker_: {fileID: -5208465577559588558, guid: 5939823eddbe420458df020e48201cd6, type: 3}
+  spriteScale: {x: 1, y: 1, z: 1}
+  dialogueSong: {fileID: 0}

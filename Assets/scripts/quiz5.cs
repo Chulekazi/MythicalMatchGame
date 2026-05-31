@@ -22,6 +22,7 @@ public class quiz5 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer ="I’m awkward.",
+                        heartpoints=0,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
@@ -35,6 +36,7 @@ public class quiz5 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "They scare me.",
+                        heartpoints = 0,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
@@ -48,6 +50,8 @@ public class quiz5 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "They’re so interesting it makes me nervous. ",
+                        heartpoints = 1,
+                        journal_entry = "Akira appreciates your honesty. You gained a heart point!",
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
@@ -61,6 +65,7 @@ public class quiz5 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "I don’t like them.",
+                        heartpoints=0,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue

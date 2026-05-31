@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: 5
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: player
+  npc_text: Dang it.
+  optionSOs: []
+  Next_Line: {fileID: 11400000, guid: d14e4ea2d70e3294da5ca40dd3d42e81, type: 2}
+  background: {fileID: 11400000, guid: 33dcfe16b068cbc438a24b9bb06fc557, type: 2}
+  speaker_: {fileID: -5208465577559588558, guid: 5939823eddbe420458df020e48201cd6, type: 3}
+  spriteScale: {x: 1, y: 1, z: 1}
+  dialogueSong: {fileID: 0}

@@ -25,6 +25,7 @@ public class quiz4 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "You’re going to eat me.",
+                        heartpoints = 0,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
@@ -38,6 +39,8 @@ public class quiz4 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "Uh, date me?",
+                        heartpoints = 1,
+                        journal_entry ="Chryseis fancies your response. You gained a heart point!",
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
@@ -51,6 +54,7 @@ public class quiz4 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "You just want a friend?",
+                        heartpoints=0,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue
@@ -64,6 +68,7 @@ public class quiz4 : MonoBehaviour
                     new DialogueChoice
                     {
                         quizAnswer = "You’re gonna kill me once you’re bored of me?",
+                        heartpoints =0,
                         nextLine = new List<Dialogue>
                         {
                             new Dialogue

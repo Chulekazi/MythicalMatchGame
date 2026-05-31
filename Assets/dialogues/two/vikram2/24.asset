@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: 24
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: Vikram
+  npc_text: 'And I do love a person who has the spine to stand up to me instead of
+    just trying to get into my good books.  '
+  optionSOs: []
+  Next_Line: {fileID: 11400000, guid: c4cd4f36c937c5a4e8032db151b2853b, type: 2}
+  background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}
+  speaker_: {fileID: 6589195840885176018, guid: 4821e9683dede1145ba522db61278a7f, type: 3}
+  spriteScale: {x: 0.2, y: 0.8, z: 1}
+  dialogueSong: {fileID: 0}

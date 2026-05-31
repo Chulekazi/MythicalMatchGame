@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81060159ba812f40a4e8fb14a3e0366, type: 3}
+  m_Name: GEA3
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue_line
+  npc_name: player
+  npc_text: "They\u2019ve been talking to me more, too. I\u2019ve also been introducing
+    them to the concept of contractions. "
+  optionSOs: []
+  Next_Line: {fileID: 11400000, guid: 254dd7e93eae3a042aba41c019365230, type: 2}
+  background: {fileID: 11400000, guid: 9db4fe9cc7d75004ba4f4345f210fd69, type: 2}
+  speaker_: {fileID: 0}
+  spriteScale: {x: 1, y: 1, z: 1}
+  dialogueSong: {fileID: 0}
