@@ -46,20 +46,6 @@ public AudioSource audioSource;
     public AudioClip nextButtonSound;
     public AudioClip correct;
 
-   
-
-void DisableAllButtons()
-{
-    foreach (Transform child in options_parent)
-    {
-        Button btn = child.GetComponent<Button>();
-        if (btn != null)
-        {
-            btn.interactable = false;
-        }
-    }
-}
-
 void Start()
 {
     dialogue_timer.OnTimerFinished += HandleTimeout;
@@ -193,7 +179,7 @@ void SelectNextLine()
     }
         else
         {
-            SceneManager.LoadScene("menu");
+            Ending();
         }
    
 }
@@ -247,7 +233,7 @@ void Ending()
     }
     else if (heartPoints >= 2)
     {
-        SceneManager.LoadScene("MiddleEnding");
+        SceneManager.LoadScene("MehEnding");
     }
     else
     {
@@ -265,11 +251,7 @@ public void update_journal()
 {
 
         heartpoints_text.text =
-            "Total Heart Points: " + heartPoints + "\n" +
-            "Vikram: " + vikramPoints + "\n" +
-            "Chryseis: " + chryseisPoints + "\n" +
-            "Akira: " + akiraPoints;
-
+            "Total Heart Points: " + heartPoints + "\n";
         history_log.text = "Correct Answers:\n";
         foreach (string answer in correct_answer)
         {

@@ -30,7 +30,9 @@ public class ManagerScript : MonoBehaviour
 
     [Header("Audio Settings")]
     public AudioSource audioSource;   
-    public AudioClip nextButtonSound; 
+    public AudioClip nextButtonSound;
+    public AudioSource audioSource2;
+    public AudioClip song;
 
     public string mainMenuSceneName = "menu";
 
