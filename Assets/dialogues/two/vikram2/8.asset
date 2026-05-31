@@ -19,5 +19,5 @@ MonoBehaviour:
   Next_Line: {fileID: 11400000, guid: f340901d8bf9d064aaaf607b5448efdf, type: 2}
   background: {fileID: 11400000, guid: de0692a741fabb949b7c1ed236bd8fa3, type: 2}
   speaker_: {fileID: -3914617794598263246, guid: 043459bbd544ee34db968c633568874f, type: 3}
-  spriteScale: {x: 0.2, y: 0.8, z: 1}
+  spriteScale: {x: 0.3, y: 0.9, z: 1}
   dialogueSong: {fileID: 0}

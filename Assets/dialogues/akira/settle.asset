@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: settle
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
-  speakerName: 
+  speakerName: Akira
   option_: 'I like that it overlooks the settlement over there. '
   response_: You noticed.
   next_line_: {fileID: 11400000, guid: c27cdb71c0ccd914d8dedffb2da54c6c, type: 2}

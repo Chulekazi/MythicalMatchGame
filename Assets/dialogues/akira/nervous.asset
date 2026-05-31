@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: nervous
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
-  speakerName: 
+  speakerName: Akira
   option_: "They\u2019re so interesting it makes me nervous. "
   response_: I . . . can understand that.
   next_line_: {fileID: 11400000, guid: 85e406c4d12b7004db2e9a25174ba8f2, type: 2}

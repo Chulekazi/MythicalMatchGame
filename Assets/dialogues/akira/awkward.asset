@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc3a4a1664f82a428ae281ac86a8049, type: 3}
   m_Name: awkward
   m_EditorClassIdentifier: Assembly-CSharp::dialogue_optionSO
+  speakerName: Akira
   option_: "I\u2019m awkward."
   response_: 'Well, you have been talking to me with no issues so far, so I will
     have to take your word for it. '
   next_line_: {fileID: 11400000, guid: 85e406c4d12b7004db2e9a25174ba8f2, type: 2}
   Is_correct: 0
   is_default: 1
+  journal_image: {fileID: 0}

@@ -15,9 +15,9 @@ MonoBehaviour:
   npc_name: player
   npc_text: What, uh. What do you think of the spot I chose for our . . . encounter?
   optionSOs:
-  - {fileID: 11400000, guid: 8b43f8b295b9f2e4f8fa03e83166e308, type: 2}
   - {fileID: 11400000, guid: f798f6c46729eeb41b31522431f06fee, type: 2}
   - {fileID: 11400000, guid: 6235ea55240f8594cb8c2c6dfee09170, type: 2}
+  - {fileID: 11400000, guid: 8b43f8b295b9f2e4f8fa03e83166e308, type: 2}
   - {fileID: 11400000, guid: b9328ac42dfd31643a872465d4130d0f, type: 2}
   Next_Line: {fileID: 0}
   background: {fileID: 11400000, guid: 054ae5c03c9fbf140aa0eeae86978136, type: 2}
