@@ -246,7 +246,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19ed22f806f0b7d4396bc500ca5915ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ManagerScript
-  dialogueLines: []
+  dialogueLines:
+  - characterName: 
+    dialogueText: 'They all want nothing to do with me. '
+  - characterName: 
+    dialogueText: "I don\u2019t know what happened, I thought we were all getting
+      along fine. "
+  - characterName: 
+    dialogueText: "Maybe I said some things that they weren\u2019t a fan of . . . "
+  - characterName: 
+    dialogueText: "Time\u2019s disappointed in me too . . ."
+  - characterName: 
+    dialogueText: "Maybe I\u2019m not cut out for any of this after all . . ."
   nameTextUI: {fileID: 1772798506}
   dialogueTextUI: {fileID: 1932015103}
   nextButton: {fileID: 1549433602}
