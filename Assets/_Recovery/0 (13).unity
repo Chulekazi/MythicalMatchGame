@@ -6523,7 +6523,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -437.4792, y: -84.70227}
+  m_AnchoredPosition: {x: -437.47925, y: -84.70227}
   m_SizeDelta: {x: -874.9595, y: -90.7455}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1906357888
@@ -6686,7 +6686,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: c49394d0073b7de45891491eba6b582a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
